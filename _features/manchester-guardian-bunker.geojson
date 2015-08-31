@@ -1,0 +1,370 @@
+---
+        layer: manchesterGuardianBunker
+        layer-title: Manchester Guardian Bunker
+---
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Underground Tunnel Entrance - Shaft 6",
+        "title": "Underground Tunnel Entrance - Shaft 6",
+        "description": "",
+        "marker-color": "#a200ff",
+        "marker-size": "",
+        "marker-symbol": "telephone"
+      },
+      "geometry": {
+        "coordinates": [
+          -2.241731,
+          53.477736,
+          0
+        ],
+        "type": "Point"
+      },
+      "id": "169cf452f037111dd170cea493a24dca"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Guardian Tunnels",
+        "title": "Guardian Tunnels",
+        "description": "",
+        "marker-color": "#a200ff",
+        "marker-size": "",
+        "marker-symbol": "telephone",
+        "stroke": "#a200ff",
+        "stroke-width": 4,
+        "stroke-opacity": 1
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -2.260695,
+            53.483009,
+            0
+          ],
+          [
+            -2.24676,
+            53.48396,
+            0
+          ],
+          [
+            -2.24109,
+            53.47891,
+            0
+          ],
+          [
+            -2.23992,
+            53.47831,
+            0
+          ],
+          [
+            -2.23097,
+            53.47315,
+            0
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "22d0d14e695039ed906c7fd259ee5a73"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Dial House",
+        "description": "",
+        "title": "Dial House",
+        "marker-color": "#a200ff",
+        "marker-size": "",
+        "marker-symbol": "telephone"
+      },
+      "geometry": {
+        "coordinates": [
+          -2.247777,
+          53.484745,
+          0
+        ],
+        "type": "Point"
+      },
+      "id": "2fd349c1113d594ba549f326f7fdfb2a"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Signs for Guardian Exchange at street level",
+        "title": "Signs for Guardian Exchange at street level",
+        "description": "",
+        "marker-color": "#a200ff",
+        "marker-size": "",
+        "marker-symbol": "telephone"
+      },
+      "geometry": {
+        "coordinates": [
+          -2.239371,
+          53.479719,
+          0
+        ],
+        "type": "Point"
+      },
+      "id": "38d93f43562b19af8602d30362ff64d8"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Guardian Tunnel",
+        "description": "",
+        "title": "Guardian Tunnel",
+        "marker-color": "#a200ff",
+        "marker-size": "",
+        "marker-symbol": "telephone",
+        "stroke": "#a200ff",
+        "stroke-width": 4,
+        "stroke-opacity": 1
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -2.246758,
+            53.483966,
+            0
+          ],
+          [
+            -2.247192,
+            53.485214,
+            0
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "3a6aa84eed2b2dba1b7f87a5b2a587d1"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ardwick Vent Shaft",
+        "title": "Ardwick Vent Shaft",
+        "description": "",
+        "marker-color": "#a200ff",
+        "marker-size": "",
+        "marker-symbol": "telephone"
+      },
+      "geometry": {
+        "coordinates": [
+          -2.231104,
+          53.473165,
+          0
+        ],
+        "type": "Point"
+      },
+      "id": "67ae2cc2ed5f88af7ab8df8e49fc7fe3"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "York Street Entrance",
+        "description": "",
+        "title": "York Street Entrance",
+        "marker-color": "#a200ff",
+        "marker-size": "",
+        "marker-symbol": "telephone"
+      },
+      "geometry": {
+        "coordinates": [
+          -2.238894,
+          53.479748,
+          0
+        ],
+        "type": "Point"
+      },
+      "id": "7f4df19b2211eebd3230a7c6ec61e8a5"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Possible shaft to Guardian Exchange",
+        "title": "Possible shaft to Guardian Exchange",
+        "description": "",
+        "marker-color": "#a200ff",
+        "marker-size": "",
+        "marker-symbol": "telephone",
+        "stroke": "#a200ff",
+        "stroke-width": 4,
+        "stroke-opacity": 1
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -2.23768,
+            53.48116,
+            0
+          ],
+          [
+            -2.24163,
+            53.47839,
+            0
+          ],
+          [
+            -2.24176,
+            53.47779,
+            0
+          ],
+          [
+            -2.24158,
+            53.47767,
+            0
+          ],
+          [
+            -2.24113,
+            53.47789,
+            0
+          ],
+          [
+            -2.2403,
+            53.47846,
+            0
+          ],
+          [
+            -2.23986,
+            53.47936,
+            0
+          ],
+          [
+            -2.239577,
+            53.479818,
+            0
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "85344b7b72b8842c3cf9ee212b5f5a3c"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Fire Location ?",
+        "description": "",
+        "title": "Fire Location ?",
+        "marker-color": "#a200ff",
+        "marker-size": "",
+        "marker-symbol": "telephone"
+      },
+      "geometry": {
+        "coordinates": [
+          -2.241018,
+          53.479101,
+          0
+        ],
+        "type": "Point"
+      },
+      "id": "92f4b2ae75d57d7612c37164f707da6e"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Line 10",
+        "title": "Line 10",
+        "description": "",
+        "marker-color": "#a200ff",
+        "marker-size": "",
+        "marker-symbol": "telephone",
+        "stroke": "#a200ff",
+        "stroke-width": 4,
+        "stroke-opacity": 1
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -2.239569,
+            53.479817,
+            0
+          ],
+          [
+            -2.239182,
+            53.479642,
+            0
+          ],
+          [
+            -2.239079,
+            53.479717,
+            0
+          ],
+          [
+            -2.23899,
+            53.479677,
+            0
+          ],
+          [
+            -2.238892,
+            53.479747,
+            0
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "99624a5b3d03309353085b2ffeb92fb1"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Guardian Exchange",
+        "description": "",
+        "title": "Guardian Exchange",
+        "marker-color": "#a200ff",
+        "marker-size": "",
+        "marker-symbol": "telephone"
+      },
+      "geometry": {
+        "coordinates": [
+          -2.237193,
+          53.481049,
+          0
+        ],
+        "type": "Point"
+      },
+      "id": "b4f51a83e52ed2e4127c25e841949d5c"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Rutherford House - Shaft 5",
+        "title": "Rutherford House - Shaft 5",
+        "description": "",
+        "marker-color": "#a200ff",
+        "marker-size": "",
+        "marker-symbol": "telephone"
+      },
+      "geometry": {
+        "coordinates": [
+          -2.239577,
+          53.479812,
+          0
+        ],
+        "type": "Point"
+      },
+      "id": "c213eb386a6faf8e666e8ae03da06072"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Salford Vent Shaft",
+        "title": "Salford Vent Shaft",
+        "description": "",
+        "marker-color": "#a200ff",
+        "marker-size": "",
+        "marker-symbol": "telephone"
+      },
+      "geometry": {
+        "coordinates": [
+          -2.260705,
+          53.482991,
+          0
+        ],
+        "type": "Point"
+      },
+      "id": "f31b65061d3df018fc04c3761bff564e"
+    }
+  ],
+  "id": "markcrossfield.naejdm32"
+}
