@@ -1,6 +1,7 @@
 ---
 layer: manchesterGuardianBunker
-layer-title: Manchester Guardian Bunker2
+layer-title: Guardian Bunker
+layer-color: '#a200ff'
 ---
 {
   "type": "FeatureCollection",
@@ -1361,8 +1362,8 @@ layer-title: Manchester Guardian Bunker2
     {
       "type": "GeometryCollection",
       "properties": {
-        "name": "Guardian Tunnels Lines",
-        "title": "Guardian Tunnels Lines",
+        "name": "Cable Tunnels",
+        "title": "Cable Tunnels",
         "description": "",
         "marker-color": "#a200ff",
         "marker-size": "",
@@ -1504,7 +1505,7 @@ layer-title: Manchester Guardian Bunker2
       "type": "Feature",
       "properties": {
         "name": "Fire Location ?",
-        "description": "",
+        "description": "<a href=http://news.bbc.co.uk/1/hi/england/manchester/3701267.stm target=_blank>BBC News Story about cabling fire</a>",
         "title": "Fire Location ?",
         "marker-color": "#a200ff",
         "marker-size": "",
@@ -1512,8 +1513,8 @@ layer-title: Manchester Guardian Bunker2
       },
       "geometry": {
         "coordinates": [
-          -2.241018,
-          53.479101,
+          -2.241382,
+          53.478188,
           0
         ],
         "type": "Point"
