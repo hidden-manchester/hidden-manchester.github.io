@@ -1,0 +1,642 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mancunian Way Hole",
+        "description": "Speculation that the cause of the hole was a previously unknown Victorian culvert. http://www.manchestereveningnews.co.uk/news/greater-manchester-news/mancunian-way-hole-closed-flooding-9858840",
+        "title": "Mancunian Way Hole",
+        "marker-color": "#a8a8a8",
+        "marker-size": "",
+        "marker-symbol": "m"
+      },
+      "geometry": {
+        "coordinates": [
+          -2.224117,
+          53.473537,
+          0
+        ],
+        "type": "Point"
+      },
+      "id": "151135b8de710bfadb2feae987d5415f"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "HSBC Vault",
+        "description": "http://www.millhouseue.com/2010/10/millhouse-ojay-sho-021010-hsbc-has-been.html<br><br>http://www.28dayslater.co.uk/forums/showthread.php/49984-HSBC-manchester<br><br>http://www.28dayslater.co.uk/forums/showthread.php/54278-HSBC-Midland-Bank-Building-Manchester-October-2010<br><br>http://www.28dayslater.co.uk/forums/showthread.php/49994-HSBC-Manchester-May-2009<br><br>http://www.28dayslater.co.uk/forums/showthread.php/41970-HSBC-Chancery-Lane-Manchester-July-09",
+        "title": "HSBC Vault",
+        "marker-color": "#a8a8a8",
+        "marker-size": "",
+        "marker-symbol": "m"
+      },
+      "geometry": {
+        "coordinates": [
+          -2.242289,
+          53.480589,
+          0
+        ],
+        "type": "Point"
+      },
+      "id": "2c7d5153dcaa680931816ed8c1972da7"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Piccadilly Gents Toilets",
+        "description": "<img src=\"http://www.images.manchester.gov.uk/web/objects/common/webmedia.php?irn=61432\" height=\"200\" width=\"auto\" /><br><br>Approximate location of the old public toilets and hairdresser apparently still present (albeit hidden) in Piccadilly Station. You used to have to go down steps which have apparently simply been covered over.<br><br> <br>You can see the entrance at the back of this image (thanks to Manchester Libraries).<br><br> <br><br>(found here (http://northernrailways.co.uk/forum/viewtopic.php?f=15&amp;t=5700#p70296))",
+        "gx_media_links": "http://www.images.manchester.gov.uk/web/objects/common/webmedia.php?irn=61432",
+        "title": "Piccadilly Gents Toilets",
+        "marker-color": "#a8a8a8",
+        "marker-size": "",
+        "marker-symbol": "m"
+      },
+      "geometry": {
+        "coordinates": [
+          -2.230713,
+          53.4777,
+          0
+        ],
+        "type": "Point"
+      },
+      "id": "328b9013560124cc45b3441bcf1bfa2e"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Market Place",
+        "description": "<img src=\"http://manchesterhistory.net/manchester/gone/marketplace1844.jpg\" height=\"200\" width=\"auto\" /><br><br>From Marks &amp; Spencer plc and Market Place (http://manchesterhistory.net/manchester/tours/tour4/area4page3.html)<br><br> (http://manchesterhistory.net/manchester/tours/tour4/area4page3.html)<br> (http://manchesterhistory.net/manchester/tours/tour4/area4page3.html)",
+        "gx_media_links": "http://manchesterhistory.net/manchester/gone/marketplace1844.jpg",
+        "title": "Market Place",
+        "marker-color": "#a8a8a8",
+        "marker-size": "",
+        "marker-symbol": "m"
+      },
+      "geometry": {
+        "coordinates": [
+          -2.244869,
+          53.4838,
+          0
+        ],
+        "type": "Point"
+      },
+      "id": "341a07dd0bba10e257ab70801d495d5d"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Crypt under W G Ponter",
+        "description": "Under 22 Old Millgate a vaulted &#39;crypt&#39; 30 feet below street level, accessed through the cellar. An advert appeared in a local paper in 1903 offering the chance to view the crypt. See Manchester Underground (Warrender, 2007:90).",
+        "title": "Crypt under W G Ponter",
+        "marker-color": "#a8a8a8",
+        "marker-size": "",
+        "marker-symbol": "m"
+      },
+      "geometry": {
+        "coordinates": [
+          -2.24422,
+          53.484084,
+          0
+        ],
+        "type": "Point"
+      },
+      "id": "351b1fdd8fc70be91c3c14d2a8066541"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Underground Street",
+        "description": "Location very vague<br><br> Ojay (http://ojaybelowandbeyond.blogspot.com/2011/12/blog-post_16.html)<br>Undercroft (http://ojaybelowandbeyond.blogspot.com/2011/02/blog-post.html)",
+        "title": "Underground Street",
+        "marker-color": "#a8a8a8",
+        "marker-size": "",
+        "marker-symbol": "m"
+      },
+      "geometry": {
+        "coordinates": [
+          -2.2434,
+          53.485569,
+          0
+        ],
+        "type": "Point"
+      },
+      "id": "35d8d13363e872d87159473bbbd2f666"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Lewis's Basement Canal",
+        "description": "<img src=\"http://i931.photobucket.com/albums/ad154/dav-p/Primark%20Ballroom%20And%20Rooftop%20Manchester%201211/IMG_0819.jpg\" height=\"200\" width=\"auto\" /><br><br>There was a recreation of a Venetian scene in the basement on gondola on a 2&#39; deep &#39;canal&#39;.<br><br> <br>Manchester Underground (Keith Warrender, 2007:61).<br><br> <br>As a point of interest the fifth floor still has a grand ballroom.<br><br> <br>http://www.millhouseue.com/2012/01/lewiss-building-primark-manchester.html (http://www.millhouseue.com/2012/01/lewiss-building-primark-manchester.html)<br><br> <br> (http://www.millhouseue.com/2012/01/lewiss-building-primark-manchester.html)",
+        "gx_media_links": "http://i931.photobucket.com/albums/ad154/dav-p/Primark%20Ballroom%20And%20Rooftop%20Manchester%201211/IMG_0819.jpg",
+        "title": "Lewis's Basement Canal",
+        "marker-color": "#a8a8a8",
+        "marker-size": "",
+        "marker-symbol": "m"
+      },
+      "geometry": {
+        "coordinates": [
+          -2.239301,
+          53.481668,
+          0
+        ],
+        "type": "Point"
+      },
+      "id": "3b73bb694cadc561a8c9d4ebfe18b0a8"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Palace Hotel",
+        "description": "Basement and sub basement contain extensive entertainment facilities.",
+        "title": "Palace Hotel",
+        "marker-color": "#a8a8a8",
+        "marker-size": "",
+        "marker-symbol": "m"
+      },
+      "geometry": {
+        "coordinates": [
+          -2.240342,
+          53.474229,
+          0
+        ],
+        "type": "Point"
+      },
+      "id": "3d23b24ee0d2802b19d8a83420d79263"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Well under the old Theatre Royal",
+        "description": "Site of Manchester&#39;s first theatre where a well was discovered under the stage. See Manchester Undergound (Warrender, 2007:76)<br><br> <br>From A Well In Old Manchester (Baker, 1959) (http://www.abebooks.co.uk/OLD-MANCHESTER-WRIGHT-BAKER-H-PROFESSOR-D.Sc/599468680/bd).",
+        "title": "Well under the old Theatre Royal",
+        "marker-color": "#a8a8a8",
+        "marker-size": "",
+        "marker-symbol": "m"
+      },
+      "geometry": {
+        "coordinates": [
+          -2.246498,
+          53.4777,
+          0
+        ],
+        "type": "Point"
+      },
+      "id": "3fdb1613d8650a05310b1840cb17f5fc"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Underground Market Entrance",
+        "description": "<img src=\"http://www.mdmarchive.co.uk/gfx/400-6169.jpg\" height=\"200\" width=\"auto\" /><br><br>",
+        "gx_media_links": "http://www.mdmarchive.co.uk/gfx/400-6169.jpg",
+        "title": "Underground Market Entrance",
+        "marker-color": "#a8a8a8",
+        "marker-size": "",
+        "marker-symbol": "m"
+      },
+      "geometry": {
+        "coordinates": [
+          -2.241576,
+          53.482479,
+          0
+        ],
+        "type": "Point"
+      },
+      "id": "422370d65cd5d544c016c8c92422f7c2"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Chetham's Well",
+        "description": "Reported in the City News, 1915 that a passageway was discovered around 1842 between here and the Cathedral.",
+        "title": "Chetham's Well",
+        "marker-color": "#a8a8a8",
+        "marker-size": "",
+        "marker-symbol": "m"
+      },
+      "geometry": {
+        "coordinates": [
+          -2.244207,
+          53.486566,
+          0
+        ],
+        "type": "Point"
+      },
+      "id": "5566755d41512252ef9a5d29be043171"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Old wishing well",
+        "description": "Wishing Well Exploration (http://www.google.co.uk/url?sa=t&amp;rct=j&amp;q=&amp;esrc=s&amp;source=web&amp;cd=8&amp;cts=1331683867225&amp;ved=0CG0QtwIwBw&amp;url=http%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DI-OrJq0oJ6Y&amp;ei=0OFfT4-WHsTF0QWmodmvBw&amp;usg=AFQjCNHlJWKvR2y0m_Sw6_83D8euJv6TZQ&amp;sig2=Yo4nQHyQL5grLL59DdxzpA)<br><br> <br>Description (http://pubs-of-manchester.blogspot.com/2010/03/wishing-well-cord-disco-new-brown.html)",
+        "title": "Old wishing well",
+        "marker-color": "#a8a8a8",
+        "marker-size": "",
+        "marker-symbol": "m"
+      },
+      "geometry": {
+        "coordinates": [
+          -2.240653,
+          53.483602,
+          0
+        ],
+        "type": "Point"
+      },
+      "id": "59d286e651594aff391a258d6dff9821"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Moston Cottage",
+        "description": "A tunnel is remembered to exist in this area, beneath Moston Cottage (build 1713), and accessed through other properties. Rumoured to extend to the Cathedral and used as transport for catholics during persecution.",
+        "title": "Moston Cottage",
+        "marker-color": "#a8a8a8",
+        "marker-size": "",
+        "marker-symbol": "m"
+      },
+      "geometry": {
+        "coordinates": [
+          -2.206686,
+          53.507147,
+          0
+        ],
+        "type": "Point"
+      },
+      "id": "6188023a0bc123473ac1eb1a18d35336"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Old Guardian newspaper building",
+        "title": "Old Guardian newspaper building",
+        "description": "",
+        "marker-color": "#a8a8a8",
+        "marker-size": "",
+        "marker-symbol": "m",
+        "stroke": "#1087bf",
+        "stroke-width": 4,
+        "stroke-opacity": 1,
+        "fill": "#1087bf",
+        "fill-opacity": 0.20000000298023224
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -2.243539,
+              53.482916,
+              0
+            ],
+            [
+              -2.243711,
+              53.4826,
+              0
+            ],
+            [
+              -2.242911,
+              53.482415,
+              0
+            ],
+            [
+              -2.242702,
+              53.48274,
+              0
+            ],
+            [
+              -2.243539,
+              53.482916,
+              0
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "id": "660a1fa7682fc7b03d95ddce6385b9a8"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Original Arndale Streets",
+        "description": "<img src=\"http://upload.wikimedia.org/wikipedia/en/thumb/d/d2/Arndale_clearance.svg/568px-Arndale_clearance.svg.png\" height=\"200\" width=\"auto\" /><br><br>http://en.wikipedia.org/wiki/File:Arndale_clearance.svg (http://en.wikipedia.org/wiki/File:Arndale_clearance.svg)",
+        "gx_media_links": "http://upload.wikimedia.org/wikipedia/en/thumb/d/d2/Arndale_clearance.svg/568px-Arndale_clearance.svg.png",
+        "title": "Original Arndale Streets",
+        "marker-color": "#a8a8a8",
+        "marker-size": "",
+        "marker-symbol": "m"
+      },
+      "geometry": {
+        "coordinates": [
+          -2.241662,
+          53.482906,
+          0
+        ],
+        "type": "Point"
+      },
+      "id": "676d36292bf54cb1cae09864a245d3a0"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Shaft",
+        "description": "<img src=\"http://www.canalscape.net/Castlefield%20Canal%20Heritage%20Walk/LR%20Bridgewater%20Tunnel%20Shaft.jpg\" height=\"200\" width=\"auto\" /><br><br>Taken from http://www.canalscape.net/Castlefield%20Canal%20Heritage%20Walk/Castlefield%20Canal%20Heritage%20Walk.htm (http://www.canalscape.net/Castlefield%20Canal%20Heritage%20Walk/Castlefield%20Canal%20Heritage%20Walk.htm)<br><br> (http://www.canalscape.net/Castlefield%20Canal%20Heritage%20Walk/Castlefield%20Canal%20Heritage%20Walk.htm) (http://www.canalscape.net/Castlefield%20Canal%20Heritage%20Walk/Castlefield%20Canal%20Heritage%20Walk.htm)",
+        "gx_media_links": "http://www.canalscape.net/Castlefield%20Canal%20Heritage%20Walk/LR%20Bridgewater%20Tunnel%20Shaft.jpg",
+        "title": "Shaft",
+        "marker-color": "#a8a8a8",
+        "marker-size": "",
+        "marker-symbol": "m"
+      },
+      "geometry": {
+        "coordinates": [
+          -2.252305,
+          53.4755,
+          0
+        ],
+        "type": "Point"
+      },
+      "id": "6a7380e769d525a5cfa4335ab2008022"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "The Fountain",
+        "description": "Spring near the corner of King Street and Spring Gardens. See Underground Manchester (Warrender, 2007:76).",
+        "title": "The Fountain",
+        "marker-color": "#a8a8a8",
+        "marker-size": "",
+        "marker-symbol": "m"
+      },
+      "geometry": {
+        "coordinates": [
+          -2.241986,
+          53.480749,
+          0
+        ],
+        "type": "Point"
+      },
+      "id": "8c1898f9f934277f1213a2f514e7dce0"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "The Hovel",
+        "description": "A cobbled underground service road built in 1921 and written about in 1962 in the Manchester Evening Cronicle (Underground Manchester - Keith Warrender, 1962:66)",
+        "title": "The Hovel",
+        "marker-color": "#a8a8a8",
+        "marker-size": "",
+        "marker-symbol": "m"
+      },
+      "geometry": {
+        "coordinates": [
+          -2.244601,
+          53.482699,
+          0
+        ],
+        "type": "Point"
+      },
+      "id": "92e31a77f6045a2a45f75e64c27f80ab"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Castle and Falcon Pub",
+        "description": "Rumoured that there was a passage from the cellar to the Cathedral.",
+        "title": "Castle and Falcon Pub",
+        "marker-color": "#a8a8a8",
+        "marker-size": "",
+        "marker-symbol": "m"
+      },
+      "geometry": {
+        "coordinates": [
+          -2.239323,
+          53.485623,
+          0
+        ],
+        "type": "Point"
+      },
+      "id": "97332b97cc0beaf5ead467218e2d7d36"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Old Closed Public Toilets?",
+        "title": "Old Closed Public Toilets?",
+        "description": "",
+        "marker-color": "#a8a8a8",
+        "marker-size": "",
+        "marker-symbol": "m"
+      },
+      "geometry": {
+        "coordinates": [
+          -2.240031,
+          53.487752,
+          0
+        ],
+        "type": "Point"
+      },
+      "id": "98aa1be705f111fd33c9157ccf757f91"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Cross Street Chapel",
+        "description": "Numerous burials underneath",
+        "title": "Cross Street Chapel",
+        "marker-color": "#a8a8a8",
+        "marker-size": "",
+        "marker-symbol": "m"
+      },
+      "geometry": {
+        "coordinates": [
+          -2.244532,
+          53.481588,
+          0
+        ],
+        "type": "Point"
+      },
+      "id": "a26d013f41ce0cbdc2da80cb1b6dddd7"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Gaskell's underground swimming pool",
+        "description": "Approximate location<br><br>http://menmedia.co.uk/manchestereveningnews/news/s/1193083_manchesters_tunnel_vision",
+        "title": "Gaskell's underground swimming pool",
+        "marker-color": "#a8a8a8",
+        "marker-size": "",
+        "marker-symbol": "m"
+      },
+      "geometry": {
+        "coordinates": [
+          -2.238733,
+          53.473029,
+          0
+        ],
+        "type": "Point"
+      },
+      "id": "abda1e2b3b149565a83a60f5c8a3e430"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Original (lower) level platforms",
+        "title": "Original (lower) level platforms",
+        "description": "",
+        "marker-color": "#a8a8a8",
+        "marker-size": "",
+        "marker-symbol": "m"
+      },
+      "geometry": {
+        "coordinates": [
+          -2.230053,
+          53.477179,
+          0
+        ],
+        "type": "Point"
+      },
+      "id": "b0525306c1c225c3366106667d3a24f1"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "St Peters Crypt",
+        "description": "Demolished in 1907, St Peter&#39;s Church had 46 vaults underneath it packed with coffins.",
+        "title": "St Peters Crypt",
+        "marker-color": "#a8a8a8",
+        "marker-size": "",
+        "marker-symbol": "m"
+      },
+      "geometry": {
+        "coordinates": [
+          -2.243625,
+          53.477709,
+          0
+        ],
+        "type": "Point"
+      },
+      "id": "b262f902e72a34f67f251cc644ed49e9"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Steps underground in St Annes Square",
+        "description": "Electrical sub station.",
+        "title": "Steps underground in St Annes Square",
+        "marker-color": "#a8a8a8",
+        "marker-size": "",
+        "marker-symbol": "m"
+      },
+      "geometry": {
+        "coordinates": [
+          -2.245663,
+          53.482105,
+          0
+        ],
+        "type": "Point"
+      },
+      "id": "b38ffbf5cef738e677ecc3caf4254730"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Rover's Return",
+        "description": "Source of a rumoured tunnel to the Cathedral",
+        "title": "Rover's Return",
+        "marker-color": "#a8a8a8",
+        "marker-size": "",
+        "marker-symbol": "m"
+      },
+      "geometry": {
+        "coordinates": [
+          -2.237901,
+          53.485157,
+          0
+        ],
+        "type": "Point"
+      },
+      "id": "ba12450750452879d0cc0497f55893e0"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Barton Arcade Undercroft",
+        "description": "Gone Urbex report (http://www.goneeightyfive.com/2011/03/eh-up-this-is-hidden.html)<br><br><br><br>Some photos from Gareth Hacking (http://garethhacking.blogspot.com/2010/11/manchester-confidential-tunnel-tour.html)<br><br> <br>28 Days Later report (http://www.28dayslater.co.uk/forums/showthread.php?t=57839)",
+        "title": "Barton Arcade Undercroft",
+        "marker-color": "#a8a8a8",
+        "marker-size": "",
+        "marker-symbol": "m"
+      },
+      "geometry": {
+        "coordinates": [
+          -2.246511,
+          53.48267,
+          0
+        ],
+        "type": "Point"
+      },
+      "id": "bb0fed0cfbd81c9fab1aae8951ee3b7f"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mitre Hotel",
+        "description": "Has a tunnel underneath at the original street level, where the pub used to sit (Underground Manchester - Keith Warrender, 2007).",
+        "title": "Mitre Hotel",
+        "marker-color": "#a8a8a8",
+        "marker-size": "",
+        "marker-symbol": "m"
+      },
+      "geometry": {
+        "coordinates": [
+          -2.244081,
+          53.484683,
+          0
+        ],
+        "type": "Point"
+      },
+      "id": "daab2f78d47c16d31a231b2245574494"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Thatched House Pub",
+        "description": "Rough vicinity of the Thatched House Pub, demolished in 1972. There were apparently sandstone dunnels in the vaults which headed in the direction of the Cathedral and Spring Gardens (Warrender 2007:69).",
+        "title": "Thatched House Pub",
+        "marker-color": "#a8a8a8",
+        "marker-size": "",
+        "marker-symbol": "m"
+      },
+      "geometry": {
+        "coordinates": [
+          -2.243754,
+          53.482179,
+          0
+        ],
+        "type": "Point"
+      },
+      "id": "ded27007191c1e80f1f157726e770d52"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mystery Steps",
+        "description": "<img src=\"http://farm2.staticflickr.com/1403/1182284990_055a0dd30f_z.jpg\" height=\"200\" width=\"auto\" /><br><br>Steps which probably lead to the workings of the Piccadilly Gardens fountain.<br><br> <br> (http://www.flickr.com/photos/manc/1182284990/)",
+        "gx_media_links": "http://farm2.staticflickr.com/1403/1182284990_055a0dd30f_z.jpg",
+        "title": "Mystery Steps",
+        "marker-color": "#a8a8a8",
+        "marker-size": "",
+        "marker-symbol": "m"
+      },
+      "geometry": {
+        "coordinates": [
+          -2.237633,
+          53.481215,
+          0
+        ],
+        "type": "Point"
+      },
+      "id": "ef9c40a87cdfb4f9b573a35b459f7bf5"
+    }
+  ],
+  "id": "markcrossfield.naei20lg"
+}

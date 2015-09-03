@@ -1,0 +1,2689 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Irwell?",
+        "description": "Plotted from http://www.mangeogsoc.org.uk/pdfs/lawson_lindley.pdf",
+        "title": "Irwell?",
+        "marker-color": "#3887be",
+        "marker-size": "",
+        "marker-symbol": "water",
+        "stroke": "#1087bf",
+        "stroke-width": 4,
+        "stroke-opacity": 1
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -2.255201,
+            53.490548,
+            0
+          ],
+          [
+            -2.253656,
+            53.491722,
+            0
+          ],
+          [
+            -2.253485,
+            53.492693,
+            0
+          ],
+          [
+            -2.252712,
+            53.493254,
+            0
+          ],
+          [
+            -2.251682,
+            53.492999,
+            0
+          ],
+          [
+            -2.250738,
+            53.492284,
+            0
+          ],
+          [
+            -2.250309,
+            53.491263,
+            0
+          ],
+          [
+            -2.250566,
+            53.49065,
+            0
+          ],
+          [
+            -2.249966,
+            53.489935,
+            0
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "0020ecf894d403163812797f15a6167d"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "End of Irk Culvert",
+        "description": "<img src=\"http://www.darkplaces.co.uk/phpBB2/album_screensize_thumbnail.php?pic_id=13144\" height=\"200\" width=\"auto\" /><br><br>(http://www.darkplaces.co.uk/phpBB2/album_screensize_image_page.php?pic_id=7404&amp;mode=next)",
+        "gx_media_links": "http://www.darkplaces.co.uk/phpBB2/album_screensize_thumbnail.php?pic_id=13144",
+        "title": "End of Irk Culvert",
+        "marker-color": "#3887be",
+        "marker-size": "",
+        "marker-symbol": "water"
+      },
+      "geometry": {
+        "coordinates": [
+          -2.24502,
+          53.486941,
+          0
+        ],
+        "type": "Point"
+      },
+      "id": "0343510266d4a712feb455bef664da9e"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Rusholme Brook",
+        "title": "Rusholme Brook",
+        "description": "",
+        "marker-color": "#3887be",
+        "marker-size": "",
+        "marker-symbol": "water",
+        "stroke": "#1087bf",
+        "stroke-width": 4,
+        "stroke-opacity": 1
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -2.240886,
+            53.460306,
+            0
+          ],
+          [
+            -2.240377,
+            53.460166,
+            0
+          ],
+          [
+            -2.240056,
+            53.459974,
+            0
+          ],
+          [
+            -2.239691,
+            53.460255,
+            0
+          ],
+          [
+            -2.238532,
+            53.460306,
+            0
+          ],
+          [
+            -2.237373,
+            53.460306,
+            0
+          ],
+          [
+            -2.236451,
+            53.460357,
+            0
+          ],
+          [
+            -2.235721,
+            53.460294,
+            0
+          ],
+          [
+            -2.234412,
+            53.460294,
+            0
+          ],
+          [
+            -2.23379,
+            53.460127,
+            0
+          ],
+          [
+            -2.233146,
+            53.460127,
+            0
+          ],
+          [
+            -2.232224,
+            53.46,
+            0
+          ],
+          [
+            -2.231301,
+            53.460089,
+            0
+          ],
+          [
+            -2.230679,
+            53.4606,
+            0
+          ],
+          [
+            -2.22997,
+            53.460945,
+            0
+          ],
+          [
+            -2.229455,
+            53.461379,
+            0
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "09f11978a7252e7b60c592966fec19cb"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "River Medlock and Siphon Tunnel ",
+        "description": "<img src=\"http://www.canalscape.net/Castlefield%20Canal%20Heritage%20Walk/LR%20Siphon%20Entrance.jpg\" height=\"200\" width=\"auto\" /><br><br>Manchester Confidential Article (http://www.manchesterconfidential.co.uk/Culture/Architecture/The-Good-The-Standard-and-The-Ugly-Knott-Mill-Bridge)<br><br> <br>Castlefield Canal Heritage Walk (http://www.canalscape.net/Castlefield%20Canal%20Heritage%20Walk/Castlefield%20Canal%20Heritage%20Walk.htm)<br> <br>Detailed map:<br>http://enriqueta.man.ac.uk/luna/servlet/detail/maps2~1~1~339789~123137:Manchester?sort=Reference_Number%2CReference_Number%2CReference_Number%2CPage&qvq=q:Ordnance%2BSurvey%2Blarge%2Bscale;sort:Reference_Number%2CReference_Number%2CReference_Number%2CPage;lc:maps2~1~1,Manchester~91~1,ManchesterDev~95~2,Man4MedievalVC~4~4,nonconform~91~1,ManchesterDev~93~3,lib1~1~1&mi=2&trs=50<br><br><img src=\"http://www.canalscape.net/Castlefield%20Canal%20Heritage%20Walk/LR%20River%20Medlock%20Siphon.jpg\" height=\"200\" width=\"auto\" />",
+        "gx_media_links": "http://www.canalscape.net/Castlefield%20Canal%20Heritage%20Walk/LR%20Siphon%20Entrance.jpg http://www.canalscape.net/Castlefield%20Canal%20Heritage%20Walk/LR%20River%20Medlock%20Siphon.jpg",
+        "title": "River Medlock and Siphon Tunnel ",
+        "marker-color": "#3887be",
+        "marker-size": "",
+        "marker-symbol": "water"
+      },
+      "geometry": {
+        "coordinates": [
+          -2.251938,
+          53.473318,
+          0
+        ],
+        "type": "Point"
+      },
+      "id": "1038ae300a4a2f7c0eaa4e0ef246f47d"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Manchester Salford Junction Canal entrance",
+        "description": "<a href=https://www.flickr.com/photos/soundman/838285108/in/photostream/>2007 Irwell Entrance</a>",
+        "title": "Manchester Salford Junction Canal entrance",
+        "marker-color": "#3887be",
+        "marker-size": "",
+        "marker-symbol": "camera"
+      },
+      "geometry": {
+        "coordinates": [
+          -2.257884,
+          53.479044,
+          0
+        ],
+        "type": "Point"
+      },
+      "id": "2000fef48b3d382dd8a2d278a4382a9a"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Manchester Salford Junction Canal Tunnel",
+        "description": "<img src=\"http://www.andrewbrooksphotography.com/uploads/gallery/647.jpg\" height=\"auto\" width=\"200\" /><br><br>Pennine Waterways Page (http://www.penninewaterways.co.uk/manchester/m50.htm)",
+        "gx_media_links": "http://www.andrewbrooksphotography.com/uploads/gallery/647.jpg",
+        "title": "Manchester Salford Junction Canal Tunnel",
+        "marker-color": "#3887be",
+        "marker-size": "",
+        "marker-symbol": "water",
+        "stroke": "#1087bf",
+        "stroke-width": 4,
+        "stroke-opacity": 1
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -2.25716,
+              53.4789,
+              0
+            ],
+            [
+              -2.25487,
+              53.4779,
+              0
+            ],
+            [
+              -2.25033,
+              53.477026,
+              0
+            ],
+            [
+              -2.246811,
+              53.475979,
+              0
+            ]
+          ],
+          [
+            [
+              -2.2493,
+              53.476796,
+              0
+            ],
+            [
+              -2.249107,
+              53.477064,
+              0
+            ]
+          ],
+          [
+            [
+              -2.249751,
+              53.476898,
+              0
+            ],
+            [
+              -2.249515,
+              53.477205,
+              0
+            ]
+          ]
+        ],
+        "type": "MultiLineString"
+      },
+      "id": "252fd5385957f9963696af49ec27c10e"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Medlock Culvert",
+        "title": "Medlock Culvert",
+        "description": "",
+        "marker-color": "#3887be",
+        "marker-size": "",
+        "marker-symbol": "water",
+        "stroke": "#1087bf",
+        "stroke-width": 4,
+        "stroke-opacity": 1
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -2.206814,
+            53.485415,
+            0
+          ],
+          [
+            -2.199605,
+            53.488237,
+            0
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "258484191d685376025ae8b053ec83ca"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tib draining into the Medlock?",
+        "title": "Tib draining into the Medlock?",
+        "description": "",
+        "marker-color": "#3887be",
+        "marker-size": "",
+        "marker-symbol": "water"
+      },
+      "geometry": {
+        "coordinates": [
+          -2.248351,
+          53.473049,
+          0
+        ],
+        "type": "Point"
+      },
+      "id": "2bd890d3dc76832d9647028f6471555b"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Cornbrook Weir",
+        "description": "<img src=\"http://www.transportarchive.org.uk/aimages/T2493.jpg\" height=\"200\" width=\"auto\" /><br><br>http://www.canalarchive.org.uk/Tpages/html/T2493.html",
+        "gx_media_links": "http://www.transportarchive.org.uk/aimages/T2493.jpg",
+        "title": "Cornbrook Weir",
+        "marker-color": "#3887be",
+        "marker-size": "",
+        "marker-symbol": "water"
+      },
+      "geometry": {
+        "coordinates": [
+          -2.269153,
+          53.469011,
+          0
+        ],
+        "type": "Point"
+      },
+      "id": "2d5d62ff43d4cc825dc4474a920501c9"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Medlock emerging",
+        "description": "<img src=\"http://www.canalscape.net/Castlefield%20Canal%20Heritage%20Walk/LR%20Medlock%20Tunnel%20End.jpg\" height=\"200\" width=\"auto\" /><br><br>Castlefield Canal Heritage Walk (http://www.canalscape.net/Castlefield%20Canal%20Heritage%20Walk/Castlefield%20Canal%20Heritage%20Walk.htm)",
+        "gx_media_links": "http://www.canalscape.net/Castlefield%20Canal%20Heritage%20Walk/LR%20Medlock%20Tunnel%20End.jpg",
+        "title": "Medlock emerging",
+        "marker-color": "#3887be",
+        "marker-size": "",
+        "marker-symbol": "water"
+      },
+      "geometry": {
+        "coordinates": [
+          -2.258463,
+          53.475886,
+          0
+        ],
+        "type": "Point"
+      },
+      "id": "332b2f9e2d5c992c99664adc2f0f8143"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Cornbrook",
+        "title": "Cornbrook",
+        "description": "",
+        "marker-color": "#3887be",
+        "marker-size": "",
+        "marker-symbol": "water",
+        "stroke": "#1087bf",
+        "stroke-width": 4,
+        "stroke-opacity": 1
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -2.27241,
+            53.469184,
+            0
+          ],
+          [
+            -2.27181,
+            53.469146,
+            0
+          ],
+          [
+            -2.271338,
+            53.468788,
+            0
+          ],
+          [
+            -2.27093,
+            53.468622,
+            0
+          ],
+          [
+            -2.270329,
+            53.468763,
+            0
+          ],
+          [
+            -2.269153,
+            53.469011,
+            0
+          ],
+          [
+            -2.268612,
+            53.46935,
+            0
+          ],
+          [
+            -2.268183,
+            53.469606,
+            0
+          ],
+          [
+            -2.267604,
+            53.469708,
+            0
+          ],
+          [
+            -2.266552,
+            53.46958,
+            0
+          ],
+          [
+            -2.265909,
+            53.469184,
+            0
+          ],
+          [
+            -2.265179,
+            53.468763,
+            0
+          ],
+          [
+            -2.264664,
+            53.468009,
+            0
+          ],
+          [
+            -2.263626,
+            53.467613,
+            0
+          ],
+          [
+            -2.263141,
+            53.467549,
+            0
+          ],
+          [
+            -2.262682,
+            53.467307,
+            0
+          ],
+          [
+            -2.262167,
+            53.466949,
+            0
+          ],
+          [
+            -2.262218,
+            53.46654,
+            0
+          ],
+          [
+            -2.26181,
+            53.466234,
+            0
+          ],
+          [
+            -2.260794,
+            53.465723,
+            0
+          ],
+          [
+            -2.260107,
+            53.465365,
+            0
+          ],
+          [
+            -2.260021,
+            53.465007,
+            0
+          ],
+          [
+            -2.259965,
+            53.464611,
+            0
+          ],
+          [
+            -2.260021,
+            53.464292,
+            0
+          ],
+          [
+            -2.25942,
+            53.463781,
+            0
+          ],
+          [
+            -2.258991,
+            53.463526,
+            0
+          ],
+          [
+            -2.258734,
+            53.462606,
+            0
+          ],
+          [
+            -2.258562,
+            53.462146,
+            0
+          ],
+          [
+            -2.257704,
+            53.461839,
+            0
+          ],
+          [
+            -2.256502,
+            53.461124,
+            0
+          ],
+          [
+            -2.255816,
+            53.460511,
+            0
+          ],
+          [
+            -2.254356,
+            53.460153,
+            0
+          ],
+          [
+            -2.252777,
+            53.460651,
+            0
+          ],
+          [
+            -2.251682,
+            53.460638,
+            0
+          ],
+          [
+            -2.250502,
+            53.4606,
+            0
+          ],
+          [
+            -2.247562,
+            53.460396,
+            0
+          ],
+          [
+            -2.245502,
+            53.460038,
+            0
+          ],
+          [
+            -2.244473,
+            53.460153,
+            0
+          ],
+          [
+            -2.243507,
+            53.459987,
+            0
+          ],
+          [
+            -2.243207,
+            53.460357,
+            0
+          ],
+          [
+            -2.241919,
+            53.460549,
+            0
+          ],
+          [
+            -2.240881,
+            53.460306,
+            0
+          ],
+          [
+            -2.240366,
+            53.460613,
+            0
+          ],
+          [
+            -2.238907,
+            53.462657,
+            0
+          ],
+          [
+            -2.238306,
+            53.463423,
+            0
+          ],
+          [
+            -2.238478,
+            53.463985,
+            0
+          ],
+          [
+            -2.239336,
+            53.46465,
+            0
+          ],
+          [
+            -2.239679,
+            53.465365,
+            0
+          ],
+          [
+            -2.238821,
+            53.465876,
+            0
+          ],
+          [
+            -2.237534,
+            53.465876,
+            0
+          ],
+          [
+            -2.236504,
+            53.466336,
+            0
+          ],
+          [
+            -2.235474,
+            53.467102,
+            0
+          ],
+          [
+            -2.233585,
+            53.467409,
+            0
+          ],
+          [
+            -2.23204,
+            53.466949,
+            0
+          ],
+          [
+            -2.230152,
+            53.467051,
+            0
+          ],
+          [
+            -2.227062,
+            53.467869,
+            0
+          ],
+          [
+            -2.226118,
+            53.468073,
+            0
+          ],
+          [
+            -2.225689,
+            53.468175,
+            0
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "443f0aee31e04516b68290f6fdebc6fb"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Canal",
+        "description": "Shown on page 20 of Underground Manchester (Keith Warrander, 2007), and here (http://www.canalscape.net/M%20&amp;%20S%20J%20Canal/M%20&amp;%20S%20J%20Canal.htm).<br><br> <br><br><br>Part of the Manchester Salford Junction Canal.",
+        "title": "Canal",
+        "marker-color": "#3887be",
+        "marker-size": "",
+        "marker-symbol": "water",
+        "stroke": "#1087bf",
+        "stroke-width": 4,
+        "stroke-opacity": 1
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -2.255610,
+            53.478224,
+            0
+          ],
+          [
+            -2.255138,
+            53.479074,
+            0
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "44f0292ab21f608b3ba99ab3a6c1ad00"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Shooters Brook 1",
+        "description": "Here coal was winched through a shaft from boats in the Duke&#39;s Tunnel.",
+        "title": "Shooters Brook",
+        "marker-color": "#3887be",
+        "marker-size": "",
+        "marker-symbol": "water"
+      },
+      "geometry": {
+        "coordinates": [
+          -2.232317,
+          53.478453,
+          0
+        ],
+        "type": "Point"
+      },
+      "id": "46bc76a08a5fd1a848600993ddd4db4b"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Remains of Brindley's Cloverleaf Weir on Potato Wharf",
+        "description": "<img src=\"http://www.canalscape.net/Castlefield%20Canal%20Heritage%20Walk/LR%20Potato%20Wharf%20Weir.jpg\" height=\"200\" width=\"auto\" /><br><br>Castlefield Canal Heritage Walk (http://www.canalscape.net/Castlefield%20Canal%20Heritage%20Walk/Castlefield%20Canal%20Heritage%20Walk.htm)",
+        "gx_media_links": "http://www.canalscape.net/Castlefield%20Canal%20Heritage%20Walk/LR%20Potato%20Wharf%20Weir.jpg",
+        "title": "Remains of Brindley's Cloverleaf Weir on Potato Wharf",
+        "marker-color": "#3887be",
+        "marker-size": "",
+        "marker-symbol": "water"
+      },
+      "geometry": {
+        "coordinates": [
+          -2.257913,
+          53.475565,
+          0
+        ],
+        "type": "Point"
+      },
+      "id": "4ffaf9e0302fb5326194c2b53e2feb6d"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Rochdale Canal Entrance",
+        "title": "Rochdale Canal Entrance",
+        "description": "<a href=http://www.flickr.com/photos/39245032@N08/7843532038/in/photostream target=_blank>1970s Rochdale Canal junction</a>",
+        "marker-color": "#3887be",
+        "marker-size": "",
+        "marker-symbol": "water"
+      },
+      "geometry": {
+        "coordinates": [
+          -2.245494,
+          53.474749,
+          0
+        ],
+        "type": "Point"
+      },
+      "id": "5fcd24cc9e9cd69f4c44d833bc45b626"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Shooters Brook",
+        "description": "This section plotted using http://www.mangeogsoc.org.uk/pdfs/lawson_lindley.pdf",
+        "title": "Shooters Brook",
+        "marker-color": "#3887be",
+        "marker-size": "",
+        "marker-symbol": "water",
+        "stroke": "#1087bf",
+        "stroke-width": 4,
+        "stroke-opacity": 1
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -2.229495,
+            53.478699,
+            0
+          ],
+          [
+            -2.229152,
+            53.478737,
+            0
+          ],
+          [
+            -2.22883,
+            53.478699,
+            0
+          ],
+          [
+            -2.228315,
+            53.478776,
+            0
+          ],
+          [
+            -2.22749,
+            53.47926,
+            0
+          ],
+          [
+            -2.22692,
+            53.47958,
+            0
+          ],
+          [
+            -2.226684,
+            53.47958,
+            0
+          ],
+          [
+            -2.226427,
+            53.479491,
+            0
+          ],
+          [
+            -2.226298,
+            53.479555,
+            0
+          ],
+          [
+            -2.226405,
+            53.479797,
+            0
+          ],
+          [
+            -2.226191,
+            53.48004,
+            0
+          ],
+          [
+            -2.225482,
+            53.480193,
+            0
+          ],
+          [
+            -2.225332,
+            53.480308,
+            0
+          ],
+          [
+            -2.225332,
+            53.480653,
+            0
+          ],
+          [
+            -2.225268,
+            53.481125,
+            0
+          ],
+          [
+            -2.225161,
+            53.481304,
+            0
+          ],
+          [
+            -2.224882,
+            53.481381,
+            0
+          ],
+          [
+            -2.22471,
+            53.481789,
+            0
+          ],
+          [
+            -2.2232,
+            53.48283,
+            0
+          ],
+          [
+            -2.22165,
+            53.48304,
+            0
+          ],
+          [
+            -2.22114,
+            53.4838,
+            0
+          ],
+          [
+            -2.22148,
+            53.48467,
+            0
+          ],
+          [
+            -2.22036,
+            53.48482,
+            0
+          ],
+          [
+            -2.22019,
+            53.48539,
+            0
+          ],
+          [
+            -2.21942,
+            53.48595,
+            0
+          ],
+          [
+            -2.21925,
+            53.48707,
+            0
+          ],
+          [
+            -2.21873,
+            53.48768,
+            0
+          ],
+          [
+            -2.21839,
+            53.48891,
+            0
+          ],
+          [
+            -2.21787,
+            53.48983,
+            0
+          ],
+          [
+            -2.21779,
+            53.49105,
+            0
+          ],
+          [
+            -2.21563,
+            53.4931,
+            0
+          ],
+          [
+            -2.21614,
+            53.4957,
+            0
+          ],
+          [
+            -2.21537,
+            53.49642,
+            0
+          ],
+          [
+            -2.21084,
+            53.49749,
+            0
+          ],
+          [
+            -2.20809,
+            53.49841,
+            0
+          ],
+          [
+            -2.20569,
+            53.49907,
+            0
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "67ecbc1217e730c3943d254c87703e96"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Rochdale Canal under Dale Street",
+        "description": "<img src=\"https://mw2.google.com/mw-panoramio/photos/medium/45925755.jpg\" height=\"200\" width=\"auto\" /><br><br>From Panoramio (https://ssl.panoramio.com/photo/45925755)<br> (https://ssl.panoramio.com/photo/45925755)",
+        "gx_media_links": "https://mw2.google.com/mw-panoramio/photos/medium/45925755.jpg",
+        "title": "Rochdale Canal under Dale Street",
+        "marker-color": "#3887be",
+        "marker-size": "",
+        "marker-symbol": "water"
+      },
+      "geometry": {
+        "coordinates": [
+          -2.231968,
+          53.479495,
+          0
+        ],
+        "type": "Point"
+      },
+      "id": "6efef7e0dddc1fdac8d9836f569fa435"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Rochdale Canal Tunnel",
+        "title": "Rochdale Canal Tunnel",
+        "description": "",
+        "marker-color": "#3887be",
+        "marker-size": "",
+        "marker-symbol": "water",
+        "stroke": "#1087bf",
+        "stroke-width": 4,
+        "stroke-opacity": 1
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -2.233293,
+            53.478974,
+            0
+          ],
+          [
+            -2.231797,
+            53.479615,
+            0
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "74c065bc2e4c1876fed9e77a80bf0118"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Medlock Culvert",
+        "description": "Is this budge culvert? (http://www.goneeightyfive.com/2010/10/budge-culvert-manchester.html)<br><br> <br>More Budge pictures from Jimmy Halfway (http://jimmyhalfway.blogspot.com/2010/10/budge-culvert-manchester.html)",
+        "title": "Medlock Culvert",
+        "marker-color": "#3887be",
+        "marker-size": "",
+        "marker-symbol": "water",
+        "stroke": "#1087bf",
+        "stroke-width": 4,
+        "stroke-opacity": 1
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -2.23614,
+            53.47332,
+            0
+          ],
+          [
+            -2.23586,
+            53.47364,
+            0
+          ],
+          [
+            -2.236018,
+            53.47377,
+            0
+          ],
+          [
+            -2.236168,
+            53.473808,
+            0
+          ],
+          [
+            -2.23623,
+            53.47392,
+            0
+          ],
+          [
+            -2.236083,
+            53.474114,
+            0
+          ],
+          [
+            -2.23578,
+            53.47428,
+            0
+          ],
+          [
+            -2.235439,
+            53.474268,
+            0
+          ],
+          [
+            -2.23518,
+            53.47419,
+            0
+          ],
+          [
+            -2.23505,
+            53.47392,
+            0
+          ],
+          [
+            -2.23511,
+            53.47336,
+            0
+          ],
+          [
+            -2.23468,
+            53.47314,
+            0
+          ],
+          [
+            -2.23425,
+            53.4731,
+            0
+          ],
+          [
+            -2.23393,
+            53.47325,
+            0
+          ],
+          [
+            -2.23376,
+            53.4735,
+            0
+          ],
+          [
+            -2.23389,
+            53.47388,
+            0
+          ],
+          [
+            -2.23413,
+            53.47433,
+            0
+          ],
+          [
+            -2.23408,
+            53.47468,
+            0
+          ],
+          [
+            -2.23391,
+            53.47514,
+            0
+          ],
+          [
+            -2.23365,
+            53.47536,
+            0
+          ],
+          [
+            -2.23314,
+            53.47548,
+            0
+          ],
+          [
+            -2.2328,
+            53.47532,
+            0
+          ],
+          [
+            -2.2323,
+            53.47493,
+            0
+          ],
+          [
+            -2.232091,
+            53.474791,
+            0
+          ],
+          [
+            -2.23168,
+            53.47471,
+            0
+          ],
+          [
+            -2.231448,
+            53.47483,
+            0
+          ],
+          [
+            -2.23125,
+            53.47499,
+            0
+          ],
+          [
+            -2.231083,
+            53.475021,
+            0
+          ],
+          [
+            -2.23091,
+            53.475,
+            0
+          ],
+          [
+            -2.23084,
+            53.47451,
+            0
+          ],
+          [
+            -2.23069,
+            53.47408,
+            0
+          ],
+          [
+            -2.23119,
+            53.473833,
+            0
+          ],
+          [
+            -2.231362,
+            53.473578,
+            0
+          ],
+          [
+            -2.23078,
+            53.47336,
+            0
+          ],
+          [
+            -2.23022,
+            53.47365,
+            0
+          ],
+          [
+            -2.22958,
+            53.47421,
+            0
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "97e3006b543006773461a36cc458fcca"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Underground Docks",
+        "description": "<a href=http://www.andrewbrooksphotography.com/image.php?ID=647 target=_blank><img src=http://www.andrewbrooksphotography.com/uploads/gallery/647.jpg height=auto width=200 /></a>",
+        "title": "Underground Docks",
+        "marker-color": "#3887be",
+        "marker-size": "",
+        "marker-symbol": "camera"
+      },
+      "geometry": {
+        "coordinates": [
+          -2.249311,
+          53.477179,
+          0
+        ],
+        "type": "Point"
+      },
+      "id": "9af0074e5f6a7245a0261ff7a470dd41"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Medlock Culvert Vent",
+        "description": "<img src=\"http://www.canalscape.net/Castlefield%20Canal%20Heritage%20Walk/LR%20Medlock%20Tunnel%20Vent.jpg\" height=\"200\" width=\"auto\" /><br><br>Castlefield Canal Heritage Walk (http://www.canalscape.net/Castlefield%20Canal%20Heritage%20Walk/Castlefield%20Canal%20Heritage%20Walk.htm)",
+        "gx_media_links": "http://www.canalscape.net/Castlefield%20Canal%20Heritage%20Walk/LR%20Medlock%20Tunnel%20Vent.jpg",
+        "title": "Medlock Culvert Vent",
+        "marker-color": "#3887be",
+        "marker-size": "",
+        "marker-symbol": "water"
+      },
+      "geometry": {
+        "coordinates": [
+          -2.256259,
+          53.474673,
+          0
+        ],
+        "type": "Point"
+      },
+      "id": "a02505845de9e1f1044c329bd5f70607"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Locks 3 & 4",
+        "description": "Part of the Manchester Salford Junction Canal",
+        "title": "Locks 3 & 4",
+        "marker-color": "#3887be",
+        "marker-size": "",
+        "marker-symbol": "water"
+      },
+      "geometry": {
+        "coordinates": [
+          -2.248292,
+          53.4764,
+          0
+        ],
+        "type": "Point"
+      },
+      "id": "a4b7bcf3e5c126b7a77941849baa9160"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Irk Culvert start at Scotland Bridge / Redwood",
+        "title": "Irk Culvert start at Scotland Bridge / Redwood",
+        "description": "",
+        "marker-color": "#3887be",
+        "marker-size": "",
+        "marker-symbol": "water"
+      },
+      "geometry": {
+        "coordinates": [
+          -2.239274,
+          53.489491,
+          0
+        ],
+        "type": "Point"
+      },
+      "id": "a7d8a6207c5ad74a74eec115c97b8728"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Unknown River",
+        "description": "River routes (http://www.mangeogsoc.org.uk/pdfs/lawson_lindley.pdf)<br><br> <br>Route not plotted in completion",
+        "title": "Unknown River",
+        "marker-color": "#3887be",
+        "marker-size": "",
+        "marker-symbol": "water",
+        "stroke": "#1087bf",
+        "stroke-width": 4,
+        "stroke-opacity": 1
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -2.2188,
+            53.48712,
+            0
+          ],
+          [
+            -2.21782,
+            53.48682,
+            0
+          ],
+          [
+            -2.21679,
+            53.48692,
+            0
+          ],
+          [
+            -2.2146,
+            53.48768,
+            0
+          ],
+          [
+            -2.20808,
+            53.489629,
+            0
+          ],
+          [
+            -2.207479,
+            53.491263,
+            0
+          ],
+          [
+            -2.204304,
+            53.492284,
+            0
+          ],
+          [
+            -2.204733,
+            53.494735,
+            0
+          ],
+          [
+            -2.202673,
+            53.499024,
+            0
+          ],
+          [
+            -2.198639,
+            53.500402,
+            0
+          ],
+          [
+            -2.196064,
+            53.502036,
+            0
+          ],
+          [
+            -2.190399,
+            53.503159,
+            0
+          ],
+          [
+            -2.186365,
+            53.503057,
+            0
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "a8de484c2952ba58d6ab73d8e98f0375"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Upper Pump House",
+        "description": "Part of the Manchester Salford Junction Canal",
+        "title": "Upper Pump House",
+        "marker-color": "#3887be",
+        "marker-size": "",
+        "marker-symbol": "water"
+      },
+      "geometry": {
+        "coordinates": [
+          -2.246146,
+          53.476439,
+          0
+        ],
+        "type": "Point"
+      },
+      "id": "aa5e5022a8587a3a8990618cd8925c14"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Dukes Tunnel Entrance",
+        "description": "<img src=\"http://www.canalscape.net/Castlefield%20Canal%20Heritage%20Walk/LR%20Duke's%20Tunnel%20-%20Bank%20Top%20-%20River%20Medlock.jpg\" height=\"200\" width=\"auto\" /><br><br>&quot;This tunnel was completed in 1789 and was 650 yards in length, 8ft 6ins high and 6 feet wide. Judging by the narrow width and lack of towpath the boats used must have been &quot;Starvationers&quot;... the type of compartment boat used inside the Worsley Mines. At the coal face the coal they carried was loaded into wooden containers which fitted in between the exposed ribs inside the boats (hence the name &quot;Starvationers&quot;). The boats were &quot;legged&quot; through the tunnel and the coal delivered to the end at Bank Top close to the approach to Piccadilly Station. Once at the end of the tunnel, near the junction of London Road and Ducie Street, the wooden coal containers were winched to the surface by a horse gin... a horse-powered hoist for delivery to the adjacent Knowles and Sons Coal Yard. The River Medlock was gradually made un-navigable by about 1800 due to adjacent factories and mills disposing of cinders and other rubbish into it causing it to silt up.&quot;<br>Cas",
+        "gx_media_links": "http://www.canalscape.net/Castlefield%20Canal%20Heritage%20Walk/LR%20Duke's%20Tunnel%20-%20Bank%20Top%20-%20River%20Medlock.jpg",
+        "title": "Dukes Tunnel Entrance",
+        "marker-color": "#3887be",
+        "marker-size": "",
+        "marker-symbol": "water"
+      },
+      "geometry": {
+        "coordinates": [
+          -2.23928,
+          53.47483,
+          0
+        ],
+        "type": "Point"
+      },
+      "id": "aaa7c8437a4cf2c38138b9dafda6163a"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Medlock Culvert",
+        "title": "Medlock Culvert",
+        "description": "",
+        "marker-color": "#3887be",
+        "marker-size": "",
+        "marker-symbol": "water",
+        "stroke": "#1087bf",
+        "stroke-width": 4,
+        "stroke-opacity": 1
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -2.25191,
+            53.47332,
+            0
+          ],
+          [
+            -2.25226,
+            53.47369,
+            0
+          ],
+          [
+            -2.256277,
+            53.474673,
+            0
+          ],
+          [
+            -2.257908,
+            53.475562,
+            0
+          ],
+          [
+            -2.258358,
+            53.475878,
+            0
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "ad260a67001bcdd1705c2f3fbef62725"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Unknown River",
+        "description": "River routes (http://www.mangeogsoc.org.uk/pdfs/lawson_lindley.pdf)",
+        "title": "Unknown River",
+        "marker-color": "#3887be",
+        "marker-size": "",
+        "marker-symbol": "water",
+        "stroke": "#1087bf",
+        "stroke-width": 4,
+        "stroke-opacity": 1
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -2.24614,
+            53.48485,
+            0
+          ],
+          [
+            -2.24544,
+            53.48461,
+            0
+          ],
+          [
+            -2.24477,
+            53.48444,
+            0
+          ],
+          [
+            -2.24423,
+            53.48442,
+            0
+          ],
+          [
+            -2.24374,
+            53.48447,
+            0
+          ],
+          [
+            -2.24274,
+            53.48489,
+            0
+          ],
+          [
+            -2.24237,
+            53.485,
+            0
+          ],
+          [
+            -2.24195,
+            53.48496,
+            0
+          ],
+          [
+            -2.240814,
+            53.484515,
+            0
+          ],
+          [
+            -2.23996,
+            53.48454,
+            0
+          ],
+          [
+            -2.23825,
+            53.48475,
+            0
+          ],
+          [
+            -2.23796,
+            53.48486,
+            0
+          ],
+          [
+            -2.23709,
+            53.48533,
+            0
+          ],
+          [
+            -2.23653,
+            53.48554,
+            0
+          ],
+          [
+            -2.23627,
+            53.48574,
+            0
+          ],
+          [
+            -2.23597,
+            53.48579,
+            0
+          ],
+          [
+            -2.23566,
+            53.48579,
+            0
+          ],
+          [
+            -2.23503,
+            53.48574,
+            0
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "b38f9ab5fd3c58d630333dd1e6a274e4"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "River Tib Canal Drain",
+        "description": "“When we were digging out the Rochdale Canal, behind near where The Rain Bar now is, just below the 4th Lock up from Castlefield Jcn, there is a Bench Mark symbol carved on the towing path coping stone. In the canal bed at this point is a chain connected to a wooden trap-door. When the canal is drained, this trap-door can be lifted to let any further water out of the canal pound between the 3rd &amp; 4th locks. This I believe is let away through the course of the River Tib.<br>This we were told by the then remaining Lock Keeper Tommy Stansfield who lived in the canal House at Chorlton Street bridge, then I think in his 80&#39;s, who also recalled that the last time it had been lifted was about 90 years before when his father had been Lock Keeper and a boat loaded with bitumen had sunk in that pound.”<br>Source (http://webcache.googleusercontent.com/search?q=cache:JoC4JQ6IdBcJ:www.aidan.co.uk/forums/showthread.php%3Ft%3D29%26page%3D4+&amp;cd=1&amp;hl=en&amp;ct=clnk&amp;gl=uk)<br><br><br>I have been unable to find the bench mark mentioned, and it does not appear in online databases of bench marks. The nearby lock is named Tib Lock though, and the Tib Lock House stood opposite the end of the entrance the Manchester Salford Junction Canal. I have been able to confirm with the Canal & River Trust that the trapdoor exists and has been examined recently. Apparently the coping stone mark is not a Bench Mark, but a simple line.",
+        "title": "River Tib Canal Drain",
+        "marker-color": "#3887be",
+        "marker-size": "",
+        "marker-symbol": "water"
+      },
+      "geometry": {
+        "coordinates": [
+          -2.246468,
+          53.474395,
+          0
+        ],
+        "type": "Point"
+      },
+      "id": "b529b18f037ed689a236ccc634a39308"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Cathedral Landing Stage",
+        "description": "<img src=\"http://i931.photobucket.com/albums/ad154/dav-p/Victoria%20Arches%20Manchester%20090311/800px-Cathedral_Landing_Stage.jpg\" height=\"200\" width=\"auto\" /><br><br>(http://en.wikipedia.org/wiki/File:Cathedral_Landing_Stage.jpg)",
+        "gx_media_links": "http://i931.photobucket.com/albums/ad154/dav-p/Victoria%20Arches%20Manchester%20090311/800px-Cathedral_Landing_Stage.jpg",
+        "title": "Cathedral Landing Stage",
+        "marker-color": "#3887be",
+        "marker-size": "",
+        "marker-symbol": "water"
+      },
+      "geometry": {
+        "coordinates": [
+          -2.245052,
+          53.485763,
+          0
+        ],
+        "type": "Point"
+      },
+      "id": "b62a6b5475c0b22bf69ccac9151f28ef"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Worsley Tunnels",
+        "title": "Worsley Tunnels",
+        "description": "",
+        "marker-color": "#3887be",
+        "marker-size": "",
+        "marker-symbol": "water"
+      },
+      "geometry": {
+        "coordinates": [
+          -2.381072,
+          53.500875,
+          0
+        ],
+        "type": "Point"
+      },
+      "id": "b848aefd64d782e94a99abf8c97b2484"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Medlock Culvert - YouMissed?",
+        "description": "Jim Gilletteue (http://jimgilletteue.blogspot.com/2010/01/rope-burn-culvert.html)",
+        "title": "Medlock Culvert - YouMissed?",
+        "marker-color": "#3887be",
+        "marker-size": "",
+        "marker-symbol": "water",
+        "stroke": "#1087bf",
+        "stroke-width": 4,
+        "stroke-opacity": 1
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -2.240143,
+            53.473702,
+            0
+          ],
+          [
+            -2.240428,
+            53.473396,
+            0
+          ],
+          [
+            -2.240793,
+            53.47308,
+            0
+          ],
+          [
+            -2.241281,
+            53.472799,
+            0
+          ],
+          [
+            -2.241742,
+            53.472693,
+            0
+          ],
+          [
+            -2.242568,
+            53.472684,
+            0
+          ],
+          [
+            -2.24319,
+            53.472754,
+            0
+          ],
+          [
+            -2.243561,
+            53.472997,
+            0
+          ],
+          [
+            -2.243593,
+            53.473077,
+            0
+          ],
+          [
+            -2.243512,
+            53.473176,
+            0
+          ],
+          [
+            -2.243292,
+            53.473345,
+            0
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "bf5025b19467b6b74130cee42f586bf9"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Shooters Brook",
+        "title": "Shooters Brook",
+        "description": "",
+        "marker-color": "#3887be",
+        "marker-size": "",
+        "marker-symbol": "water",
+        "stroke": "#1087bf",
+        "stroke-width": 4,
+        "stroke-opacity": 1
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -2.230546,
+            53.47815,
+            0
+          ],
+          [
+            -2.23016,
+            53.478341,
+            0
+          ],
+          [
+            -2.229903,
+            53.478584,
+            0
+          ],
+          [
+            -2.229517,
+            53.478673,
+            0
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "c56d7cfd6d02a369c55c62d9b245a75e"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Medlock",
+        "description": "<img src=\"http://i931.photobucket.com/albums/ad154/dav-p/Manc%20Draining%20UMIST%20etc%201011/IMG_8054.jpg\" height=\"200\" width=\"auto\" /><br><br>(http://www.millhouseue.com/2011/11/manchester-draining-umist-hulme-flumes.html)",
+        "gx_media_links": "http://i931.photobucket.com/albums/ad154/dav-p/Manc%20Draining%20UMIST%20etc%201011/IMG_8054.jpg",
+        "title": "Medlock",
+        "marker-color": "#3887be",
+        "marker-size": "",
+        "marker-symbol": "water"
+      },
+      "geometry": {
+        "coordinates": [
+          -2.236222,
+          53.473284,
+          0
+        ],
+        "type": "Point"
+      },
+      "id": "c661ae4be3015e9486c978579701f7da"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Dukes Tunnel",
+        "description": "Route roughly plotted from a United Utilities map and from maps on canalworld.net (http://www.canalworld.net/forums/index.php?showtopic=51187&amp;pid=958836&amp;st=20&amp;#entry958836).<br><br>&quot;This tunnel was completed in 1789 and was 650 yards in length, 8ft 6ins high and 6 feet wide. Judging by the narrow width and lack of towpath the boats used must have been &quot;Starvationers&quot;... the type of compartment boat used inside the Worsley Mines. At the coal face the coal they carried was loaded into wooden containers which fitted in between the exposed ribs inside the boats (hence the name &quot;Starvationers&quot;). The boats were &quot;legged&quot; through the tunnel and the coal delivered to the end at Bank Top close to the approach to Piccadilly Station. Once at the end of the tunnel, near the junction of London Road and Ducie Street, the wooden coal containers were winched to the surface by a horse gin... a horse-powered hoist for delivery to the adjacent Knowles and Sons Coa",
+        "title": "Dukes Tunnel",
+        "marker-color": "#3887be",
+        "marker-size": "",
+        "marker-symbol": "water",
+        "stroke": "#1087bf",
+        "stroke-width": 4,
+        "stroke-opacity": 1
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -2.23904,
+            53.47493,
+            0
+          ],
+          [
+            -2.23645,
+            53.47625,
+            0
+          ],
+          [
+            -2.232311,
+            53.47846,
+            0
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "d17a5b2baf722aa75b8ff4e7a84bd1c2"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Planned Tunnel?",
+        "description": "Shown on the Pigot 1813 map from Manchester Historical Maps (http://manchester.publicprofiler.org/beta/)",
+        "title": "Planned Tunnel?",
+        "marker-color": "#3887be",
+        "marker-size": "",
+        "marker-symbol": "water",
+        "stroke": "#1087bf",
+        "stroke-width": 4,
+        "stroke-opacity": 1
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -2.254858,
+            53.477894,
+            0
+          ],
+          [
+            -2.248271,
+            53.474383,
+            0
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "d3aaf1d62cc62da4fe2ce592811cd4f6"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Medlock Culvert",
+        "description": "Could be Budge culvert? (http://www.goneeightyfive.com/2010/10/budge-culvert-manchester.html)<br><br><br>http://enriqueta.man.ac.uk/luna/servlet/detail/maps2~1~1~339805~123138:Manchester?sort=Reference_Number%2CReference_Number%2CReference_Number%2CPage&qvq=q:Ordnance%2BSurvey%2Blarge%2Bscale;sort:Reference_Number%2CReference_Number%2CReference_Number%2CPage;lc:maps2~1~1,Manchester~91~1,ManchesterDev~95~2,Man4MedievalVC~4~4,nonconform~91~1,ManchesterDev~93~3,lib1~1~1&mi=3&trs=50",
+        "title": "Medlock Culvert",
+        "marker-color": "#3887be",
+        "marker-size": "",
+        "marker-symbol": "water",
+        "stroke": "#1087bf",
+        "stroke-width": 4,
+        "stroke-opacity": 1
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -2.248572,
+            53.47298,
+            0
+          ],
+          [
+            -2.24812,
+            53.473124,
+            0
+          ],
+          [
+            -2.248014,
+            53.473141,
+            0
+          ],
+          [
+            -2.247898,
+            53.473137,
+            0
+          ],
+          [
+            -2.247822,
+            53.473112,
+            0
+          ],
+          [
+            -2.247778,
+            53.473074,
+            0
+          ],
+          [
+            -2.247605,
+            53.472757,
+            0
+          ],
+          [
+            -2.247562,
+            53.47271,
+            0
+          ],
+          [
+            -2.247509,
+            53.472677,
+            0
+          ],
+          [
+            -2.247434,
+            53.472668,
+            0
+          ],
+          [
+            -2.247349,
+            53.47267,
+            0
+          ],
+          [
+            -2.247298,
+            53.472678,
+            0
+          ],
+          [
+            -2.247258,
+            53.472693,
+            0
+          ],
+          [
+            -2.247178,
+            53.472741,
+            0
+          ],
+          [
+            -2.247079,
+            53.472813,
+            0
+          ],
+          [
+            -2.246985,
+            53.472895,
+            0
+          ],
+          [
+            -2.246932,
+            53.472975,
+            0
+          ],
+          [
+            -2.246883,
+            53.473064,
+            0
+          ],
+          [
+            -2.246839,
+            53.473116,
+            0
+          ],
+          [
+            -2.246773,
+            53.473168,
+            0
+          ],
+          [
+            -2.24666,
+            53.473239,
+            0
+          ],
+          [
+            -2.246526,
+            53.473306,
+            0
+          ],
+          [
+            -2.246182,
+            53.473434,
+            0
+          ],
+          [
+            -2.245784,
+            53.47361,
+            0
+          ],
+          [
+            -2.245642,
+            53.47369,
+            0
+          ],
+          [
+            -2.2455,
+            53.473725,
+            0
+          ],
+          [
+            -2.24538,
+            53.473721,
+            0
+          ],
+          [
+            -2.245347,
+            53.473665,
+            0
+          ],
+          [
+            -2.24528,
+            53.47356,
+            0
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "d4e6d813d6ee84f3d1569e38e7368841"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "River Tib",
+        "description": "River routes (http://www.mangeogsoc.org.uk/pdfs/lawson_lindley.pdf)<br><br> <br><br><br>http://personalpages.manchester.ac.uk/staff/m.dodge/Dodge_Perkins-Hydraulic_City_submitted.pdf (http://personalpages.manchester.ac.uk/staff/m.dodge/Dodge_Perkins-Hydraulic_City_submitted.pdf)<br><br> <br>Looks to be about 100ft west of route shown in Underground Manchester (Warrender, 2997:71)",
+        "title": "River Tib",
+        "marker-color": "#3887be",
+        "marker-size": "",
+        "marker-symbol": "water",
+        "stroke": "#1087bf",
+        "stroke-width": 4,
+        "stroke-opacity": 1
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -2.24833,
+            53.47308,
+            0
+          ],
+          [
+            -2.24704,
+            53.47388,
+            0
+          ],
+          [
+            -2.246361,
+            53.474331,
+            0
+          ],
+          [
+            -2.24601,
+            53.47486,
+            0
+          ],
+          [
+            -2.24558,
+            53.47537,
+            0
+          ],
+          [
+            -2.24451,
+            53.47611,
+            0
+          ],
+          [
+            -2.24425,
+            53.4764,
+            0
+          ],
+          [
+            -2.24419,
+            53.47665,
+            0
+          ],
+          [
+            -2.24421,
+            53.47692,
+            0
+          ],
+          [
+            -2.24438,
+            53.47744,
+            0
+          ],
+          [
+            -2.2446,
+            53.47758,
+            0
+          ],
+          [
+            -2.2449,
+            53.47772,
+            0
+          ],
+          [
+            -2.24505,
+            53.47793,
+            0
+          ],
+          [
+            -2.24503,
+            53.47843,
+            0
+          ],
+          [
+            -2.24485,
+            53.47867,
+            0
+          ],
+          [
+            -2.24415,
+            53.4791,
+            0
+          ],
+          [
+            -2.24322,
+            53.47954,
+            0
+          ],
+          [
+            -2.24206,
+            53.48002,
+            0
+          ],
+          [
+            -2.24151,
+            53.48033,
+            0
+          ],
+          [
+            -2.24031,
+            53.48133,
+            0
+          ],
+          [
+            -2.23966,
+            53.48178,
+            0
+          ],
+          [
+            -2.23893,
+            53.48219,
+            0
+          ],
+          [
+            -2.23842,
+            53.4823,
+            0
+          ],
+          [
+            -2.23782,
+            53.48232,
+            0
+          ],
+          [
+            -2.23764,
+            53.48238,
+            0
+          ],
+          [
+            -2.23754,
+            53.48249,
+            0
+          ],
+          [
+            -2.23745,
+            53.48272,
+            0
+          ],
+          [
+            -2.23722,
+            53.48293,
+            0
+          ],
+          [
+            -2.23657,
+            53.48321,
+            0
+          ],
+          [
+            -2.2361,
+            53.4836,
+            0
+          ],
+          [
+            -2.23434,
+            53.48467,
+            0
+          ],
+          [
+            -2.23387,
+            53.485,
+            0
+          ],
+          [
+            -2.23335,
+            53.48551,
+            0
+          ],
+          [
+            -2.23249,
+            53.48582,
+            0
+          ],
+          [
+            -2.23164,
+            53.4862,
+            0
+          ],
+          [
+            -2.23082,
+            53.48643,
+            0
+          ],
+          [
+            -2.23005,
+            53.48671,
+            0
+          ],
+          [
+            -2.22829,
+            53.48745,
+            0
+          ],
+          [
+            -2.2276,
+            53.48756,
+            0
+          ],
+          [
+            -2.22576,
+            53.48807,
+            0
+          ],
+          [
+            -2.22516,
+            53.48827,
+            0
+          ],
+          [
+            -2.2246,
+            53.48924,
+            0
+          ],
+          [
+            -2.22417,
+            53.48955,
+            0
+          ],
+          [
+            -2.22408,
+            53.49001,
+            0
+          ],
+          [
+            -2.22413,
+            53.49057,
+            0
+          ],
+          [
+            -2.22374,
+            53.49139,
+            0
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "e01a55161aee64f125557e245b813469"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Lock 1",
+        "description": "Part of the Manchester Salford Junction Canal",
+        "title": "Lock 1",
+        "marker-color": "#3887be",
+        "marker-size": "",
+        "marker-symbol": "water"
+      },
+      "geometry": {
+        "coordinates": [
+          -2.257658,
+          53.479143,
+          0
+        ],
+        "type": "Point"
+      },
+      "id": "e7ad13d5883e91ec10ad15fe34ed04b2"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Lock 2",
+        "description": "Part of the Manchester Salford Junction Canal",
+        "title": "Lock 2",
+        "marker-color": "#3887be",
+        "marker-size": "",
+        "marker-symbol": "water"
+      },
+      "geometry": {
+        "coordinates": [
+          -2.257084,
+          53.478868,
+          0
+        ],
+        "type": "Point"
+      },
+      "id": "f1a3a25070f169e76a8939ec1c90a42d"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Irk culvert",
+        "description": "Great pictures of Optimus Prime from UrbexForums (http://www.urbexforums.co.uk/showthread.php/16027-Optimus-Prime-Manchester-Various-Re-visits-from-2011.)<br><br> <br>Route source: A deeper understanding of climate induced risk to urban infrastructure: case studies of past events in Greater Manchester, Lawson and Lindley 2008 (http://www.mangeogsoc.org.uk/pdfs/lawson_lindley.pdf)",
+        "title": "Irk culvert",
+        "marker-color": "#3887be",
+        "marker-size": "",
+        "marker-symbol": "water",
+        "stroke": "#1087bf",
+        "stroke-width": 4,
+        "stroke-opacity": 1
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -2.244906,
+            53.486944,
+            0
+          ],
+          [
+            -2.2447,
+            53.486952,
+            0
+          ],
+          [
+            -2.244477,
+            53.486896,
+            0
+          ],
+          [
+            -2.24404,
+            53.486813,
+            0
+          ],
+          [
+            -2.243668,
+            53.486743,
+            0
+          ],
+          [
+            -2.243284,
+            53.486677,
+            0
+          ],
+          [
+            -2.243081,
+            53.486664,
+            0
+          ],
+          [
+            -2.2429,
+            53.486689,
+            0
+          ],
+          [
+            -2.242677,
+            53.486766,
+            0
+          ],
+          [
+            -2.242434,
+            53.486862,
+            0
+          ],
+          [
+            -2.242107,
+            53.487094,
+            0
+          ],
+          [
+            -2.241865,
+            53.487274,
+            0
+          ],
+          [
+            -2.241538,
+            53.487506,
+            0
+          ],
+          [
+            -2.241085,
+            53.487782,
+            0
+          ],
+          [
+            -2.240696,
+            53.488046,
+            0
+          ],
+          [
+            -2.240604,
+            53.488132,
+            0
+          ],
+          [
+            -2.240546,
+            53.488243,
+            0
+          ],
+          [
+            -2.240545,
+            53.488397,
+            0
+          ],
+          [
+            -2.240545,
+            53.488556,
+            0
+          ],
+          [
+            -2.24061,
+            53.488734,
+            0
+          ],
+          [
+            -2.24078,
+            53.48902,
+            0
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "f955555fd5f3d351d1e0c5ad3a6818ab"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Shooters Brook",
+        "description": "<img src=\"http://farm9.staticflickr.com/8464/8093668858_496d331988_c.jpg\" height=\"200\" width=\"auto\" /><br><br>Plotted with map from this page (http://www.canalworld.net/forums/index.php?showtopic=51187&amp;pid=958836&amp;st=20&amp;#entry958836).<br><br>  (http://farm9.staticflickr.com/8464/8093668858_496d331988_c.jpg)",
+        "gx_media_links": "http://farm9.staticflickr.com/8464/8093668858_496d331988_c.jpg",
+        "title": "Shooters Brook",
+        "marker-color": "#3887be",
+        "marker-size": "",
+        "marker-symbol": "water",
+        "stroke": "#1087bf",
+        "stroke-width": 4,
+        "stroke-opacity": 1
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -2.23858,
+            53.47466,
+            0
+          ],
+          [
+            -2.23823,
+            53.47484,
+            0
+          ],
+          [
+            -2.23764,
+            53.47504,
+            0
+          ],
+          [
+            -2.236662,
+            53.475366,
+            0
+          ],
+          [
+            -2.236555,
+            53.475672,
+            0
+          ],
+          [
+            -2.236469,
+            53.475915,
+            0
+          ],
+          [
+            -2.2363,
+            53.4761,
+            0
+          ],
+          [
+            -2.235997,
+            53.47626,
+            0
+          ],
+          [
+            -2.235696,
+            53.4764,
+            0
+          ],
+          [
+            -2.235289,
+            53.476451,
+            0
+          ],
+          [
+            -2.23501,
+            53.476732,
+            0
+          ],
+          [
+            -2.234602,
+            53.476988,
+            0
+          ],
+          [
+            -2.234409,
+            53.476988,
+            0
+          ],
+          [
+            -2.234237,
+            53.476886,
+            0
+          ],
+          [
+            -2.234001,
+            53.476898,
+            0
+          ],
+          [
+            -2.233851,
+            53.477052,
+            0
+          ],
+          [
+            -2.233572,
+            53.477154,
+            0
+          ],
+          [
+            -2.23295,
+            53.477281,
+            0
+          ],
+          [
+            -2.23237,
+            53.477384,
+            0
+          ],
+          [
+            -2.232006,
+            53.477486,
+            0
+          ],
+          [
+            -2.231662,
+            53.477473,
+            0
+          ],
+          [
+            -2.231426,
+            53.477575,
+            0
+          ],
+          [
+            -2.23126,
+            53.47783,
+            0
+          ],
+          [
+            -2.231,
+            53.478,
+            0
+          ],
+          [
+            -2.230568,
+            53.478099,
+            0
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "fd7bc7539e7c3ada14f1c674c699ab85"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "River",
+        "description": "http://www.mangeogsoc.org.uk/pdfs/lawson_lindley.pdf (http://www.mangeogsoc.org.uk/pdfs/lawson_lindley.pdf)",
+        "title": "River",
+        "marker-color": "#3887be",
+        "marker-size": "",
+        "marker-symbol": "water",
+        "stroke": "#1087bf",
+        "stroke-width": 4,
+        "stroke-opacity": 1
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -2.226633,
+            53.496369,
+            0
+          ],
+          [
+            -2.224989,
+            53.496216,
+            0
+          ],
+          [
+            -2.223701,
+            53.497186,
+            0
+          ],
+          [
+            -2.221827,
+            53.497747,
+            0
+          ],
+          [
+            -2.217793,
+            53.498411,
+            0
+          ],
+          [
+            -2.21496,
+            53.500964,
+            0
+          ],
+          [
+            -2.214874,
+            53.502342,
+            0
+          ],
+          [
+            -2.213587,
+            53.503312,
+            0
+          ],
+          [
+            -2.212299,
+            53.504486,
+            0
+          ],
+          [
+            -2.210669,
+            53.50464,
+            0
+          ],
+          [
+            -2.209124,
+            53.506069,
+            0
+          ],
+          [
+            -2.20878,
+            53.506528,
+            0
+          ],
+          [
+            -2.206978,
+            53.50709,
+            0
+          ],
+          [
+            -2.206377,
+            53.507958,
+            0
+          ],
+          [
+            -2.206549,
+            53.508621,
+            0
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "fe63b281a026ca555b038361ec3d36d0"
+    }
+  ],
+  "id": "markcrossfield.naek822p"
+}

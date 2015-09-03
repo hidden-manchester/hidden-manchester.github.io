@@ -1,0 +1,724 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Wagstaff's Piano Shop",
+        "description": "",
+        "title": "Wagstaff's Piano Shop",
+        "marker-color": "5c2b00",
+        "marker-size": "",
+        "marker-symbol": "entrance"
+      },
+      "geometry": {
+        "coordinates": [
+          -2.246071,
+          53.483491,
+          0
+        ],
+        "type": "Point"
+      },
+      "id": "12fc3cdaad7d986ef0d039ab7db6b5b0"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Silver Street",
+        "description": "",
+        "title": "Silver Street",
+        "marker-color": "5c2b00",
+        "marker-size": "",
+        "marker-symbol": "entrance",
+        "stroke": "#5c2b00",
+        "stroke-width": 4,
+        "stroke-opacity": 1
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -2.253903,
+            53.472402,
+            0
+          ],
+          [
+            -2.257996,
+            53.47124,
+            0
+          ],
+          [
+            -2.259106,
+            53.470742,
+            0
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "1a27dde8450d71bd163e6d03be50ccfc"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Route of the Deansgate Tunnel",
+        "description": "",
+        "title": "Route of the Deansgate Tunnel",
+        "marker-color": "5c2b00",
+        "marker-size": "",
+        "marker-symbol": "entrance"
+      },
+      "geometry": {
+        "coordinates": [
+          -2.25474,
+          53.472256,
+          0
+        ],
+        "type": "Point"
+      },
+      "id": "1e495e351798a229f556bb15d459a7d0"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tunnels under Deanwater Close / Skerry Close",
+        "description": "",
+        "title": "Tunnels under Deanwater Close / Skerry Close",
+        "marker-color": "5c2b00",
+        "marker-size": "",
+        "marker-symbol": "entrance"
+      },
+      "geometry": {
+        "coordinates": [
+          -2.228803,
+          53.470996,
+          0
+        ],
+        "type": "Point"
+      },
+      "id": "23d51690f683f84a2af9cb6847cf402b"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Underground Skittle Alley: Goulburn's",
+        "description": "",
+        "title": "Underground Skittle Alley: Goulburn's",
+        "marker-color": "5c2b00",
+        "marker-size": "",
+        "marker-symbol": "entrance"
+      },
+      "geometry": {
+        "coordinates": [
+          -2.244405,
+          53.483816,
+          0
+        ],
+        "type": "Point"
+      },
+      "id": "2bcf53bb4165ec91063f50b23d126a81"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Rumoured Tunnel",
+        "description": "",
+        "title": "Rumoured Tunnel",
+        "marker-color": "5c2b00",
+        "marker-size": "",
+        "marker-symbol": "entrance",
+        "stroke": "#5c2b00",
+        "stroke-width": 4,
+        "stroke-opacity": 1
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -2.2442,
+            53.485208,
+            0
+          ],
+          [
+            -2.239324,
+            53.48562,
+            0
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "2d51a7feaaea26a755f360dc84768c69"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Deansgate Tunnel",
+        "description": "",
+        "title": "Deansgate Tunnel",
+        "marker-color": "5c2b00",
+        "marker-size": "",
+        "marker-symbol": "entrance",
+        "stroke": "#5c2b00",
+        "stroke-width": 4,
+        "stroke-opacity": 1
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -2.245422,
+            53.484653,
+            0
+          ],
+          [
+            -2.246704,
+            53.482823,
+            0
+          ],
+          [
+            -2.247375,
+            53.481783,
+            0
+          ],
+          [
+            -2.248313,
+            53.480362,
+            0
+          ],
+          [
+            -2.251768,
+            53.474523,
+            0
+          ],
+          [
+            -2.270887,
+            53.467446,
+            0
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "3cc0e4a95ede1b7a8b9b693bf0460f6c"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Grocers Tunnel",
+        "description": "",
+        "gx_media_links": "http://www.canalscape.net/Castlefield%20Canal%20Heritage%20Walk/LR%20Grocers%20Warehouse%201%20-%201985.jpg",
+        "title": "Grocers Tunnel",
+        "marker-color": "5c2b00",
+        "marker-size": "",
+        "marker-symbol": "entrance"
+      },
+      "geometry": {
+        "coordinates": [
+          -2.253343,
+          53.47432,
+          0
+        ],
+        "type": "Point"
+      },
+      "id": "47e1750b54637e1c4715e3efbac07563"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Rumoured Moston Cottage tunnel",
+        "title": "Rumoured Moston Cottage tunnel",
+        "description": "",
+        "marker-color": "5c2b00",
+        "marker-size": "",
+        "marker-symbol": "entrance",
+        "stroke": "#5c2b00",
+        "stroke-width": 4,
+        "stroke-opacity": 1
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -2.20675,
+            53.507128,
+            0
+          ],
+          [
+            -2.244194,
+            53.485224,
+            0
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "5e96b60215189b2390576feb7e500549"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Old MEN tunnel",
+        "description": "",
+        "title": "Old MEN tunnel",
+        "marker-color": "5c2b00",
+        "marker-size": "",
+        "marker-symbol": "entrance",
+        "stroke": "#5c2b00",
+        "stroke-width": 4,
+        "stroke-opacity": 1
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -2.250105,
+            53.479847,
+            0
+          ],
+          [
+            -2.24996,
+            53.480177,
+            0
+          ],
+          [
+            -2.249547,
+            53.480123,
+            0
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "693310a1a379c96aeca06dd6f612a71b"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Old Deanery",
+        "description": "",
+        "title": "Old Deanery",
+        "marker-color": "5c2b00",
+        "marker-size": "",
+        "marker-symbol": "entrance"
+      },
+      "geometry": {
+        "coordinates": [
+          -2.24723,
+          53.482354,
+          0
+        ],
+        "type": "Point"
+      },
+      "id": "786f5101ab3a99c5285f7b509f7a0849"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bridgewater Tunnel",
+        "description": "",
+        "title": "Bridgewater Tunnel",
+        "marker-color": "5c2b00",
+        "marker-size": "",
+        "marker-symbol": "entrance",
+        "stroke": "#5c2b00",
+        "stroke-width": 4,
+        "stroke-opacity": 1
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -2.252299,
+            53.475497,
+            0
+          ],
+          [
+            -2.25337,
+            53.4743,
+            0
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "81da1e06ddceb393e8ff5d82f69b1fe1"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Passage to Smith Hill & Co on Cannon Street",
+        "description": "",
+        "title": "Passage to Smith Hill & Co on Cannon Street",
+        "marker-color": "5c2b00",
+        "marker-size": "",
+        "marker-symbol": "entrance",
+        "stroke": "#5c2b00",
+        "stroke-width": 4,
+        "stroke-opacity": 1
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -2.244113,
+            53.484266,
+            0
+          ],
+          [
+            -2.241439,
+            53.48366,
+            0
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "92b7f799349d54776c03b04aadf0cafd"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Underground Skittle Alley and tunnel",
+        "title": "Underground Skittle Alley and tunnel",
+        "description": "",
+        "marker-color": "5c2b00",
+        "marker-size": "",
+        "marker-symbol": "entrance"
+      },
+      "geometry": {
+        "coordinates": [
+          -2.244518,
+          53.483607,
+          0
+        ],
+        "type": "Point"
+      },
+      "id": "98de4882c9860b95707560ce1cb81322"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Long Millgate Tunnel",
+        "title": "Long Millgate Tunnel",
+        "description": "",
+        "marker-color": "5c2b00",
+        "marker-size": "",
+        "marker-symbol": "entrance",
+        "stroke": "#5c2b00",
+        "stroke-width": 4,
+        "stroke-opacity": 1
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -2.24484,
+            53.483194,
+            0
+          ],
+          [
+            -2.24436,
+            53.483816,
+            0
+          ],
+          [
+            -2.243923,
+            53.484751,
+            0
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "9d28d1aab8ac528a9041a4fd662ca47a"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Rumoured Tunnel",
+        "description": "",
+        "title": "Rumoured Tunnel",
+        "marker-color": "5c2b00",
+        "marker-size": "",
+        "marker-symbol": "entrance",
+        "stroke": "#5c2b00",
+        "stroke-width": 4,
+        "stroke-opacity": 1
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -2.237933,
+            53.485154,
+            0
+          ],
+          [
+            -2.244189,
+            53.485205,
+            0
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "a46421630c45056fb635d5a183c78017"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Rumoured tunnel",
+        "description": "",
+        "title": "Rumoured tunnel",
+        "marker-color": "5c2b00",
+        "marker-size": "",
+        "marker-symbol": "entrance",
+        "stroke": "#5c2b00",
+        "stroke-width": 4,
+        "stroke-opacity": 1
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -2.244736,
+            53.488796,
+            0
+          ],
+          [
+            -2.2442,
+            53.485214,
+            0
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "a95dc785e66c2bdd36e848a402a48103"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tunnel from RBS",
+        "description": "",
+        "gx_media_links": "http://media.tumblr.com/d5fad7600417a9658b4951d64f347589/tumblr_inline_miks67SBB21qz4rgp.jpg",
+        "title": "Tunnel from RBS",
+        "marker-color": "5c2b00",
+        "marker-size": "",
+        "marker-symbol": "entrance"
+      },
+      "geometry": {
+        "coordinates": [
+          -2.239875,
+          53.480246,
+          0
+        ],
+        "type": "Point"
+      },
+      "id": "a99f213c82d5a204f634646eee19037c"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Walkers Croft tunnel",
+        "description": "",
+        "title": "Walkers Croft tunnel",
+        "marker-color": "5c2b00",
+        "marker-size": "",
+        "marker-symbol": "entrance"
+      },
+      "geometry": {
+        "coordinates": [
+          -2.242814,
+          53.48688,
+          0
+        ],
+        "type": "Point"
+      },
+      "id": "bd0ff1b81a462103c40bcab69454a3d6"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Trafford Hall Lodge",
+        "description": "According to Manchester Underground (Warrender, 2007:99) there existed a shaft in the Trafford Hall Lodge with a rope ladder heading down to the Deansgate tunnel.",
+        "title": "Trafford Hall Lodge",
+        "marker-color": "5c2b00",
+        "marker-size": "",
+        "marker-symbol": "entrance"
+      },
+      "geometry": {
+        "coordinates": [
+          -2.278912,
+          53.463564,
+          0
+        ],
+        "type": "Point"
+      },
+      "id": "d03538a0c1c00df52098f89dff4cde6d"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Cumberland Street Tunnel",
+        "description": "",
+        "title": "Cumberland Street Tunnel",
+        "marker-color": "5c2b00",
+        "marker-size": "",
+        "marker-symbol": "entrance",
+        "stroke": "#5c2b00",
+        "stroke-width": 4,
+        "stroke-opacity": 1
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -2.24854,
+            53.48004,
+            0
+          ],
+          [
+            -2.254473,
+            53.480998,
+            0
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "d0c10351f750c2f4fcfddc6dd08cee26"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Possible route of the Deansgate Tunnel",
+        "description": "",
+        "title": "Possible route of the Deansgate Tunnel",
+        "marker-color": "5c2b00",
+        "marker-size": "",
+        "marker-symbol": "entrance"
+      },
+      "geometry": {
+        "coordinates": [
+          -2.271058,
+          53.467434,
+          0
+        ],
+        "type": "Point"
+      },
+      "id": "d6923ba8d1509cd01533d7cfa90661f2"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Rumoured Tunnel",
+        "description": "",
+        "title": "Rumoured Tunnel",
+        "marker-color": "5c2b00",
+        "marker-size": "",
+        "marker-symbol": "entrance",
+        "stroke": "#5c2b00",
+        "stroke-width": 4,
+        "stroke-opacity": 1
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -2.244213,
+            53.486561,
+            0
+          ],
+          [
+            -2.244202,
+            53.48521,
+            0
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "d968967862cf84277978834986cd5f5f"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bridgewater Tunnel",
+        "description": "",
+        "gx_media_links": "http://www.canalscape.net/Castlefield%20Canal%20Heritage%20Walk/LR%20Pioneer%20Wharf%20Tunnel.jpg",
+        "title": "Bridgewater Tunnel",
+        "marker-color": "5c2b00",
+        "marker-size": "",
+        "marker-symbol": "entrance"
+      },
+      "geometry": {
+        "coordinates": [
+          -2.252889,
+          53.474788,
+          0
+        ],
+        "type": "Point"
+      },
+      "id": "ed3274f218d7fec4782445144ac300ee"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tunnel under Deansgate",
+        "description": "",
+        "title": "Tunnel under Deansgate",
+        "marker-color": "5c2b00",
+        "marker-size": "",
+        "marker-symbol": "entrance",
+        "stroke": "#5c2b00",
+        "stroke-width": 4,
+        "stroke-opacity": 1
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -2.247656,
+            53.481738,
+            0
+          ],
+          [
+            -2.2473,
+            53.481687,
+            0
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "ef8d746109fcd1758c2289a53bc0fd15"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Coop Tunnels",
+        "description": "",
+        "title": "Coop Tunnels",
+        "marker-color": "5c2b00",
+        "marker-size": "",
+        "marker-symbol": "entrance",
+        "stroke": "#5c2b00",
+        "stroke-width": 4,
+        "stroke-opacity": 1
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -2.239768,
+            53.487037,
+            0
+          ],
+          [
+            -2.238341,
+            53.486667,
+            0
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "f3ed0bcefacc8ca20d235cdac7636f0c"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Curious Tunnel",
+        "description": "",
+        "title": "Curious Tunnel",
+        "marker-color": "5c2b00",
+        "marker-size": "",
+        "marker-symbol": "entrance"
+      },
+      "geometry": {
+        "coordinates": [
+          -2.23067,
+          53.478289,
+          0
+        ],
+        "type": "Point"
+      },
+      "id": "f86128ffdc666c48f5a04efed4c6876a"
+    }
+  ],
+  "id": "markcrossfield.naek1lm4"
+}

@@ -1,0 +1,210 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bradford Colliery Workings",
+        "description": "Roughly plotted from 1966 map in Manchester Underground (Warrender, 2007:114).",
+        "title": "Bradford Colliery Workings",
+        "marker-color": "#000000",
+        "marker-size": "",
+        "marker-symbol": "oil-well",
+        "stroke": "#000000",
+        "stroke-width": 4,
+        "stroke-opacity": 1,
+        "fill": "#000000",
+        "fill-opacity": 0.20000000298023224
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -2.212299,
+              53.495858,
+              0
+            ],
+            [
+              -2.218651,
+              53.501628,
+              0
+            ],
+            [
+              -2.2238,
+              53.502649,
+              0
+            ],
+            [
+              -2.24397,
+              53.493202,
+              0
+            ],
+            [
+              -2.244742,
+              53.491721,
+              0
+            ],
+            [
+              -2.21659,
+              53.4788,
+              0
+            ],
+            [
+              -2.215388,
+              53.479924,
+              0
+            ],
+            [
+              -2.216848,
+              53.482988,
+              0
+            ],
+            [
+              -2.214273,
+              53.483908,
+              0
+            ],
+            [
+              -2.199166,
+              53.482988,
+              0
+            ],
+            [
+              -2.215046,
+              53.491057,
+              0
+            ],
+            [
+              -2.216504,
+              53.494274,
+              0
+            ],
+            [
+              -2.214787,
+              53.495653,
+              0
+            ],
+            [
+              -2.212299,
+              53.495858,
+              0
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "id": "39bd47e3f68731a3b51a83b067d4d3e3"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bradford Colliery",
+        "title": "Bradford Colliery",
+        "description": "",
+        "marker-color": "#000000",
+        "marker-size": "",
+        "marker-symbol": "oil-well"
+      },
+      "geometry": {
+        "coordinates": [
+          -2.196783,
+          53.482185,
+          0
+        ],
+        "type": "Point"
+      },
+      "id": "75d9d3b942560aaa73c72d71aa021f80"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bradford Hall",
+        "description": "http://www.pittdixon.go-plus.net/e-mcr/e-mcr.htm",
+        "title": "Bradford Hall",
+        "marker-color": "#000000",
+        "marker-size": "",
+        "marker-symbol": "oil-well"
+      },
+      "geometry": {
+        "coordinates": [
+          -2.198178,
+          53.488119,
+          0
+        ],
+        "type": "Point"
+      },
+      "id": "a6bd90090f0bbf4b81921172d06337d6"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Coal Tunnel to Stuart Street Power Station",
+        "description": "http://en.wikipedia.org/wiki/Bradford_Colliery#Later_years",
+        "title": "Coal Tunnel to Stuart Street Power Station",
+        "marker-color": "#000000",
+        "marker-size": "",
+        "marker-symbol": "oil-well",
+        "stroke": "#000000",
+        "stroke-width": 4,
+        "stroke-opacity": 1
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -2.196282,
+            53.482402,
+            0
+          ],
+          [
+            -2.192698,
+            53.485773,
+            0
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "bad483c489cdd3ef80d293d91935444f"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Medlock Hall",
+        "description": "http://www.pittdixon.go-plus.net/e-mcr/e-mcr.htm",
+        "title": "Medlock Hall",
+        "marker-color": "#000000",
+        "marker-size": "",
+        "marker-symbol": "oil-well"
+      },
+      "geometry": {
+        "coordinates": [
+          -2.209733,
+          53.485862,
+          0
+        ],
+        "type": "Point"
+      },
+      "id": "d8bf521a822b0db7e89c5de12f778902"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Coal Pit",
+        "description": "http://www.pittdixon.go-plus.net/e-mcr/e-mcr.htm",
+        "title": "Coal Pit",
+        "marker-color": "#000000",
+        "marker-size": "",
+        "marker-symbol": "oil-well"
+      },
+      "geometry": {
+        "coordinates": [
+          -2.196992,
+          53.488413,
+          0
+        ],
+        "type": "Point"
+      },
+      "id": "ec01828156d18ba4f20bcc066a0ac17b"
+    }
+  ],
+  "id": "markcrossfield.naeh9ef1"
+}

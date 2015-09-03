@@ -1,0 +1,208 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Melland Road Air Raid Shelters",
+        "description": "http://www.knowhere.co.uk/town/user_board/messages/4085",
+        "title": "Melland Road Air Raid Shelters",
+        "marker-color": "#00ff00",
+        "marker-size": "",
+        "marker-symbol": "hospital"
+      },
+      "geometry": {
+        "coordinates": [
+          -2.174649,
+          53.450519,
+          0
+        ],
+        "type": "Point"
+      },
+      "id": "1bcd9f75f3394a0744b98cb4b204465e"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Air Raid Shelter Entrance",
+        "description": "Somewhere on Lower Byrom Street",
+        "title": "Air Raid Shelter Entrance",
+        "marker-color": "#00ff00",
+        "marker-size": "",
+        "marker-symbol": "hospital"
+      },
+      "geometry": {
+        "coordinates": [
+          -2.253796,
+          53.477703,
+          0
+        ],
+        "type": "Point"
+      },
+      "id": "6fba03f7bc7d156802383a719a4cc1b3"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Shelter",
+        "title": "Shelter",
+        "description": "",
+        "marker-color": "#00ff00",
+        "marker-size": "",
+        "marker-symbol": "hospital"
+      },
+      "geometry": {
+        "coordinates": [
+          -2.244813,
+          53.485484,
+          0
+        ],
+        "type": "Point"
+      },
+      "id": "79b21276ebd144269465daef292f05db"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Air Raid Shelter Entrance",
+        "description": "Somewhere on Byrom Street",
+        "title": "Air Raid Shelter Entrance",
+        "marker-color": "#00ff00",
+        "marker-size": "",
+        "marker-symbol": "hospital"
+      },
+      "geometry": {
+        "coordinates": [
+          -2.252444,
+          53.477454,
+          0
+        ],
+        "type": "Point"
+      },
+      "id": "92525ca2566351556e81732cc7794e6f"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Gorton Air Raid Shelters",
+        "description": "https://www.google.co.uk/url?sa=t&amp;rct=j&amp;q=&amp;esrc=s&amp;source=web&amp;cd=1&amp;cad=rja&amp;ved=0CCMQFjAA&amp;url=https%3A%2F%2Fcms.manchester.gov.uk%2Fdownload%2F15524%2Fmanchester_urban_historic_landscape_characterisation_sections_8-appendices&amp;ei=7xN2UKTWBqXT0QWY3YCwAw&amp;usg=AFQjCNHsyXAHYicT4Ab-TTg5RykTCQhMJQ&amp;sig2=GnZxHkfPoDck7zi6KRyNWA",
+        "title": "Gorton Air Raid Shelters",
+        "marker-color": "#00ff00",
+        "marker-size": "",
+        "marker-symbol": "hospital"
+      },
+      "geometry": {
+        "coordinates": [
+          -2.198698,
+          53.47265,
+          0
+        ],
+        "type": "Point"
+      },
+      "id": "93dff0a1a52b20bc2156cefde8c2d733"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Entrance to shelter",
+        "title": "Entrance to shelter",
+        "description": "",
+        "marker-color": "#00ff00",
+        "marker-size": "",
+        "marker-symbol": "hospital"
+      },
+      "geometry": {
+        "coordinates": [
+          -2.245084,
+          53.48471,
+          0
+        ],
+        "type": "Point"
+      },
+      "id": "d4926b8e67ec97894cd6bb8e64adbacb"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Air Raid Shelter Entrance",
+        "description": "Somewhere on Watson Street",
+        "title": "Air Raid Shelter Entrance",
+        "marker-color": "#00ff00",
+        "marker-size": "",
+        "marker-symbol": "hospital"
+      },
+      "geometry": {
+        "coordinates": [
+          -2.248807,
+          53.476592,
+          0
+        ],
+        "type": "Point"
+      },
+      "id": "d6c6dcc5e2a401b373b5a6b5995d5750"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Air Raid Shelter Entrance",
+        "description": "Somewhere on Deansgate",
+        "title": "Air Raid Shelter Entrance",
+        "marker-color": "#00ff00",
+        "marker-size": "",
+        "marker-symbol": "hospital"
+      },
+      "geometry": {
+        "coordinates": [
+          -2.250341,
+          53.477058,
+          0
+        ],
+        "type": "Point"
+      },
+      "id": "ded432d6a6a3fae58fe55479206647c0"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Royal Observer Corps Bunker",
+        "description": "<img src=\"http://www.subbrit.org.uk/rsg/roc/uploads/988264928_Pic1_prestwich.jpg\" height=\"200\" width=\"auto\" /><br><br>One of the old civil defence bunkers, the rubble still recognisable from the Google Maps Street View. Nearby is the original Heaton Park Backbone BT radio tower (http://en.wikipedia.org/wiki/Heaton_Park_BT_Tower).<br><br> <br> (http://www.subbrit.org.uk/cgi-bin/webdata_roc.pl?fid=988264928&amp;query=Post%2BName%3D%26OS%2BGridRef%3D%26County%3D%26Date%2Bopened%3D%26Date%2Bclosed%3D%26Location%3D%26Description%3D%26Surface%2BStructures%3D%26Date%2Bof%2Bvisit%3D%26Future%2Bactions%3D%26pagenum%3D1%26cgifunction%3DSearch&amp;cgifunction=form)<br> <br>Google Maps (https://www.google.co.uk/maps?ll=53.515001,-2.213058&amp;spn=0.294374,0.727158&amp;cbll=53.539495,-2.254505&amp;layer=c&amp;panoid=mg3vl_-ApbOsAdfO_OG5zw&amp;cbp=12,99.33,,2,0.27&amp;t=m&amp;z=11)",
+        "gx_media_links": "http://www.subbrit.org.uk/rsg/roc/uploads/988264928_Pic1_prestwich.jpg",
+        "title": "Royal Observer Corps Bunker",
+        "marker-color": "#00ff00",
+        "marker-size": "",
+        "marker-symbol": "hospital"
+      },
+      "geometry": {
+        "coordinates": [
+          -2.254128,
+          53.539378,
+          0
+        ],
+        "type": "Point"
+      },
+      "id": "303c8a028d574caf6363970ebe3e42d8"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Manchester Corporation Control",
+        "description": "<img src=\"http://www.subbrit.org.uk/rsg/sites/m/manchester_corporation_main/manchester_main_control_1.jpg\" height=\"200\" width=\"auto\" /><br><br>http://www.subbrit.org.uk/rsg/sites/m/manchester_corporation_main/index.html<br><br><br>http://menmedia.co.uk/southmanchesterreporter/news/s/365201_universitys_flat_plan_for_historic_hall<br><br><br><br><br>Photo: Manchester Corporation Control<br>Photo by Nick Catford (http://www.subbrit.org.uk/rsg/contributors.html)",
+        "gx_media_links": "http://www.subbrit.org.uk/rsg/sites/m/manchester_corporation_main/manchester_main_control_1.jpg",
+        "title": "Manchester Corporation Control",
+        "marker-color": "#00ff00",
+        "marker-size": "",
+        "marker-symbol": "hospital"
+      },
+      "geometry": {
+        "coordinates": [
+          -2.242603,
+          53.420958,
+          0
+        ],
+        "type": "Point"
+      },
+      "id": "bf6310871f85180f9cbcde462096973d"
+    }
+  ],
+  "id": "markcrossfield.naehmjmp"
+}
