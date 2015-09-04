@@ -1425,7 +1425,7 @@ layer-color: '#a200ff'
       "type": "Feature",
       "properties": {
         "name": "Dial House",
-        "description": "",
+        "description": "BT Telephone Exchange",
         "title": "Dial House",
         "marker-color": "#a200ff",
         "marker-size": "",
@@ -1485,7 +1485,7 @@ layer-color: '#a200ff'
       "type": "Feature",
       "properties": {
         "name": "York Street Entrance",
-        "description": "",
+        "description": "Telephone buildings<br>Entrance to Guardian tunnels<br>Staircase / tunnel to Rutherford House",
         "title": "York Street Entrance",
         "marker-color": "#a200ff",
         "marker-size": "",
@@ -1525,7 +1525,7 @@ layer-color: '#a200ff'
       "type": "Feature",
       "properties": {
         "name": "Guardian Exchange",
-        "description": "",
+        "description": "http://www.youtube.com/user/hogshawrabbits#p/u/5/t8DsOUtpzTI<br><br><br>http://www.mancubist.co.uk/2006/07/25/guardian-exchange-manchesters-cold-war-bunkers<br><br><br>28 Days Later thread about the 2001 break in (http://www.28dayslater.co.uk/forums/showthread.php?t=9076)<br><br><br>28 Days Later report from engineer (http://www.28dayslater.co.uk/forums/showthread.php?t=25365)<br><br><br>http://www.atomica.co.uk/guardian/",
         "title": "Guardian Exchange",
         "marker-color": "#a200ff",
         "marker-size": "",

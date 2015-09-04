@@ -45,7 +45,7 @@
       "type": "Feature",
       "properties": {
         "name": "Piccadilly Gents Toilets",
-        "description": "<img src=\"http://www.images.manchester.gov.uk/web/objects/common/webmedia.php?irn=61432\" height=\"200\" width=\"auto\" /><br><br>Approximate location of the old public toilets and hairdresser apparently still present (albeit hidden) in Piccadilly Station. You used to have to go down steps which have apparently simply been covered over.<br><br> <br>You can see the entrance at the back of this image (thanks to Manchester Libraries).<br><br> <br><br>(found here (http://northernrailways.co.uk/forum/viewtopic.php?f=15&amp;t=5700#p70296))",
+        "description": "<img src=\"http://www.images.manchester.gov.uk/web/objects/common/webmedia.php?irn=61432\" height=auto width=200 /><br><br>Approximate location of the old public toilets and hairdresser apparently still present (albeit hidden) in Piccadilly Station. You used to have to go down steps which have apparently simply been covered over.<br><br> <br>You can see the entrance at the back of this image (thanks to Manchester Libraries).<br><br> <br><br>(found here (http://northernrailways.co.uk/forum/viewtopic.php?f=15&amp;t=5700#p70296))",
         "gx_media_links": "http://www.images.manchester.gov.uk/web/objects/common/webmedia.php?irn=61432",
         "title": "Piccadilly Gents Toilets",
         "marker-color": "#a8a8a8",
@@ -66,7 +66,7 @@
       "type": "Feature",
       "properties": {
         "name": "Market Place",
-        "description": "<img src=\"http://manchesterhistory.net/manchester/gone/marketplace1844.jpg\" height=\"200\" width=\"auto\" /><br><br>From Marks &amp; Spencer plc and Market Place (http://manchesterhistory.net/manchester/tours/tour4/area4page3.html)<br><br> (http://manchesterhistory.net/manchester/tours/tour4/area4page3.html)<br> (http://manchesterhistory.net/manchester/tours/tour4/area4page3.html)",
+        "description": "<img src=\"http://manchesterhistory.net/manchester/gone/marketplace1844.jpg\" height=auto width=200 /><br><br>From Marks &amp; Spencer plc and Market Place (http://manchesterhistory.net/manchester/tours/tour4/area4page3.html)<br><br> (http://manchesterhistory.net/manchester/tours/tour4/area4page3.html)<br> (http://manchesterhistory.net/manchester/tours/tour4/area4page3.html)",
         "gx_media_links": "http://manchesterhistory.net/manchester/gone/marketplace1844.jpg",
         "title": "Market Place",
         "marker-color": "#a8a8a8",
@@ -127,7 +127,7 @@
       "type": "Feature",
       "properties": {
         "name": "Lewis's Basement Canal",
-        "description": "<img src=\"http://i931.photobucket.com/albums/ad154/dav-p/Primark%20Ballroom%20And%20Rooftop%20Manchester%201211/IMG_0819.jpg\" height=\"200\" width=\"auto\" /><br><br>There was a recreation of a Venetian scene in the basement on gondola on a 2&#39; deep &#39;canal&#39;.<br><br> <br>Manchester Underground (Keith Warrender, 2007:61).<br><br> <br>As a point of interest the fifth floor still has a grand ballroom.<br><br> <br>http://www.millhouseue.com/2012/01/lewiss-building-primark-manchester.html (http://www.millhouseue.com/2012/01/lewiss-building-primark-manchester.html)<br><br> <br> (http://www.millhouseue.com/2012/01/lewiss-building-primark-manchester.html)",
+        "description": "<img src=\"http://i931.photobucket.com/albums/ad154/dav-p/Primark%20Ballroom%20And%20Rooftop%20Manchester%201211/IMG_0819.jpg\" height=auto width=200 /><br><br>There was a recreation of a Venetian scene in the basement on gondola on a 2&#39; deep &#39;canal&#39;.<br><br> <br>Manchester Underground (Keith Warrender, 2007:61).<br><br> <br>As a point of interest the fifth floor still has a grand ballroom.<br><br> <br>http://www.millhouseue.com/2012/01/lewiss-building-primark-manchester.html (http://www.millhouseue.com/2012/01/lewiss-building-primark-manchester.html)<br><br> <br> (http://www.millhouseue.com/2012/01/lewiss-building-primark-manchester.html)",
         "gx_media_links": "http://i931.photobucket.com/albums/ad154/dav-p/Primark%20Ballroom%20And%20Rooftop%20Manchester%201211/IMG_0819.jpg",
         "title": "Lewis's Basement Canal",
         "marker-color": "#a8a8a8",
@@ -188,7 +188,7 @@
       "type": "Feature",
       "properties": {
         "name": "Underground Market Entrance",
-        "description": "<img src=\"http://www.mdmarchive.co.uk/gfx/400-6169.jpg\" height=\"200\" width=\"auto\" /><br><br>",
+        "description": "<img src=\"http://www.mdmarchive.co.uk/gfx/400-6169.jpg\" height=auto width=200 /><br><br>",
         "gx_media_links": "http://www.mdmarchive.co.uk/gfx/400-6169.jpg",
         "title": "Underground Market Entrance",
         "marker-color": "#a8a8a8",
@@ -318,7 +318,7 @@
       "type": "Feature",
       "properties": {
         "name": "Original Arndale Streets",
-        "description": "<img src=\"http://upload.wikimedia.org/wikipedia/en/thumb/d/d2/Arndale_clearance.svg/568px-Arndale_clearance.svg.png\" height=\"200\" width=\"auto\" /><br><br>http://en.wikipedia.org/wiki/File:Arndale_clearance.svg (http://en.wikipedia.org/wiki/File:Arndale_clearance.svg)",
+        "description": "<img src=\"http://upload.wikimedia.org/wikipedia/en/thumb/d/d2/Arndale_clearance.svg/568px-Arndale_clearance.svg.png\" height=auto width=200 /><br><br>http://en.wikipedia.org/wiki/File:Arndale_clearance.svg (http://en.wikipedia.org/wiki/File:Arndale_clearance.svg)",
         "gx_media_links": "http://upload.wikimedia.org/wikipedia/en/thumb/d/d2/Arndale_clearance.svg/568px-Arndale_clearance.svg.png",
         "title": "Original Arndale Streets",
         "marker-color": "#a8a8a8",
@@ -339,7 +339,7 @@
       "type": "Feature",
       "properties": {
         "name": "Shaft",
-        "description": "<img src=\"http://www.canalscape.net/Castlefield%20Canal%20Heritage%20Walk/LR%20Bridgewater%20Tunnel%20Shaft.jpg\" height=\"200\" width=\"auto\" /><br><br>Taken from http://www.canalscape.net/Castlefield%20Canal%20Heritage%20Walk/Castlefield%20Canal%20Heritage%20Walk.htm (http://www.canalscape.net/Castlefield%20Canal%20Heritage%20Walk/Castlefield%20Canal%20Heritage%20Walk.htm)<br><br> (http://www.canalscape.net/Castlefield%20Canal%20Heritage%20Walk/Castlefield%20Canal%20Heritage%20Walk.htm) (http://www.canalscape.net/Castlefield%20Canal%20Heritage%20Walk/Castlefield%20Canal%20Heritage%20Walk.htm)",
+        "description": "<img src=\"http://www.canalscape.net/Castlefield%20Canal%20Heritage%20Walk/LR%20Bridgewater%20Tunnel%20Shaft.jpg\" height=auto width=200 /><br><br>Taken from http://www.canalscape.net/Castlefield%20Canal%20Heritage%20Walk/Castlefield%20Canal%20Heritage%20Walk.htm (http://www.canalscape.net/Castlefield%20Canal%20Heritage%20Walk/Castlefield%20Canal%20Heritage%20Walk.htm)<br><br> (http://www.canalscape.net/Castlefield%20Canal%20Heritage%20Walk/Castlefield%20Canal%20Heritage%20Walk.htm) (http://www.canalscape.net/Castlefield%20Canal%20Heritage%20Walk/Castlefield%20Canal%20Heritage%20Walk.htm)",
         "gx_media_links": "http://www.canalscape.net/Castlefield%20Canal%20Heritage%20Walk/LR%20Bridgewater%20Tunnel%20Shaft.jpg",
         "title": "Shaft",
         "marker-color": "#a8a8a8",
@@ -620,7 +620,7 @@
       "type": "Feature",
       "properties": {
         "name": "Mystery Steps",
-        "description": "<img src=\"http://farm2.staticflickr.com/1403/1182284990_055a0dd30f_z.jpg\" height=\"200\" width=\"auto\" /><br><br>Steps which probably lead to the workings of the Piccadilly Gardens fountain.<br><br> <br> (http://www.flickr.com/photos/manc/1182284990/)",
+        "description": "<img src=\"http://farm2.staticflickr.com/1403/1182284990_055a0dd30f_z.jpg\" height=auto width=200 /><br><br>Steps which probably lead to the workings of the Piccadilly Gardens fountain.<br><br> <br> (http://www.flickr.com/photos/manc/1182284990/)",
         "gx_media_links": "http://farm2.staticflickr.com/1403/1182284990_055a0dd30f_z.jpg",
         "title": "Mystery Steps",
         "marker-color": "#a8a8a8",

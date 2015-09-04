@@ -70,7 +70,7 @@
       "type": "Feature",
       "properties": {
         "name": "End of Irk Culvert",
-        "description": "<img src=\"http://www.darkplaces.co.uk/phpBB2/album_screensize_thumbnail.php?pic_id=13144\" height=\"200\" width=\"auto\" /><br><br>(http://www.darkplaces.co.uk/phpBB2/album_screensize_image_page.php?pic_id=7404&amp;mode=next)",
+        "description": "<img src=\"http://www.darkplaces.co.uk/phpBB2/album_screensize_thumbnail.php?pic_id=13144\" height=auto width=200 /><br><br>(http://www.darkplaces.co.uk/phpBB2/album_screensize_image_page.php?pic_id=7404&amp;mode=next)",
         "gx_media_links": "http://www.darkplaces.co.uk/phpBB2/album_screensize_thumbnail.php?pic_id=13144",
         "title": "End of Irk Culvert",
         "marker-color": "#3887be",
@@ -191,7 +191,7 @@
       "type": "Feature",
       "properties": {
         "name": "River Medlock and Siphon Tunnel ",
-        "description": "<img src=\"http://www.canalscape.net/Castlefield%20Canal%20Heritage%20Walk/LR%20Siphon%20Entrance.jpg\" height=\"200\" width=\"auto\" /><br><br>Manchester Confidential Article (http://www.manchesterconfidential.co.uk/Culture/Architecture/The-Good-The-Standard-and-The-Ugly-Knott-Mill-Bridge)<br><br> <br>Castlefield Canal Heritage Walk (http://www.canalscape.net/Castlefield%20Canal%20Heritage%20Walk/Castlefield%20Canal%20Heritage%20Walk.htm)<br> <br>Detailed map:<br>http://enriqueta.man.ac.uk/luna/servlet/detail/maps2~1~1~339789~123137:Manchester?sort=Reference_Number%2CReference_Number%2CReference_Number%2CPage&qvq=q:Ordnance%2BSurvey%2Blarge%2Bscale;sort:Reference_Number%2CReference_Number%2CReference_Number%2CPage;lc:maps2~1~1,Manchester~91~1,ManchesterDev~95~2,Man4MedievalVC~4~4,nonconform~91~1,ManchesterDev~93~3,lib1~1~1&mi=2&trs=50<br><br><img src=\"http://www.canalscape.net/Castlefield%20Canal%20Heritage%20Walk/LR%20River%20Medlock%20Siphon.jpg\" height=\"200\" width=\"auto\" />",
+        "description": "<img src=\"http://www.canalscape.net/Castlefield%20Canal%20Heritage%20Walk/LR%20Siphon%20Entrance.jpg\" height=auto width=200 /><br><br>Manchester Confidential Article (http://www.manchesterconfidential.co.uk/Culture/Architecture/The-Good-The-Standard-and-The-Ugly-Knott-Mill-Bridge)<br><br> <br>Castlefield Canal Heritage Walk (http://www.canalscape.net/Castlefield%20Canal%20Heritage%20Walk/Castlefield%20Canal%20Heritage%20Walk.htm)<br> <br>Detailed map:<br>http://enriqueta.man.ac.uk/luna/servlet/detail/maps2~1~1~339789~123137:Manchester?sort=Reference_Number%2CReference_Number%2CReference_Number%2CPage&qvq=q:Ordnance%2BSurvey%2Blarge%2Bscale;sort:Reference_Number%2CReference_Number%2CReference_Number%2CPage;lc:maps2~1~1,Manchester~91~1,ManchesterDev~95~2,Man4MedievalVC~4~4,nonconform~91~1,ManchesterDev~93~3,lib1~1~1&mi=2&trs=50<br><br><img src=\"http://www.canalscape.net/Castlefield%20Canal%20Heritage%20Walk/LR%20River%20Medlock%20Siphon.jpg\" height=auto width=200 />",
         "gx_media_links": "http://www.canalscape.net/Castlefield%20Canal%20Heritage%20Walk/LR%20Siphon%20Entrance.jpg http://www.canalscape.net/Castlefield%20Canal%20Heritage%20Walk/LR%20River%20Medlock%20Siphon.jpg",
         "title": "River Medlock and Siphon Tunnel ",
         "marker-color": "#3887be",
@@ -232,7 +232,7 @@
       "type": "Feature",
       "properties": {
         "name": "Manchester Salford Junction Canal Tunnel",
-        "description": "<img src=\"http://www.andrewbrooksphotography.com/uploads/gallery/647.jpg\" height=\"auto\" width=\"200\" /><br><br>Pennine Waterways Page (http://www.penninewaterways.co.uk/manchester/m50.htm)",
+        "description": "<img src=\"http://www.andrewbrooksphotography.com/uploads/gallery/647.jpg\" height=auto width=200 /><br><br>Pennine Waterways Page (http://www.penninewaterways.co.uk/manchester/m50.htm)",
         "gx_media_links": "http://www.andrewbrooksphotography.com/uploads/gallery/647.jpg",
         "title": "Manchester Salford Junction Canal Tunnel",
         "marker-color": "#3887be",
@@ -349,7 +349,7 @@
       "type": "Feature",
       "properties": {
         "name": "Cornbrook Weir",
-        "description": "<img src=\"http://www.transportarchive.org.uk/aimages/T2493.jpg\" height=\"200\" width=\"auto\" /><br><br>http://www.canalarchive.org.uk/Tpages/html/T2493.html",
+        "description": "<img src=\"http://www.transportarchive.org.uk/aimages/T2493.jpg\" height=auto width=200 /><br><br>http://www.canalarchive.org.uk/Tpages/html/T2493.html",
         "gx_media_links": "http://www.transportarchive.org.uk/aimages/T2493.jpg",
         "title": "Cornbrook Weir",
         "marker-color": "#3887be",
@@ -370,7 +370,7 @@
       "type": "Feature",
       "properties": {
         "name": "Medlock emerging",
-        "description": "<img src=\"http://www.canalscape.net/Castlefield%20Canal%20Heritage%20Walk/LR%20Medlock%20Tunnel%20End.jpg\" height=\"200\" width=\"auto\" /><br><br>Castlefield Canal Heritage Walk (http://www.canalscape.net/Castlefield%20Canal%20Heritage%20Walk/Castlefield%20Canal%20Heritage%20Walk.htm)",
+        "description": "<img src=\"http://www.canalscape.net/Castlefield%20Canal%20Heritage%20Walk/LR%20Medlock%20Tunnel%20End.jpg\" height=auto width=200 /><br><br>Castlefield Canal Heritage Walk (http://www.canalscape.net/Castlefield%20Canal%20Heritage%20Walk/Castlefield%20Canal%20Heritage%20Walk.htm)",
         "gx_media_links": "http://www.canalscape.net/Castlefield%20Canal%20Heritage%20Walk/LR%20Medlock%20Tunnel%20End.jpg",
         "title": "Medlock emerging",
         "marker-color": "#3887be",
@@ -751,7 +751,7 @@
       "type": "Feature",
       "properties": {
         "name": "Remains of Brindley's Cloverleaf Weir on Potato Wharf",
-        "description": "<img src=\"http://www.canalscape.net/Castlefield%20Canal%20Heritage%20Walk/LR%20Potato%20Wharf%20Weir.jpg\" height=\"200\" width=\"auto\" /><br><br>Castlefield Canal Heritage Walk (http://www.canalscape.net/Castlefield%20Canal%20Heritage%20Walk/Castlefield%20Canal%20Heritage%20Walk.htm)",
+        "description": "<img src=\"http://www.canalscape.net/Castlefield%20Canal%20Heritage%20Walk/LR%20Potato%20Wharf%20Weir.jpg\" height=auto width=200 /><br><br>Castlefield Canal Heritage Walk (http://www.canalscape.net/Castlefield%20Canal%20Heritage%20Walk/Castlefield%20Canal%20Heritage%20Walk.htm)",
         "gx_media_links": "http://www.canalscape.net/Castlefield%20Canal%20Heritage%20Walk/LR%20Potato%20Wharf%20Weir.jpg",
         "title": "Remains of Brindley's Cloverleaf Weir on Potato Wharf",
         "marker-color": "#3887be",
@@ -992,7 +992,7 @@
       "type": "Feature",
       "properties": {
         "name": "Rochdale Canal under Dale Street",
-        "description": "<img src=\"https://mw2.google.com/mw-panoramio/photos/medium/45925755.jpg\" height=\"200\" width=\"auto\" /><br><br>From Panoramio (https://ssl.panoramio.com/photo/45925755)<br> (https://ssl.panoramio.com/photo/45925755)",
+        "description": "<img src=\"https://mw2.google.com/mw-panoramio/photos/medium/45925755.jpg\" height=auto width=200 /><br><br>From Panoramio (https://ssl.panoramio.com/photo/45925755)<br> (https://ssl.panoramio.com/photo/45925755)",
         "gx_media_links": "https://mw2.google.com/mw-panoramio/photos/medium/45925755.jpg",
         "title": "Rochdale Canal under Dale Street",
         "marker-color": "#3887be",
@@ -1263,7 +1263,7 @@
       "type": "Feature",
       "properties": {
         "name": "Medlock Culvert Vent",
-        "description": "<img src=\"http://www.canalscape.net/Castlefield%20Canal%20Heritage%20Walk/LR%20Medlock%20Tunnel%20Vent.jpg\" height=\"200\" width=\"auto\" /><br><br>Castlefield Canal Heritage Walk (http://www.canalscape.net/Castlefield%20Canal%20Heritage%20Walk/Castlefield%20Canal%20Heritage%20Walk.htm)",
+        "description": "<img src=\"http://www.canalscape.net/Castlefield%20Canal%20Heritage%20Walk/LR%20Medlock%20Tunnel%20Vent.jpg\" height=auto width=200 /><br><br>Castlefield Canal Heritage Walk (http://www.canalscape.net/Castlefield%20Canal%20Heritage%20Walk/Castlefield%20Canal%20Heritage%20Walk.htm)",
         "gx_media_links": "http://www.canalscape.net/Castlefield%20Canal%20Heritage%20Walk/LR%20Medlock%20Tunnel%20Vent.jpg",
         "title": "Medlock Culvert Vent",
         "marker-color": "#3887be",
@@ -1429,7 +1429,7 @@
       "type": "Feature",
       "properties": {
         "name": "Dukes Tunnel Entrance",
-        "description": "<img src=\"http://www.canalscape.net/Castlefield%20Canal%20Heritage%20Walk/LR%20Duke's%20Tunnel%20-%20Bank%20Top%20-%20River%20Medlock.jpg\" height=\"200\" width=\"auto\" /><br><br>&quot;This tunnel was completed in 1789 and was 650 yards in length, 8ft 6ins high and 6 feet wide. Judging by the narrow width and lack of towpath the boats used must have been &quot;Starvationers&quot;... the type of compartment boat used inside the Worsley Mines. At the coal face the coal they carried was loaded into wooden containers which fitted in between the exposed ribs inside the boats (hence the name &quot;Starvationers&quot;). The boats were &quot;legged&quot; through the tunnel and the coal delivered to the end at Bank Top close to the approach to Piccadilly Station. Once at the end of the tunnel, near the junction of London Road and Ducie Street, the wooden coal containers were winched to the surface by a horse gin... a horse-powered hoist for delivery to the adjacent Knowles and Sons Coal Yard. The River Medlock was gradually made un-navigable by about 1800 due to adjacent factories and mills disposing of cinders and other rubbish into it causing it to silt up.&quot;<br>Cas",
+        "description": "<img src=\"http://www.canalscape.net/Castlefield%20Canal%20Heritage%20Walk/LR%20Duke's%20Tunnel%20-%20Bank%20Top%20-%20River%20Medlock.jpg\" height=auto width=200 /><br><br>&quot;This tunnel was completed in 1789 and was 650 yards in length, 8ft 6ins high and 6 feet wide. Judging by the narrow width and lack of towpath the boats used must have been &quot;Starvationers&quot;... the type of compartment boat used inside the Worsley Mines. At the coal face the coal they carried was loaded into wooden containers which fitted in between the exposed ribs inside the boats (hence the name &quot;Starvationers&quot;). The boats were &quot;legged&quot; through the tunnel and the coal delivered to the end at Bank Top close to the approach to Piccadilly Station. Once at the end of the tunnel, near the junction of London Road and Ducie Street, the wooden coal containers were winched to the surface by a horse gin... a horse-powered hoist for delivery to the adjacent Knowles and Sons Coal Yard. The River Medlock was gradually made un-navigable by about 1800 due to adjacent factories and mills disposing of cinders and other rubbish into it causing it to silt up.&quot;<br>Cas",
         "gx_media_links": "http://www.canalscape.net/Castlefield%20Canal%20Heritage%20Walk/LR%20Duke's%20Tunnel%20-%20Bank%20Top%20-%20River%20Medlock.jpg",
         "title": "Dukes Tunnel Entrance",
         "marker-color": "#3887be",
@@ -1625,7 +1625,7 @@
       "type": "Feature",
       "properties": {
         "name": "Cathedral Landing Stage",
-        "description": "<img src=\"http://i931.photobucket.com/albums/ad154/dav-p/Victoria%20Arches%20Manchester%20090311/800px-Cathedral_Landing_Stage.jpg\" height=\"200\" width=\"auto\" /><br><br>(http://en.wikipedia.org/wiki/File:Cathedral_Landing_Stage.jpg)",
+        "description": "<img src=\"http://i931.photobucket.com/albums/ad154/dav-p/Victoria%20Arches%20Manchester%20090311/800px-Cathedral_Landing_Stage.jpg\" height=auto width=200 /><br><br>(http://en.wikipedia.org/wiki/File:Cathedral_Landing_Stage.jpg)",
         "gx_media_links": "http://i931.photobucket.com/albums/ad154/dav-p/Victoria%20Arches%20Manchester%20090311/800px-Cathedral_Landing_Stage.jpg",
         "title": "Cathedral Landing Stage",
         "marker-color": "#3887be",
@@ -1781,7 +1781,7 @@
       "type": "Feature",
       "properties": {
         "name": "Medlock",
-        "description": "<img src=\"http://i931.photobucket.com/albums/ad154/dav-p/Manc%20Draining%20UMIST%20etc%201011/IMG_8054.jpg\" height=\"200\" width=\"auto\" /><br><br>(http://www.millhouseue.com/2011/11/manchester-draining-umist-hulme-flumes.html)",
+        "description": "<img src=\"http://i931.photobucket.com/albums/ad154/dav-p/Manc%20Draining%20UMIST%20etc%201011/IMG_8054.jpg\" height=auto width=200 /><br><br>(http://www.millhouseue.com/2011/11/manchester-draining-umist-hulme-flumes.html)",
         "gx_media_links": "http://i931.photobucket.com/albums/ad154/dav-p/Manc%20Draining%20UMIST%20etc%201011/IMG_8054.jpg",
         "title": "Medlock",
         "marker-color": "#3887be",
@@ -2447,7 +2447,7 @@
       "type": "Feature",
       "properties": {
         "name": "Shooters Brook",
-        "description": "<img src=\"http://farm9.staticflickr.com/8464/8093668858_496d331988_c.jpg\" height=\"200\" width=\"auto\" /><br><br>Plotted with map from this page (http://www.canalworld.net/forums/index.php?showtopic=51187&amp;pid=958836&amp;st=20&amp;#entry958836).<br><br>  (http://farm9.staticflickr.com/8464/8093668858_496d331988_c.jpg)",
+        "description": "<img src=\"http://farm9.staticflickr.com/8464/8093668858_496d331988_c.jpg\" height=auto width=200 /><br><br>Plotted with map from this page (http://www.canalworld.net/forums/index.php?showtopic=51187&amp;pid=958836&amp;st=20&amp;#entry958836).<br><br>  (http://farm9.staticflickr.com/8464/8093668858_496d331988_c.jpg)",
         "gx_media_links": "http://farm9.staticflickr.com/8464/8093668858_496d331988_c.jpg",
         "title": "Shooters Brook",
         "marker-color": "#3887be",

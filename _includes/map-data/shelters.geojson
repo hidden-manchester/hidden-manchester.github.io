@@ -165,7 +165,7 @@
       "type": "Feature",
       "properties": {
         "name": "Royal Observer Corps Bunker",
-        "description": "<img src=\"http://www.subbrit.org.uk/rsg/roc/uploads/988264928_Pic1_prestwich.jpg\" height=\"200\" width=\"auto\" /><br><br>One of the old civil defence bunkers, the rubble still recognisable from the Google Maps Street View. Nearby is the original Heaton Park Backbone BT radio tower (http://en.wikipedia.org/wiki/Heaton_Park_BT_Tower).<br><br> <br> (http://www.subbrit.org.uk/cgi-bin/webdata_roc.pl?fid=988264928&amp;query=Post%2BName%3D%26OS%2BGridRef%3D%26County%3D%26Date%2Bopened%3D%26Date%2Bclosed%3D%26Location%3D%26Description%3D%26Surface%2BStructures%3D%26Date%2Bof%2Bvisit%3D%26Future%2Bactions%3D%26pagenum%3D1%26cgifunction%3DSearch&amp;cgifunction=form)<br> <br>Google Maps (https://www.google.co.uk/maps?ll=53.515001,-2.213058&amp;spn=0.294374,0.727158&amp;cbll=53.539495,-2.254505&amp;layer=c&amp;panoid=mg3vl_-ApbOsAdfO_OG5zw&amp;cbp=12,99.33,,2,0.27&amp;t=m&amp;z=11)",
+        "description": "<img src=\"http://www.subbrit.org.uk/rsg/roc/uploads/988264928_Pic1_prestwich.jpg\" height=auto width=200 /><br><br>One of the old civil defence bunkers, the rubble still recognisable from the Google Maps Street View. Nearby is the original Heaton Park Backbone BT radio tower (http://en.wikipedia.org/wiki/Heaton_Park_BT_Tower).<br><br> <br> (http://www.subbrit.org.uk/cgi-bin/webdata_roc.pl?fid=988264928&amp;query=Post%2BName%3D%26OS%2BGridRef%3D%26County%3D%26Date%2Bopened%3D%26Date%2Bclosed%3D%26Location%3D%26Description%3D%26Surface%2BStructures%3D%26Date%2Bof%2Bvisit%3D%26Future%2Bactions%3D%26pagenum%3D1%26cgifunction%3DSearch&amp;cgifunction=form)<br> <br>Google Maps (https://www.google.co.uk/maps?ll=53.515001,-2.213058&amp;spn=0.294374,0.727158&amp;cbll=53.539495,-2.254505&amp;layer=c&amp;panoid=mg3vl_-ApbOsAdfO_OG5zw&amp;cbp=12,99.33,,2,0.27&amp;t=m&amp;z=11)",
         "gx_media_links": "http://www.subbrit.org.uk/rsg/roc/uploads/988264928_Pic1_prestwich.jpg",
         "title": "Royal Observer Corps Bunker",
         "marker-color": "#00ff00",
@@ -186,7 +186,7 @@
       "type": "Feature",
       "properties": {
         "name": "Manchester Corporation Control",
-        "description": "<img src=\"http://www.subbrit.org.uk/rsg/sites/m/manchester_corporation_main/manchester_main_control_1.jpg\" height=\"200\" width=\"auto\" /><br><br>http://www.subbrit.org.uk/rsg/sites/m/manchester_corporation_main/index.html<br><br><br>http://menmedia.co.uk/southmanchesterreporter/news/s/365201_universitys_flat_plan_for_historic_hall<br><br><br><br><br>Photo: Manchester Corporation Control<br>Photo by Nick Catford (http://www.subbrit.org.uk/rsg/contributors.html)",
+        "description": "<img src=\"http://www.subbrit.org.uk/rsg/sites/m/manchester_corporation_main/manchester_main_control_1.jpg\" height=auto width=200 /><br><a href=http://www.subbrit.org.uk/rsg/sites/m/manchester_corporation_main/index.html target=_blank>Subterranea Britannica</a><br><a href=http://menmedia.co.uk/southmanchesterreporter/news/s/365201_universitys_flat_plan_for_historic_hall target=_blank>University plans</a><br>Photo: Manchester Corporation Control<br>Photo by <a href=http://www.subbrit.org.uk/rsg/contributors.html target=_blank>Nick Catford</a>",
         "gx_media_links": "http://www.subbrit.org.uk/rsg/sites/m/manchester_corporation_main/manchester_main_control_1.jpg",
         "title": "Manchester Corporation Control",
         "marker-color": "#00ff00",
