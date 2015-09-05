@@ -5,8 +5,7 @@
       "type": "Feature",
       "properties": {
         "name": "Original entrance to underground toilets",
-        "description": "<img src=\"http://farm5.staticflickr.com/4078/5442322567_de96ac3a8f.jpg\" height=auto width=200 /><br><br>Old Photo (http://en.wikipedia.org/wiki/File:Manchester_Cathedral,_1903.jpg)<br><br> <br> (http://www.flickr.com/photos/manchesterarchiveplus/5442322567/)<br><br><br><br> (http://www.flickr.com/photos/manchesterarchiveplus/5442322093/)<br><br><img src=\"http://farm6.staticflickr.com/5215/5442322093_27d9f88228_z.jpg\" height=auto width=200 />",
-        "gx_media_links": "http://farm5.staticflickr.com/4078/5442322567_de96ac3a8f.jpg http://farm6.staticflickr.com/5215/5442322093_27d9f88228_z.jpg",
+        "description": "<a href=https://en.wikipedia.org/wiki/File:Manchester_Cathedral,_1903.jpg target=_blank>Cheshire Lines Railway cutting (March 1985)</a> on Panoramio.",
         "title": "Original entrance to underground toilets",
         "marker-color": "#ff9999",
         "marker-size": "",
@@ -190,7 +189,7 @@
       "type": "Feature",
       "properties": {
         "name": "Hanging Bridge",
-        "description": "Spans Hanging Ditch<br><br>BBC (http://news.bbc.co.uk/1/hi/uk/england/1717912.stm)<br>DarkPlaces (http://www.darkplaces.co.uk/phpBB2/album_screensize_image_page.php?pic_id=7383&amp;mode=next)",
+        "description": "This bridge spans Hanging Ditch. You can read a BBC article titled <a href=http://news.bbc.co.uk/1/hi/uk/england/1717912.stm target=_blank>Bridge to Manchester's past revealed</a>.",
         "title": "Hanging Bridge",
        "marker-color": "#ff9999",
         "marker-size": "",
@@ -210,10 +209,9 @@
       "type": "Feature",
       "properties": {
         "name": "Wooden Cattle Bridge",
-        "description": "<img src=\"http://i770.photobucket.com/albums/xx345/ojay1234/Other/Prime_2011/5.jpg\" height=auto width=200 /><br><br>Walkers Croft / Long Millgate bridge<br><br>Read more: http://www.manchester.gov.uk/info/511/conservation_areas/964/cathedral_conservation_area/2<br> <br>You can see this map as the original access route for the single platform Victoria Station on the John Rylands University Library online catalogue:<br><br>http://enriqueta.man.ac.uk/luna/servlet/detail/maps2~1~1~340838~123201:Manchester-City-Centre?sort=Reference_Number%2CReference_Number%2CReference_Number%2CPage&qvq=q:map%2Bmanchester%2Bordnance%2Bsurvey;sort:Reference_Number%2CReference_Number%2CReference_Number%2CPage;lc:maps2~1~1,Manchester~91~1,ManchesterDev~95~2,Man4MedievalVC~4~4,nonconform~91~1,ManchesterDev~93~3,lib1~1~1&mi=3&trs=219<br><br>It is obscured by a higher level bridge on later maps:<br>http://enriqueta.man.ac.uk/luna/servlet/detail/maps2~1~1~339437~123115:Manchester?sort=Reference_Number%2CReference_Number%2CReference_Number%2CPage&qvq=q:map%2Bmanchester%2Bordnance%2Bsurvey;sort:Reference_Number%2CReference_Number%2CReference_Number%2CPage;lc:maps2~1~1,Manchester~91~1,ManchesterDev~95~2,Man4MedievalVC~4~4,nonconform~91~1,ManchesterDev~93~3,lib1~1~1&mi=202&trs=219<br><br>From here (http://www.urbexforums.co.uk/showthread.php/16027-Optimus-Prime-Manchester-Various-Re-visits-from-2011.):<br>&quot;20ft below the Station can be found the original cattle bridge, which linked Long Millgate with Walkers Croft<br><br>It is now covered over and serves as a utility tunnel&quot;<br><br> <br>Also discussed in Underground Manchester (Warrender, 2007:73)",
-        "gx_media_links": "http://i770.photobucket.com/albums/xx345/ojay1234/Other/Prime_2011/5.jpg",
+        "description": "See <a href=http://i770.photobucket.com/albums/xx345/ojay1234/Other/Prime_2011/5.jpg target=_blank>Ojay’s photo</a>. This is Walkers Croft / Long Millgate bridge. You can read more about the area on the Council’s <a href=http://www.manchester.gov.uk/info/511/conservation_areas/964/cathedral_conservation_area target=_blank>Cathedral Conservation Area</a> page.<br><br>You can see this as the original access route for the single platform Victoria Station on a map shown in the <a href=http://enriqueta.man.ac.uk/luna/servlet/detail/maps2~1~1~340838~123201:Manchester-City-Centre?sort=Reference_Number%2CReference_Number%2CReference_Number%2CPage&qvq=q:map%2Bmanchester%2Bordnance%2Bsurvey;sort:Reference_Number%2CReference_Number%2CReference_Number%2CPage;lc:maps2~1~1,Manchester~91~1,ManchesterDev~95~2,Man4MedievalVC~4~4,nonconform~91~1,ManchesterDev~93~3,lib1~1~1&mi=3&trs=219 target=_blank>John Rylands University Library online catalogue</a>. It is obscured by a higher level bridge on <a href=http://enriqueta.man.ac.uk/luna/servlet/detail/maps2~1~1~339437~123115:Manchester?sort=Reference_Number%2CReference_Number%2CReference_Number%2CPage&qvq=q:map%2Bmanchester%2Bordnance%2Bsurvey;sort:Reference_Number%2CReference_Number%2CReference_Number%2CPage;lc:maps2~1~1,Manchester~91~1,ManchesterDev~95~2,Man4MedievalVC~4~4,nonconform~91~1,ManchesterDev~93~3,lib1~1~1&mi=202&trs=219 target=_blank>later maps</a>.<br><br><blockquote>“20ft below the Station can be found the original cattle bridge, which linked Long Millgate with Walkers Croft. It is now covered over and serves as a utility tunnel.”<footer>—now closed <a href=http://www.urbexforums.co.uk/showthread.php/16027-Optimus-Prime-Manchester-Various-Re-visits-from-2011. target=_blank>Urbex Forums</a></footer></blockquote><br>Also discussed in Underground Manchester (Warrender, 2007:73).",
         "title": "Wooden Cattle Bridge",
-       "marker-color": "#ff9999",
+        "marker-color": "#ff9999",
         "marker-size": "",
         "marker-symbol": "v"
       },
@@ -246,26 +244,6 @@
         "type": "Point"
       },
       "id": "a965aca12b7381922edb81eea25a9d08"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Bolton Arms",
-        "description": "83 New Bridge Street.<br><br> <br>Rumoured to have a passageway to Victoria Station, and possibly the cathedral.",
-        "title": "Bolton Arms",
-       "marker-color": "#ff9999",
-        "marker-size": "",
-        "marker-symbol": "v"
-      },
-      "geometry": {
-        "coordinates": [
-          -2.244746,
-          53.488802,
-          0
-        ],
-        "type": "Point"
-      },
-      "id": "cea485a0ea17fa419ed9d2896e149ecb"
     }
   ],
   "id": "markcrossfield.naek46j5"

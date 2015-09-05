@@ -4,9 +4,9 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Wagstaff's Piano Shop",
-        "description": "",
-        "title": "Wagstaff's Piano Shop",
+        "name": "Wagstaff’s Piano Shop",
+        "description": "1–3 St Mary’s Gate - Albert Wagstaff’s shop is referenced a number of times in relation to the Deansgate Tunnel. It has been claimed that two flights of stairs led down to the tunnel which was used for storage. See Manchester Underground (Warrender, 2007:96).",
+        "title": "Wagstaff’s Piano Shop",
         "marker-color": "5c2b00",
         "marker-size": "",
         "marker-symbol": "entrance"
@@ -25,7 +25,7 @@
       "type": "Feature",
       "properties": {
         "name": "Silver Street",
-        "description": "",
+        "description": "Silver Street, as it was up to at least 1960.",
         "title": "Silver Street",
         "marker-color": "5c2b00",
         "marker-size": "",
@@ -60,7 +60,7 @@
       "type": "Feature",
       "properties": {
         "name": "Route of the Deansgate Tunnel",
-        "description": "",
+        "description": "According to Manchester Underground (Warrender, 2007:99) the tunnel was entered through a door under houses on Silver Street.",
         "title": "Route of the Deansgate Tunnel",
         "marker-color": "5c2b00",
         "marker-size": "",
@@ -80,7 +80,7 @@
       "type": "Feature",
       "properties": {
         "name": "Tunnels under Deanwater Close / Skerry Close",
-        "description": "",
+        "description": "24ft high, 45ft long 15ft wide chamber with arched roof discovered in 1964, accessed through a 5&#39; shaft found as part of a sewer collapse. Dates back to early 1800s. No houses built above as precaution. See Manchester Underground (Warrender, 2007:108).",
         "title": "Tunnels under Deanwater Close / Skerry Close",
         "marker-color": "5c2b00",
         "marker-size": "",
@@ -100,7 +100,7 @@
       "type": "Feature",
       "properties": {
         "name": "Underground Skittle Alley: Goulburn's",
-        "description": "",
+        "description": "Site of Goulburn’s food shop, who used the tunnel space as a cheese store.",
         "title": "Underground Skittle Alley: Goulburn's",
         "marker-color": "5c2b00",
         "marker-size": "",
@@ -119,9 +119,9 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Rumoured Tunnel",
+        "name": "Rumoured Tunnel between the ‘Castle and Falcon’ pub and the Cathedral.",
         "description": "",
-        "title": "Rumoured Tunnel",
+        "title": "Rumoured Tunnel between the ‘Castle and Falcon’ pub and the Cathedral.",
         "marker-color": "5c2b00",
         "marker-size": "",
         "marker-symbol": "entrance",
@@ -150,7 +150,7 @@
       "type": "Feature",
       "properties": {
         "name": "Deansgate Tunnel",
-        "description": "",
+        "description": "Described as the Roman tunnel, this rumoured passageway is said to be large enough for a small bus to pass through, and 70 feet below ground. See Manchester Underground (Warrender, 2007:96).<br><br>Some photos in <a href=http://ojaybelowandbeyond.blogspot.co.uk/2010/03/underground-manchester-deansgate.html target=_blank>Ojay’s now private blog article about an urban exploration visit</a>, where access to a tunnel assumed / calculated to be the Deansgate Tunnel is documented.",
         "title": "Deansgate Tunnel",
         "marker-color": "5c2b00",
         "marker-size": "",
@@ -199,27 +199,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Grocers Tunnel",
-        "description": "",
-        "gx_media_links": "http://www.canalscape.net/Castlefield%20Canal%20Heritage%20Walk/LR%20Grocers%20Warehouse%201%20-%201985.jpg",
-        "title": "Grocers Tunnel",
-        "marker-color": "5c2b00",
-        "marker-size": "",
-        "marker-symbol": "entrance"
-      },
-      "geometry": {
-        "coordinates": [
-          -2.253343,
-          53.47432,
-          0
-        ],
-        "type": "Point"
-      },
-      "id": "47e1750b54637e1c4715e3efbac07563"
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "Rumoured Moston Cottage tunnel",
         "title": "Rumoured Moston Cottage tunnel",
         "description": "",
@@ -251,7 +230,7 @@
       "type": "Feature",
       "properties": {
         "name": "Old MEN tunnel",
-        "description": "",
+        "description": "Between the two MEN buildings. Demolished to make way for Spinningfields",
         "title": "Old MEN tunnel",
         "marker-color": "5c2b00",
         "marker-size": "",
@@ -286,7 +265,7 @@
       "type": "Feature",
       "properties": {
         "name": "Old Deanery",
-        "description": "",
+        "description": "Cellars had a small door which lead down to the Deansgate tunnel via steps.",
         "title": "Old Deanery",
         "marker-color": "5c2b00",
         "marker-size": "",
@@ -305,9 +284,9 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Bridgewater Tunnel",
-        "description": "",
-        "title": "Bridgewater Tunnel",
+        "name": "Grocer’s / Bridgewater Tunnel",
+        "description": "Excavations in 2007 discovered a shaft from this tunnel between Liverpool Road and Bridgewater Street, probably used to haul coal into a warehouse. See Manchester Underground (Warrender, 2007:60). See photos at <a href=http://www.canalscape.net/Castlefield%20Canal%20Heritage%20Walk/Castlefield%20Canal%20Heritage%20Walk.htm target=_blank>Castlefield Canal Heritage Walk</a><br><br><blockquote>“Beyond the loading docks inside the warehouse was the entrance to a tunnel known as the Bridgewater Tunnel. This tunnel ran for 620 yards (600 mtrs) from the warehouse entrance through the solid sandstone escarpment as far as Bank Top with shaft connections to coal yards along its length. The tunnel was truncated and sealed-up when the Rochdale Canal was constructed in 1800. In 2007 parts of it came to light when land between Bridgewater Street and Liverpool Road was being redeveloped.”<footer>—<a href=http://www.canalscape.net/Castlefield%20Canal%20Heritage%20Walk/Castlefield%20Canal%20Heritage%20Walk.htm target=_blank>Castlefield Canal Heritage Walk</a></footer></blockquote>",
+        "title": "Grocer’s / Bridgewater Tunnel",
         "marker-color": "5c2b00",
         "marker-size": "",
         "marker-symbol": "entrance",
@@ -335,8 +314,29 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "Shaft",
+        "description": "Excavations in 2007 discovered a shaft from this tunnel between Liverpool Road and Bridgewater Street, probably used to haul coal into a warehouse. See Manchester Underground (Warrender, 2007:60).",
+        "gx_media_links": "http://www.canalscape.net/Castlefield%20Canal%20Heritage%20Walk/LR%20Bridgewater%20Tunnel%20Shaft.jpg",
+        "title": "Shaft",
+        "marker-color": "#5c2b00",
+        "marker-size": "",
+        "marker-symbol": "entrance"
+      },
+      "geometry": {
+        "coordinates": [
+          -2.252305,
+          53.4755,
+          0
+        ],
+        "type": "Point"
+      },
+      "id": "6a7380e769d525a5cfa4335ab2008022"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "Passage to Smith Hill & Co on Cannon Street",
-        "description": "",
+        "description": "See Underground Manchester (Warrender, 2007:85)",
         "title": "Passage to Smith Hill & Co on Cannon Street",
         "marker-color": "5c2b00",
         "marker-size": "",
@@ -420,9 +420,9 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Rumoured Tunnel",
+        "name": "Rumoured tunnel from ‘Rover’s Return’ pub to the Cathedral",
         "description": "",
-        "title": "Rumoured Tunnel",
+        "title": "Rumoured tunnel from ‘Rover’s Return’ pub to the Cathedral",
         "marker-color": "5c2b00",
         "marker-size": "",
         "marker-symbol": "entrance",
@@ -450,9 +450,9 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Rumoured tunnel",
-        "description": "",
-        "title": "Rumoured tunnel",
+        "name": "Rumoured Bolton Arms tunnel",
+        "description": "From Bolton Arms, 83 New Bridge Street Victoria Station, and possibly the Cathedral, although this seems unlikely taking the Irk culvert into account.",
+        "title": "Rumoured Bolton Arms tunnel",
         "marker-color": "5c2b00",
         "marker-size": "",
         "marker-symbol": "entrance",
@@ -480,8 +480,29 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "Bolton Arms",
+        "description": "83 New Bridge Street.<br><br>Rumoured to have a passageway to Victoria Station, and possibly the cathedral.",
+        "title": "Bolton Arms",
+        "marker-color": "#5c2b00",
+        "marker-size": "",
+        "marker-symbol": "entrance"
+      },
+      "geometry": {
+        "coordinates": [
+          -2.244746,
+          53.488802,
+          0
+        ],
+        "type": "Point"
+      },
+      "id": "cea485a0ea17fa419ed9d2896e149ecb"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "Tunnel from RBS",
-        "description": "",
+        "description": "During the construction of 1 New York Street a tunnel was visible linking the site with the Royal Bank of Scotland, under Mosley Street. You can see a photo of it on <a href=https://www.flickr.com/photos/26878207@N06/2807041996/in/photolist-5h3PMN-5EJjuD-5y9ePF-6daANA-5GCXoy-56Egwg-5ShCgV-5mgfSN target=_blank>Michael Ashton’s Flickr page</a>.<br><br>Read more in <a href=http://theskyliner.org/post/43648353530/city-tower target=_blank>The Art Of Science At City Tower</a> on the Skyliner blog.",
+
         "gx_media_links": "http://media.tumblr.com/d5fad7600417a9658b4951d64f347589/tumblr_inline_miks67SBB21qz4rgp.jpg",
         "title": "Tunnel from RBS",
         "marker-color": "5c2b00",
@@ -502,7 +523,7 @@
       "type": "Feature",
       "properties": {
         "name": "Walkers Croft tunnel",
-        "description": "",
+        "description": "You can see photos on:<ul><li><a href=https://www.flickr.com/photos/mirkl/3262557967/ target=_blank>mirkl’s Flickr page</li><li><a href=https://www.flickr.com/photos/phill_dvsn/3587523711/ target=_blank>phill.d’s Flickr page</a></li><li><a href=http://www.goneeightyfive.com/2010/02/victoria-under-groundwalkers-croft.html target=_blank>Victoria Underground/Walkers Croft, Manchester</a> on Gone Eighty Five</li></ul>",
         "title": "Walkers Croft tunnel",
         "marker-color": "5c2b00",
         "marker-size": "",
@@ -541,9 +562,9 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Cumberland Street Tunnel",
-        "description": "",
-        "title": "Cumberland Street Tunnel",
+        "name": "Rumoured Cumberland Street Tunnel",
+        "description": "Suggested to exist under the route of Cumberland Street, due to a story about a man on the run disappearing into a house and not exiting. See Manchester Underground (Warrender, 2007:94).",
+        "title": "Rumoured Cumberland Street Tunnel",
         "marker-color": "5c2b00",
         "marker-size": "",
         "marker-symbol": "entrance",
@@ -572,7 +593,7 @@
       "type": "Feature",
       "properties": {
         "name": "Possible route of the Deansgate Tunnel",
-        "description": "",
+        "description": "According to Manchester Underground (Warrender, 2007:98) workers discovered a tunnel believed to run under Deansgate when excavating the railway tunnel here.",
         "title": "Possible route of the Deansgate Tunnel",
         "marker-color": "5c2b00",
         "marker-size": "",
@@ -591,9 +612,9 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Rumoured Tunnel",
-        "description": "",
-        "title": "Rumoured Tunnel",
+        "name": "Rumoured Chetham’s Tunnel",
+        "description": "Reported in the City News, 1915 that a passageway was discovered around 1842 between Chetham’s Well and the Cathedral.",
+        "title": "Rumoured Chetham’s Tunnel",
         "marker-color": "5c2b00",
         "marker-size": "",
         "marker-symbol": "entrance",
@@ -621,10 +642,10 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Bridgewater Tunnel",
+        "name": "Bridgewater Tunnel at Pioneer Quay",
         "description": "",
         "gx_media_links": "http://www.canalscape.net/Castlefield%20Canal%20Heritage%20Walk/LR%20Pioneer%20Wharf%20Tunnel.jpg",
-        "title": "Bridgewater Tunnel",
+        "title": "Bridgewater Tunnel at Pioneer Quay",
         "marker-color": "5c2b00",
         "marker-size": "",
         "marker-symbol": "entrance"
@@ -643,7 +664,7 @@
       "type": "Feature",
       "properties": {
         "name": "Tunnel under Deansgate",
-        "description": "",
+        "description": "Linked Kendals buildings",
         "title": "Tunnel under Deansgate",
         "marker-color": "5c2b00",
         "marker-size": "",
@@ -673,7 +694,7 @@
       "type": "Feature",
       "properties": {
         "name": "Coop Tunnels",
-        "description": "",
+        "description": "Route yet to be plotted but described in one of Keith Warrander’s books.",
         "title": "Coop Tunnels",
         "marker-color": "5c2b00",
         "marker-size": "",
@@ -703,7 +724,7 @@
       "type": "Feature",
       "properties": {
         "name": "Curious Tunnel",
-        "description": "",
+        "description": "Tunnel which seemed to be partially blocked off on a building site. Possibly an entrance in an old goods depot on the site (shown on the <a href=http://manchester.publicprofiler.org/beta/ target=_blank>Geographica 1960 map</a>)?",
         "title": "Curious Tunnel",
         "marker-color": "5c2b00",
         "marker-size": "",

@@ -54,7 +54,7 @@
       "type": "Feature",
       "properties": {
         "name": "Railway Mens Club",
-        "description": "Just off store street, with the entrance still visible in the wall, this space underneath the station was a club with live music up until the mid 1990s.<br/><img src=http://www.images.manchester.gov.uk/web/objects/common/webmedia.php?irn=61185 height=auto width=200/><br><br><a href=http://pubs-of-manchester.blogspot.co.uk/2010/02/railway-mens-club-store-street.html target=_blank>Railway Mens Club, Store Street</a>",
+        "description": "Just off store street, with the entrance still visible in the wall (see a <a href=http://images.manchester.gov.uk/Display.php?irn=60630 target=_blank>Manchester Libraries image</a>), this space underneath the station was a club with live music up until the mid 1990s.<br><br>You can see more modern photographs in this article in<a href=http://pubs-of-manchester.blogspot.co.uk/2010/02/railway-mens-club-store-street.html target=_blank> Railway Mens Club, Store Street</a> on the Pubs of Manchester blog.",
         "gx_media_links": "http://www.images.manchester.gov.uk/web/objects/common/webmedia.php?irn=61185",
         "title": "Railway Mens Club",
         "marker-color": "#ff0000",
@@ -193,7 +193,7 @@
       "type": "Feature",
       "properties": {
         "name": "Cheshire Lines Railway cutting",
-        "description": "<img src=http://static.panoramio.com/photos/large/82370647.jpg height=auto width=200 /><br><a href=http://www.panoramio.com/photo/82370647>Source</a>",
+        "description": "<a href=http://www.panoramio.com/photo/82370647 target=_blank><img src=http://static.panoramio.com/photos/large/82370647.jpg height=auto width=200 /></a>",
         "gx_media_links": "http://static.panoramio.com/photos/large/82370647.jpg",
         "title": "Cheshire Lines Railway cutting",
         "marker-color": "#ff0000",
@@ -214,8 +214,7 @@
       "type": "Feature",
       "properties": {
         "name": "Picc-Vic: Proposed Route",
-        "description": "<a href=http://citiesmcr.files.wordpress.com/2012/02/centralmanchester.jpg target=_blank><img src=http://citiesmcr.files.wordpress.com/2012/02/centralmanchester.jpg height=auto width=200 /></a>",
-        "gx_media_links": "http://citiesmcr.files.wordpress.com/2012/02/centralmanchester.jpg",
+        "description": "See the proposed route in this article about Martin Dodge’s work on Infra_MANC ‘<a href=https://citiesmcr.wordpress.com/2012/02/20/contemporary-cities-and-infrastructural-imaginaries/ target=_blank>Contemporary Cities and Infrastructural Imaginaries</a>’, in the <a href=http://personalpages.manchester.ac.uk/staff/m.dodge/Infra_MANC_catalogue.pdf target=_blank>Infra_MANC catalogue</a>, and other proposed routes in <a href=http://www.manchesterconfidential.co.uk/news/manchesters-failed-underground-100-years-of-transport-woe target=_blank>Manchester's Failed Underground - 100 Years Of Transport Dreams</a> on Manchester Confidential.",
         "title": "Picc-Vic: Proposed Route",
         "marker-color": "#ff0000",
         "marker-size": "",
@@ -495,7 +494,7 @@
       "type": "Feature",
       "properties": {
         "name": "Picc-Vic: Royal Exchange Station entrance?",
-        "description": "Possible entrance to an underground space, intended to be used as part of the Picc-Vic rail link.<br><br><a href=http://webcache.googleusercontent.com/search?q=cache:nm13eTq6cPkJ:www.aidan.co.uk/forums/showthread.php%3Ft%3D29%26page%3D10+&amp;cd=1&amp;hl=en&amp;ct=clnk&amp;gl=uk#post1516>Source</a><br>&quot;About 1972 a friend on mine Brian Conner worked on the Arndale site in Manchester as a foreman, He came to me one day with his friend Steve Price when I was in the YMCA and told me to go with him to see something,<br>The entrance was (and still is there) a plain door not far from the corner of Market Street and Cross Street, where Boots the Chemist is now As we went through the entrance there were wooden stairs leading down, 2 flights of stairs down he shown me a big metal door, The door must have been about 5 to 6 inches thick and inside there was what looked like a storage area, Id say about 40 feet by 30 feet, He speculated on it being a storage area during the cold war days…",
+        "description": "Possible entrance to an underground space, intended to be used as part of the Picc-Vic rail link.<br><br><blockquote>“About 1972 a friend on mine Brian Conner worked on the Arndale site in Manchester as a foreman, He came to me one day with his friend Steve Price when I was in the YMCA and told me to go with him to see something,<br>The entrance was (and still is there) a plain door not far from the corner of Market Street and Cross Street, where Boots the Chemist is now As we went through the entrance there were wooden stairs leading down, 2 flights of stairs down he shown me a big metal door, The door must have been about 5 to 6 inches thick and inside there was what looked like a storage area, Id say about 40 feet by 30 feet, He speculated on it being a storage area during the cold war days…”<footer>—<a href=http://webcache.googleusercontent.com/search?q=cache:nm13eTq6cPkJ:www.aidan.co.uk/forums/showthread.php%3Ft%3D29%26page%3D10+&amp;cd=1&amp;hl=en&amp;ct=clnk&amp;gl=uk#post1516>From Aiden O’Rourke’s now closed forum</a></footer></blockquote>",
         "title": "Picc-Vic: Royal Exchange Station entrance?",
         "marker-color": "#ff0000",
         "marker-size": "",
@@ -515,7 +514,7 @@
       "type": "Feature",
       "properties": {
         "name": "Picc-Vic: Arndale Void",
-        "description": "This is the spot of an apparent void in the depths of the Arndale, purportedly reserved for the entrance to or the main area of the Royal Exchange Picc-Vic station.<br/><img src=http://static.guim.co.uk/sys-images/Guardian/Pix/online/2012/3/14/1331734031756/Void-built-for-in-readine-004.jpg height=auto width=200 /><br>&quot;Next time you pass <a href=http://www.manchesterarndale.com/store_profile.aspx?id=134 target=_blank>Topshop</a>, pause to contemplate the fact that 30ft below it is an enormous hole which was almost certainly dug to be part of a swanky Manchester tube system.&quot;<br>—<a href=http://www.guardian.co.uk/uk/the-northerner/2012/mar/14/manchester-localgovernment-underground-trains-picc-vic-secret-telephone-exchange?newsfeed=true>Guardian</a><br><br>There are some more pictures and Arndale plans showing a void in this article titled ‘<a href=http://www.architectsjournal.co.uk/news/astragal/manchester-unearths-forgotten-1970s-tube-line/8627773.article>Manchester unearths forgotten 1970s tube line</a>’.",
+        "description": "This is the spot of an apparent void in the depths of the Arndale, purportedly reserved for the entrance to or the main area of the Royal Exchange Picc-Vic station.<br><br><q>Next time you pass <a href=http://www.manchesterarndale.com/store_profile.aspx?id=134 target=_blank>Topshop</a>, pause to contemplate the fact that 30ft below it is an enormous hole which was almost certainly dug to be part of a swanky Manchester tube system.</q><br>—<a href=http://www.guardian.co.uk/uk/the-northerner/2012/mar/14/manchester-localgovernment-underground-trains-picc-vic-secret-telephone-exchange?newsfeed=true>Guardian</a><br><br>There are some more pictures and Arndale plans showing a void in this article titled ‘<a href=http://www.architectsjournal.co.uk/news/astragal/manchester-unearths-forgotten-1970s-tube-line/8627773.article>Manchester unearths forgotten 1970s tube line</a>’.",
         "gx_media_links": "http://static.guim.co.uk/sys-images/Guardian/Pix/online/2012/3/14/1331734031756/Void-built-for-in-readine-004.jpg",
         "title": "Picc-Vic: Arndale Void",
         "marker-color": "#ff0000",
