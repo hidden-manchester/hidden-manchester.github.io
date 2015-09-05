@@ -29,10 +29,28 @@ layer-color: '#a200ff'
     {
       "type": "Feature",
       "properties": {
+        "name": "GUTE Artesian Well",
+        "title": "GUTE Artesian Well",
+        "description": "",
+        "marker-color": "#a200ff",
+        "marker-size": "",
+        "marker-symbol": "telephone"
+      },
+      "geometry": {
+        "coordinates": [
+          -2.2406694,
+          53.4784333,
+          0
+        ],
+        "type": "Point"
+      },
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "Guardian Underground Telephone Exchange",
         "title": "Guardian Underground Telephone Exchange",
-        "description": "<a href=https://bedfordbypass.files.wordpress.com/2014/03/gute-plan.jpg target=_blank><img src=\"https://bedfordbypass.files.wordpress.com/2014/03/gute-plan.jpg\" width=250></a>",
-        "gx_media_links": "https://bedfordbypass.files.wordpress.com/2014/03/gute-plan.jpg",
+        "description": "<a href=http://4.bp.blogspot.com/-cqKOOGNMOeU/Udsx5wEW35I/AAAAAAAAAzY/XqDE5rUb3j0/s1600/GUTE-plan.jpg target=_blank>Click for Martin Dodge’s GUTE plan</a><br>By far the best source of information about the Guardian Underground Telephone Exchange (GUTE) is a 39 page 2013 paper co-written by Martin Dodge and Richard Brook titled <a href=http://personalpages.manchester.ac.uk/staff/m.dodge/Guardian_Exchange_Manchester.pdf target=_blank>Manchester’s Guardian Underground Telephone Exchange</a>. YouTube user hogshawrabbits has <a href=https://www.youtube.com/watch?v=t8DsOUtpzTI target=_blank>five videos showing the inside of the Guardian Exchange</a>, including the <a href=https://youtu.be/t8DsOUtpzTI?t=40 target=_blank>3D model</a> on display inside.<br><br>In 2004 there was a <a href=http://news.bbc.co.uk/1/hi/england/manchester/3701267.stm target=_blank>cable fire in the tunnels</a> which wiped out phone service for much of Manchester. There is a <a href=http://www.28dayslater.co.uk/bt-guardian-manchester.t25365 target=_blank>28 Days Later report</a> from a visit in the same year.<br><br>In 2005 there was a break in at the Salford end which <a href=http://www.manchestereveningnews.co.uk/news/greater-manchester-news/raid-on-tunnel-network-sparked-big-982416 target=_blank>sparked a terror alert</a>, which is discussed in a <a href=http://www.28dayslater.co.uk/guardian-underground-telephone-exchange-manchester.t9076 target=_blank/>28dayslater thread</a>.<br><br>The <a href=http://www.mancubist.co.uk/2006/07/25/guardian-exchange-manchesters-cold-war-bunkers target=_blank>Mancubist</a> page seems to be offline at the moment. There is a fairly old site which used to be hosted on <a href=http://www.cybertrn.demon.co.uk/guardian/ target=_blank>Demon</a>, now at <a href=http://www.atomica.co.uk/guardian/ target=_blank>http://www.atomica.co.uk/guardian/</a>",
         "marker-color": "#a200ff",
         "marker-size": "",
         "marker-symbol": "telephone",
@@ -1376,28 +1394,45 @@ layer-color: '#a200ff'
         {
           "coordinates": [
             [
-              -2.260695,
-              53.483009,
+              -2.260708,
+              53.483003,
               0
             ],
             [
-              -2.24676,
-              53.48396,
+              -2.247016,
+              53.483615,
               0
             ],
             [
-              -2.24109,
-              53.47891,
+              -2.242403,
+              53.480666,
               0
             ],
             [
-              -2.23992,
-              53.47831,
+              -2.242232,
+              53.480852,
               0
             ],
             [
-              -2.23097,
-              53.47315,
+              -2.242045,
+              53.480803,
+              0
+            ],
+            [
+              -2.242214,
+              53.480609,
+              0
+            ],
+            [
+              -2.242128,
+              53.480238,
+              0
+            ],
+            [-2.241250, 53.478987],
+            [-2.240064, 53.478381],
+            [
+              -2.231103,
+              53.473157,
               0
             ]
           ],
@@ -1406,8 +1441,8 @@ layer-color: '#a200ff'
         {
           "coordinates": [
             [
-              -2.246758,
-              53.483966,
+              -2.247016,
+              53.483615,
               0
             ],
             [
@@ -1435,6 +1470,46 @@ layer-color: '#a200ff'
         "coordinates": [
           -2.247777,
           53.484745,
+          0
+        ],
+        "type": "Point"
+      },
+      "id": "2fd349c1113d594ba549f326f7fdfb2a"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Dial House Shaft",
+        "description": "Location approximated using the map from the <a href=http://personalpages.manchester.ac.uk/staff/m.dodge/Infra_MANC_catalogue.pdf target=_blank>Infra_MANC catalogue</a>.",
+        "title": "Dial House Shaft",
+        "marker-color": "#a200ff",
+        "marker-size": "",
+        "marker-symbol": "telephone"
+      },
+      "geometry": {
+        "coordinates": [
+          -2.247192,
+          53.485214,
+          0
+        ],
+        "type": "Point"
+      },
+      "id": "2fd349c1113d594ba549f326f7fdfb2a"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Guardian Tunnels Outlet",
+        "description": "It is claimed this is where water pumped out of the Guardian tunnels ends up.",
+        "title": "Guardian Tunnels Outlet",
+        "marker-color": "#a200ff",
+        "marker-size": "",
+        "marker-symbol": "telephone"
+      },
+      "geometry": {
+        "coordinates": [
+          -2.247412,
+          53.484279,
           0
         ],
         "type": "Point"
@@ -1473,8 +1548,8 @@ layer-color: '#a200ff'
       },
       "geometry": {
         "coordinates": [
-          -2.231104,
-          53.473165,
+          -2.231100,
+          53.473173,
           0
         ],
         "type": "Point"
@@ -1504,42 +1579,22 @@ layer-color: '#a200ff'
     {
       "type": "Feature",
       "properties": {
-        "name": "Fire Location ?",
-        "description": "<a href=http://news.bbc.co.uk/1/hi/england/manchester/3701267.stm target=_blank>BBC News Story about cabling fire</a>",
-        "title": "Fire Location ?",
+        "name": "Fire Location?",
+        "description": "<a href=http://news.bbc.co.uk/1/hi/england/manchester/3701267.stm target=_blank>BBC News Story about cabling fire</a>, and a further page about <a href=http://www.bbc.co.uk/manchester/have_your_say/2004/03/31/phones_day3.shtml target=_blank>Day 6 of the Manchester phone crisis</a> which indicates the fire was approximately 150m from Rutherford House towards Dial House.",
+        "title": "Fire Location?",
         "marker-color": "#a200ff",
         "marker-size": "",
         "marker-symbol": "telephone"
       },
       "geometry": {
         "coordinates": [
-          -2.241382,
-          53.478188,
+          -2.242128,
+          53.480238,
           0
         ],
         "type": "Point"
       },
       "id": "92f4b2ae75d57d7612c37164f707da6e"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Guardian Exchange",
-        "description": "http://www.youtube.com/user/hogshawrabbits#p/u/5/t8DsOUtpzTI<br><br><br>http://www.mancubist.co.uk/2006/07/25/guardian-exchange-manchesters-cold-war-bunkers<br><br><br>28 Days Later thread about the 2001 break in (http://www.28dayslater.co.uk/forums/showthread.php?t=9076)<br><br><br>28 Days Later report from engineer (http://www.28dayslater.co.uk/forums/showthread.php?t=25365)<br><br><br>http://www.atomica.co.uk/guardian/",
-        "title": "Guardian Exchange",
-        "marker-color": "#a200ff",
-        "marker-size": "",
-        "marker-symbol": "telephone"
-      },
-      "geometry": {
-        "coordinates": [
-          -2.237193,
-          53.481049,
-          0
-        ],
-        "type": "Point"
-      },
-      "id": "b4f51a83e52ed2e4127c25e841949d5c"
     },
     {
       "type": "Feature",
