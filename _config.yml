@@ -1,0 +1,19 @@
+# Site settings
+title: ↧ Underground Manchester
+subtitle: Tunnels, rivers, mines & subterranean spaces of Mancunia
+
+email: underground.manchester@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  Tunnels, rivers, mines & subterranean spaces of Mancunia
+url: "http://underground-manchester.github.io"
+twitter_username: Manchester
+github_username:  underground-manchester
+
+# Build settings
+markdown: kramdown
+paginate: 5
+
+collections:
+- features
+
+google_analytics_tracking_id: 'UA-352611-13'
