@@ -1492,9 +1492,9 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Unknown River",
-        "description": "River routes (http://www.mangeogsoc.org.uk/pdfs/lawson_lindley.pdf)",
-        "title": "Unknown River",
+        "name": "The Great Fosse",
+        "description": "Route taken from <a href=http://www.mangeogsoc.org.uk/pdfs/lawson_lindley.pdf target=_blank>A deeper understanding of climate induced risk to urban infrastructure: case studies of past events in Greater Manchester</a>.<br><br>Read <a href=http://www.mocavo.co.uk/Remains-Connected-With-Lancaster-and-Chester-Collectanea-Relating-to-Manchester-and-Its-Neighborhood-Volume-68/931614/110 target=_blank>Remains Connected With Lancaster and Chester: Collectanea Relating to Manchester and Its Neighborhood</a> for more information.",
+        "title": "The Great Fosse",
         "marker-color": "#3887be",
         "marker-size": "",
         "marker-symbol": "water",
