@@ -542,6 +542,228 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "Co-op Subway 1",
+        "description": "",
+        "title": "Co-op Subway 1",
+        "marker-color": "5c2b00",
+        "marker-size": "",
+        "marker-symbol": "entrance",
+        "stroke": "#5c2b00",
+        "stroke-width": 4,
+        "stroke-opacity": 1
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -2.239676,
+            53.485887
+          ],
+          [
+            -2.239762,
+            53.485779
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Co-op Subway 2",
+        "description": "",
+        "title": "Co-op Subway 2",
+        "marker-color": "5c2b00",
+        "marker-size": "",
+        "marker-symbol": "entrance",
+        "stroke": "#5c2b00",
+        "stroke-width": 4,
+        "stroke-opacity": 1
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -2.240073,
+            53.486009
+          ],
+          [
+            -2.240154,
+            53.4859
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Co-op Subway 3",
+        "description": "",
+        "title": "Co-op Subway 3",
+        "marker-color": "5c2b00",
+        "marker-size": "",
+        "marker-symbol": "entrance",
+        "stroke": "#5c2b00",
+        "stroke-width": 4,
+        "stroke-opacity": 1
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -2.24084,
+            53.486222
+          ],
+          [
+            -2.240931,
+            53.486098
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Co-op Subway 4",
+        "description": "",
+        "title": "Co-op Subway 4",
+        "marker-color": "5c2b00",
+        "marker-size": "",
+        "marker-symbol": "entrance",
+        "stroke": "#5c2b00",
+        "stroke-width": 4,
+        "stroke-opacity": 1
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -2.240438,
+            53.486717
+          ],
+          [
+            -2.240508,
+            53.486634
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Co-op Subway 5",
+        "description": "",
+        "title": "Co-op Subway 5",
+        "marker-color": "5c2b00",
+        "marker-size": "",
+        "marker-symbol": "entrance",
+        "stroke": "#5c2b00",
+        "stroke-width": 4,
+        "stroke-opacity": 1
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -2.240293,
+            53.486149
+          ],
+          [
+            -2.240138,
+            53.486108
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Co-op Subway 6",
+        "description": "",
+        "title": "Co-op Subway 6",
+        "marker-color": "5c2b00",
+        "marker-size": "",
+        "marker-symbol": "entrance",
+        "stroke": "#5c2b00",
+        "stroke-width": 4,
+        "stroke-opacity": 1
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -2.239333,
+            53.486238
+          ],
+          [
+            -2.239032,
+            53.486309
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Railway Tunnel",
+        "description": "Shown on Bartholemew’s 1900 map from <a href=http://manchester.publicprofiler.org/beta/ target=_blank>Manchester Historical Maps</a>.",
+        "stroke": "#5c2b00",
+        "stroke-width": 4,
+        "stroke-opacity": 1
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -2.276422,
+            53.465211
+          ],
+          [
+            -2.277066,
+            53.464981
+          ],
+          [
+            -2.277538,
+            53.464764
+          ],
+          [
+            -2.277817,
+            53.464509
+          ],
+          [
+            -2.278075,
+            53.464215
+          ],
+          [
+            -2.278826,
+            53.463104
+          ],
+          [
+            -2.279169,
+            53.462541
+          ],
+          [
+            -2.279427,
+            53.461979
+          ],
+          [
+            -2.279791,
+            53.461264
+          ],
+          [
+            -2.279984,
+            53.460804
+          ],
+          [
+            -2.280076,
+            53.460322
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "42df25d0a6df13f13012743ad80ed1d6"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "Trafford Hall Lodge",
         "description": "According to Manchester Underground (Warrender, 2007:99) there existed a shaft in the Trafford Hall Lodge with a rope ladder heading down to the Deansgate tunnel.",
         "title": "Trafford Hall Lodge",
@@ -689,36 +911,6 @@
         "type": "LineString"
       },
       "id": "ef8d746109fcd1758c2289a53bc0fd15"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Coop Tunnels",
-        "description": "Route yet to be plotted but described in one of Keith Warrander’s books.",
-        "title": "Coop Tunnels",
-        "marker-color": "5c2b00",
-        "marker-size": "",
-        "marker-symbol": "entrance",
-        "stroke": "#5c2b00",
-        "stroke-width": 4,
-        "stroke-opacity": 1
-      },
-      "geometry": {
-        "coordinates": [
-          [
-            -2.239768,
-            53.487037,
-            0
-          ],
-          [
-            -2.238341,
-            53.486667,
-            0
-          ]
-        ],
-        "type": "LineString"
-      },
-      "id": "f3ed0bcefacc8ca20d235cdac7636f0c"
     },
     {
       "type": "Feature",
