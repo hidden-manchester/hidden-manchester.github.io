@@ -66,7 +66,7 @@
       "type": "Feature",
       "properties": {
         "name": "Market Place",
-        "description": "<img src=\"http://manchesterhistory.net/manchester/gone/marketplace1844.jpg\" height=auto width=200 /><br><br>From Marks &amp; Spencer plc and Market Place (http://manchesterhistory.net/manchester/tours/tour4/area4page3.html)<br><br> (http://manchesterhistory.net/manchester/tours/tour4/area4page3.html)<br> (http://manchesterhistory.net/manchester/tours/tour4/area4page3.html)",
+        "description": "<a href=http://manchesterhistory.net/manchester/gone/marketplace1844.jpg target=_blank>Plan of the old market place.</a><br><br>From Marks &amp; Spencer plc and Market Place (http://manchesterhistory.net/manchester/tours/tour4/area4page3.html)<br><br> (http://manchesterhistory.net/manchester/tours/tour4/area4page3.html)<br> (http://manchesterhistory.net/manchester/tours/tour4/area4page3.html)",
         "gx_media_links": "http://manchesterhistory.net/manchester/gone/marketplace1844.jpg",
         "title": "Market Place",
         "marker-color": "#a8a8a8",
@@ -188,7 +188,7 @@
       "type": "Feature",
       "properties": {
         "name": "Underground Market Entrance",
-        "description": "<img src=\"http://www.mdmarchive.co.uk/gfx/400-6169.jpg\" height=auto width=200 /><br><br>",
+        "description": "<a href=http://www.mdmarchive.co.uk/gfx/400-6169.jpg target=_blank>Photo of the underground market entrance</a>.",
         "gx_media_links": "http://www.mdmarchive.co.uk/gfx/400-6169.jpg",
         "title": "Underground Market Entrance",
         "marker-color": "#a8a8a8",
