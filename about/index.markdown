@@ -4,6 +4,7 @@ title: "About The Map"
 date: 2014-05-12 23:50
 comments: true
 sharing: true
+sitemap: false
 footer: true
 ---
 
