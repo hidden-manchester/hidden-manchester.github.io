@@ -223,48 +223,36 @@
         "coordinates": [
           [
             [
-              -2.25716,
-              53.4789,
-              0
+              -2.257135,
+              53.478898
             ],
             [
-              -2.25487,
-              53.4779,
-              0
+              -2.255491,
+              53.478066
             ],
             [
-              -2.25033,
-              53.477026,
-              0
+              -2.254976,
+              53.477939
             ],
             [
-              -2.246811,
-              53.475979,
-              0
-            ]
-          ],
-          [
-            [
-              -2.2493,
-              53.476796,
-              0
+              -2.250255,
+              53.477051
             ],
             [
-              -2.249107,
-              53.477064,
-              0
-            ]
-          ],
-          [
-            [
-              -2.249751,
-              53.476898,
-              0
+              -2.248206,
+              53.47647
             ],
             [
-              -2.249515,
-              53.477205,
-              0
+              -2.247315,
+              53.476336
+            ],
+            [
+              -2.246661,
+              53.476164
+            ],
+            [
+              -2.245191,
+              53.475455
             ]
           ]
         ],
@@ -672,36 +660,6 @@
         "type": "LineString"
       },
       "id": "443f0aee31e04516b68290f6fdebc6fb"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Canal",
-        "description": "Shown on page 20 of Underground Manchester (Keith Warrander, 2007), and on <a href=http://www.canalscape.net/Castlefield%20Canal%20Heritage%20Walk/Castlefield%20Canal%20Heritage%20Walk.htm target=_blank>Castlefield Canal Heritage Walk</a>.<br><br>Part of the Manchester Salford Junction Canal.",
-        "title": "Canal",
-        "marker-color": "#3887be",
-        "marker-size": "",
-        "marker-symbol": "water",
-        "stroke": "#1087bf",
-        "stroke-width": 4,
-        "stroke-opacity": 1
-      },
-      "geometry": {
-        "coordinates": [
-          [
-            -2.255610,
-            53.478224,
-            0
-          ],
-          [
-            -2.255138,
-            53.479074,
-            0
-          ]
-        ],
-        "type": "LineString"
-      },
-      "id": "44f0292ab21f608b3ba99ab3a6c1ad00"
     },
     {
       "type": "Feature",
@@ -1198,22 +1156,26 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Underground Docks",
-        "description": "See <a href=http://www.andrewbrooksphotography.com/uploads/gallery/647.jpg>Andrew Brook’s photograph</a> from the depths of the Great Northern Railway building.",
-        "title": "Underground Docks",
-        "marker-color": "#3887be",
-        "marker-size": "",
-        "marker-symbol": "camera"
+        "title": "Unadopted shorter lower level route",
+        "description": "Shown on the Pigot 1813 map from <a href=http://manchester.publicprofiler.org/beta/ target=_blank>Manchester Historical Maps</a>.",
+        "stroke": "#1087bf",
+        "stroke-width": 4,
+        "stroke-opacity": 1
       },
       "geometry": {
         "coordinates": [
-          -2.249311,
-          53.477179,
-          0
+          [
+            -2.248431,
+            53.474484
+          ],
+          [
+            -2.255485,
+            53.478062
+          ]
         ],
-        "type": "Point"
+        "type": "LineString"
       },
-      "id": "9af0074e5f6a7245a0261ff7a470dd41"
+      "id": "3e6e379db4aab4bbced694c3c1850283"
     },
     {
       "type": "Feature",
@@ -1239,17 +1201,73 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Locks 3 & 4",
+        "title": "Spurs to station goods lift",
+        "description": "See <a href=http://www.andrewbrooksphotography.com/uploads/gallery/647.jpg>Andrew Brook’s photograph</a> from the depths of the Great Northern Railway building.",
+        "stroke": "#1087bf",
+        "stroke-width": 4,
+        "stroke-opacity": 1
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -2.249606,
+              53.477016
+            ],
+            [
+              -2.249673,
+              53.476885
+            ]
+          ],
+          [
+            [
+              -2.249472,
+              53.477006
+            ],
+            [
+              -2.249549,
+              53.476853
+            ]
+          ]
+        ],
+        "type": "MultiLineString"
+      },
+      "id": "c267928760e7c3269807cda3cf38de11"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Lock 3",
         "description": "Part of the Manchester Salford Junction Canal",
-        "title": "Locks 3 & 4",
+        "title": "Lock 3",
         "marker-color": "#3887be",
         "marker-size": "",
         "marker-symbol": "water"
       },
       "geometry": {
         "coordinates": [
-          -2.248292,
-          53.4764,
+          -2.247991,
+          53.476425,
+          0
+        ],
+        "type": "Point"
+      },
+      "id": "a4b7bcf3e5c126b7a77941849baa9160"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Lock 4",
+        "description": "Part of the Manchester Salford Junction Canal",
+        "title": "Lock 4",
+        "marker-color": "#3887be",
+        "marker-size": "",
+        "marker-symbol": "water"
+      },
+      "geometry": {
+        "coordinates": [
+          -2.247626,
+          53.476374,
           0
         ],
         "type": "Point"
@@ -1360,6 +1378,30 @@
         "type": "LineString"
       },
       "id": "a8de484c2952ba58d6ab73d8e98f0375"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Brunswick Basin",
+        "description": "Shown on page 20 of Underground Manchester (Keith Warrander, 2007), and on <a href=http://www.canalscape.net/Castlefield%20Canal%20Heritage%20Walk/Castlefield%20Canal%20Heritage%20Walk.htm target=_blank>Castlefield Canal Heritage Walk</a>.<br><br>Part of the Manchester Salford Junction Canal.",
+        "stroke": "#1087bf",
+        "stroke-width": 4,
+        "stroke-opacity": 1
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -2.255029,
+            53.479011
+          ],
+          [
+            -2.255469,
+            53.478066
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "c007a95e3d865c82546296314ca55fb2"
     },
     {
       "type": "Feature",
@@ -1771,36 +1813,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Planned Tunnel",
-        "description": "Shown on the Pigot 1813 map from <a href=http://manchester.publicprofiler.org/beta/ target=_blank>Manchester Historical Maps</a>.",
-        "title": "Planned Tunnel",
-        "marker-color": "#3887be",
-        "marker-size": "",
-        "marker-symbol": "water",
-        "stroke": "#1087bf",
-        "stroke-width": 4,
-        "stroke-opacity": 1
-      },
-      "geometry": {
-        "coordinates": [
-          [
-            -2.254858,
-            53.477894,
-            0
-          ],
-          [
-            -2.248271,
-            53.474383,
-            0
-          ]
-        ],
-        "type": "LineString"
-      },
-      "id": "d3aaf1d62cc62da4fe2ce592811cd4f6"
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "Medlock Culvert",
         "description": "Shown on <a href=http://enriqueta.man.ac.uk/luna/servlet/detail/maps2~1~1~339805~123138:Manchester?sort=Reference_Number%2CReference_Number%2CReference_Number%2CPage&qvq=q:Ordnance%2BSurvey%2Blarge%2Bscale;sort:Reference_Number%2CReference_Number%2CReference_Number%2CPage;lc:maps2~1~1,Manchester~91~1,ManchesterDev~95~2,Man4MedievalVC~4~4,nonconform~91~1,ManchesterDev~93~3,lib1~1~1&mi=3&trs=50 target=_blank>Lancashire. Manchester. Sheet CIV. 10. 14</a>, a map on the The University of Manchester Library Image Collections.",
         "title": "Medlock Culvert",
@@ -1967,7 +1979,7 @@
       "type": "Feature",
       "properties": {
         "name": "River Tib",
-        "description": "River routes shown in <a href=http://www.mangeogsoc.org.uk/pdfs/lawson_lindley.pdf target=_blank>A deeper understanding of climate induced risk to urban infrastructure: case studies of past events in Greater Manchester</a>. Also shown in <a href=http://personalpages.manchester.ac.uk/staff/m.dodge/Dodge_Perkins-Hydraulic_City_submitted.pdf target=_blank>Maps, Memories and Manchester: The Cartographic Imagination of the Hidden Networks of the Hydraulic City</a>.<br><br>Looks to be about 100ft west of route shown in Underground Manchester (Warrender, 2997:71). It is also mentioned in Geoffrey Ashworth’s 1987 book ‘<a href=http://www.amazon.co.uk/Lost-Rivers-Manchester-Geoffrey-Ashworth/dp/0946361126 target=_blank>The Lost Rivers of Manchester</a>’.",
+        "description": "River routes shown in <a href=http://www.mangeogsoc.org.uk/pdfs/lawson_lindley.pdf target=_blank>A deeper understanding of climate induced risk to urban infrastructure: case studies of past events in Greater Manchester</a>. Also shown in <a href=http://personalpages.manchester.ac.uk/staff/m.dodge/Dodge_Perkins-Hydraulic_City_submitted.pdf target=_blank>Maps, Memories and Manchester: The Cartographic Imagination of the Hidden Networks of the Hydraulic City</a>.<br><br>Looks to be about 100ft west of route shown in Underground Manchester (Warrender, 2007:71). It is also mentioned in Geoffrey Ashworth’s 1987 book ‘<a href=http://www.amazon.co.uk/Lost-Rivers-Manchester-Geoffrey-Ashworth/dp/0946361126 target=_blank>The Lost Rivers of Manchester</a>’.",
         "title": "River Tib",
         "marker-color": "#3887be",
         "marker-size": "",
