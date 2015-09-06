@@ -38,6 +38,11 @@ var map = L.mapbox.map('undergroundManchesterMap', 'markcrossfield.nae9omlm', { 
 new L.Control.Zoom({ position: 'topright' }).addTo(map);
 map.scrollWheelZoom.disable();
 
+if (Modernizr.touch()) {
+    map.dragging.disable();
+}
+
+
 var layers = document.getElementById('menu-ui');
 {% for feature in site.features %}
     var {{feature.layer}} = {{ feature.content }}
