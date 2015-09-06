@@ -1,6 +1,6 @@
 # Site settings
 title: Hidden Manchester
-logo: images/hidden-manchester.png
+logo: /images/hidden-manchester.png
 subtitle: Tunnels, rivers, mines & subterranean spaces of Mancunia
 
 email: enquiries@hidden-manchester.org.uk
@@ -18,3 +18,6 @@ collections:
 - features
 
 google_analytics_tracking_id: 'UA-352611-13'
+gems:
+  - jekyll-sitemap
+  - jekyll-feed
