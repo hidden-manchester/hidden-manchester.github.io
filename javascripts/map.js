@@ -39,7 +39,7 @@ new L.Control.Zoom({ position: 'topright' }).addTo(map);
 map.scrollWheelZoom.disable();
 
 if (Modernizr.touch()) {
-    map.dragging.disable();
+    //map.dragging.disable();
 }
 
 
