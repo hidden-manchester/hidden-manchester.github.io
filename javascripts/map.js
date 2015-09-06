@@ -40,6 +40,7 @@ map.scrollWheelZoom.disable();
 
 if (Modernizr.touch) {
     map.dragging.disable();
+    if (map.tap) map.tap.disable();
 }
 
 
