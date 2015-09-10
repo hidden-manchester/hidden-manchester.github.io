@@ -48,6 +48,25 @@ layer-color: '#a200ff'
     {
       "type": "Feature",
       "properties": {
+        "name": "GUTE Dial House Shaft?",
+        "title": "GUTE Dial House Shaft?",
+        "description": "Spectulated head of the shaft leading to the surface near to Dial House.",
+        "marker-color": "#a200ff",
+        "marker-size": "",
+        "marker-symbol": "telephone"
+      },
+      "geometry": {
+        "coordinates": [
+          -2.247613,
+          53.485348,
+          0
+        ],
+        "type": "Point"
+      },
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "Guardian Underground Telephone Exchange",
         "title": "Guardian Underground Telephone Exchange",
         "description": "<a href=http://4.bp.blogspot.com/-cqKOOGNMOeU/Udsx5wEW35I/AAAAAAAAAzY/XqDE5rUb3j0/s1600/GUTE-plan.jpg target=_blank>Click for Martin Dodge’s GUTE plan</a><br>By far the best source of information about the Guardian Underground Telephone Exchange (GUTE) is a 39 page 2013 paper co-written by Martin Dodge and Richard Brook titled <a href=http://personalpages.manchester.ac.uk/staff/m.dodge/Guardian_Exchange_Manchester.pdf target=_blank>Manchester’s Guardian Underground Telephone Exchange</a>.<br><br>YouTube user hogshawrabbits has five videos showing the inside of the Guardian Exchange <a href=https://www.youtube.com/watch?v=t8DsOUtpzTI target=_blank>(link to the first)</a>, including the <a href=https://youtu.be/t8DsOUtpzTI?t=40 target=_blank>3D model</a> on display inside (which is also shown on page 223 of Underground Manchester).<br><br>In 2004 there was a <a href=http://news.bbc.co.uk/1/hi/england/manchester/3701267.stm target=_blank>cable fire in the tunnels</a> which wiped out phone service for much of Manchester. There is a <a href=http://www.28dayslater.co.uk/bt-guardian-manchester.t25365 target=_blank>28DaysLater.co.uk report</a> from a visit in the same year.<br><br>In 2005 there was a break in at the Salford end which <a href=http://www.manchestereveningnews.co.uk/news/greater-manchester-news/raid-on-tunnel-network-sparked-big-982416 target=_blank>sparked a terror alert</a>, which is discussed in a <a href=http://www.28dayslater.co.uk/guardian-underground-telephone-exchange-manchester.t9076 target=_blank/>28DaysLater.co.uk thread</a>.<br><br>The <a href=http://www.mancubist.co.uk/2006/07/25/guardian-exchange-manchesters-cold-war-bunkers target=_blank>Mancubist</a> page seems to be offline at the moment. There is a fairly old site which used to be hosted on <a href=http://www.cybertrn.demon.co.uk/guardian/ target=_blank>Demon</a>, now at <a href=http://www.atomica.co.uk/guardian/ target=_blank>http://www.atomica.co.uk/guardian/</a>",
