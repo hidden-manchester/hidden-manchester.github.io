@@ -685,7 +685,7 @@
       "type": "Feature",
       "properties": {
         "name": "Remains of Brindley's Cloverleaf Weir on Potato Wharf",
-        "description": "There are photos on <a href=http://www.canalscape.net/Castlefield%20Canal%20Heritage%20Walk/Castlefield%20Canal%20Heritage%20Walk.htm target=_blank>Castlefield Canal Heritage Walk</a>.",
+        "description": "Here the Bridgewater drains into the Medlock though a tumbling weir. Brindley is also responsible for the similar Cornbrook Weir.<br><br>There are photos on <a href=http://www.canalscape.net/Castlefield%20Canal%20Heritage%20Walk/Castlefield%20Canal%20Heritage%20Walk.htm target=_blank>Castlefield Canal Heritage Walk</a>.",
         "gx_media_links": "http://www.canalscape.net/Castlefield%20Canal%20Heritage%20Walk/LR%20Potato%20Wharf%20Weir.jpg",
         "title": "Remains of Brindley's Cloverleaf Weir on Potato Wharf",
         "marker-color": "#3887be",
@@ -1180,10 +1180,10 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Medlock Culvert Vent",
-        "description": "<img src=\"http://www.canalscape.net/Castlefield%20Canal%20Heritage%20Walk/LR%20Medlock%20Tunnel%20Vent.jpg\" height=auto width=200 /><br><br>Castlefield Canal Heritage Walk (http://www.canalscape.net/Castlefield%20Canal%20Heritage%20Walk/Castlefield%20Canal%20Heritage%20Walk.htm)",
+        "name": "Rochdale Water Diversion Culvert Vent",
+        "description": "There are photos on <a href=http://www.canalscape.net/Castlefield%20Canal%20Heritage%20Walk/Castlefield%20Canal%20Heritage%20Walk.htm target=_blank>Castlefield Canal Heritage Walk</a>.",
         "gx_media_links": "http://www.canalscape.net/Castlefield%20Canal%20Heritage%20Walk/LR%20Medlock%20Tunnel%20Vent.jpg",
-        "title": "Medlock Culvert Vent",
+        "title": "Rochdale Water Diversion Culvert Vent",
         "marker-color": "#3887be",
         "marker-size": "",
         "marker-symbol": "water"
