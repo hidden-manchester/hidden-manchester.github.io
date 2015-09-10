@@ -285,7 +285,7 @@
       "type": "Feature",
       "properties": {
         "name": "Grocer’s / Bridgewater Tunnel",
-        "description": "Excavations in 2007 discovered a shaft from this tunnel between Liverpool Road and Bridgewater Street, probably used to haul coal into a warehouse. See Manchester Underground (Warrender, 2007:60). See photos at <a href=http://www.canalscape.net/Castlefield%20Canal%20Heritage%20Walk/Castlefield%20Canal%20Heritage%20Walk.htm target=_blank>Castlefield Canal Heritage Walk</a><br><br><blockquote>“Beyond the loading docks inside the warehouse was the entrance to a tunnel known as the Bridgewater Tunnel. This tunnel ran for 620 yards (600 mtrs) from the warehouse entrance through the solid sandstone escarpment as far as Bank Top with shaft connections to coal yards along its length. The tunnel was truncated and sealed-up when the Rochdale Canal was constructed in 1800. In 2007 parts of it came to light when land between Bridgewater Street and Liverpool Road was being redeveloped.”<footer>—<a href=http://www.canalscape.net/Castlefield%20Canal%20Heritage%20Walk/Castlefield%20Canal%20Heritage%20Walk.htm target=_blank>Castlefield Canal Heritage Walk</a></footer></blockquote>",
+        "description": "Built in 1765 many imagine this tunnel to be part of the Rochdale Canal to which it is currently linked. It was in fact part of the lower Bridgewater canal, built to take canal boats underneath the Duke of Bridgewater's warehouse on Bridgewater street. The lower level of the bridgewater explains why there does not appear to be enough room to enter in a boat.<br><br>Excavations in 2007 discovered a shaft from this tunnel between Liverpool Road and Bridgewater Street, probably used to haul coal into a warehouse. See Manchester Underground (Warrender, 2007:60). See photos at <a href=http://www.canalscape.net/Castlefield%20Canal%20Heritage%20Walk/Castlefield%20Canal%20Heritage%20Walk.htm target=_blank>Castlefield Canal Heritage Walk</a><br><br><blockquote>“Beyond the loading docks inside the warehouse was the entrance to a tunnel known as the Bridgewater Tunnel. This tunnel ran for 620 yards (600 mtrs) from the warehouse entrance through the solid sandstone escarpment as far as Bank Top with shaft connections to coal yards along its length. The tunnel was truncated and sealed-up when the Rochdale Canal was constructed in 1800. In 2007 parts of it came to light when land between Bridgewater Street and Liverpool Road was being redeveloped.”<footer>—<a href=http://www.canalscape.net/Castlefield%20Canal%20Heritage%20Walk/Castlefield%20Canal%20Heritage%20Walk.htm target=_blank>Castlefield Canal Heritage Walk</a></footer></blockquote>(note I have not been able to confirm that this tunnel indeed headed towards Bank Top; accounts seem confused with the Duke’s tunnel)",
         "title": "Grocer’s / Bridgewater Tunnel",
         "marker-color": "5c2b00",
         "marker-size": "",
@@ -860,27 +860,6 @@
         "type": "LineString"
       },
       "id": "d968967862cf84277978834986cd5f5f"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Bridgewater Tunnel at Pioneer Quay",
-        "description": "",
-        "gx_media_links": "http://www.canalscape.net/Castlefield%20Canal%20Heritage%20Walk/LR%20Pioneer%20Wharf%20Tunnel.jpg",
-        "title": "Bridgewater Tunnel at Pioneer Quay",
-        "marker-color": "5c2b00",
-        "marker-size": "",
-        "marker-symbol": "entrance"
-      },
-      "geometry": {
-        "coordinates": [
-          -2.252889,
-          53.474788,
-          0
-        ],
-        "type": "Point"
-      },
-      "id": "ed3274f218d7fec4782445144ac300ee"
     },
     {
       "type": "Feature",
