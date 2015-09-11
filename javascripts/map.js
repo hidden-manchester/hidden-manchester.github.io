@@ -53,6 +53,29 @@ var layers = document.getElementById('menu-ui');
     var {{feature_layer.id}} = {% include {{feature_layer.file}} %}
     addLayer(L.mapbox.featureLayer({{feature_layer.id}}), "{{feature_layer.title}}", 2, "{{feature_layer.layer-color}}");
 {% endfor %}
+function featureIdInUrl() {
+    return window.location.hash.substr(1);
+}
+map.eachLayer(function (layer) {
+    if (layer.feature) {
+        if (layer.feature.id === featureIdInUrl()) {
+            layer.openPopup();
+        }
+        layer.on('click', function (e) {
+            history.pushState({}, "", "#" + e.target.feature.id);
+        })
+    }
+});
+
+window.onpopstate = function() {
+    map.eachLayer(function (layer) {
+        if (layer.feature) {
+            if (layer.feature.id === featureIdInUrl()) {
+                layer.openPopup();
+            }
+        }
+    });
+};
 
 function addLayer(layer, name, zIndex, color) {
     layer
