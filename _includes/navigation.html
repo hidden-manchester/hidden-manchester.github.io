@@ -1,6 +1,6 @@
-{%comment%}
 
-<nav role="navigation">
+<nav role="navigation" class="site-nav">
+{%comment%}
   <ul class="subscription" data-subscription="rss{% if site.subscribe_email %} email{% endif %}">
   {% comment %}
   <li><a href="{{ site.subscribe_rss }}" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
@@ -19,7 +19,7 @@
 </form>
   {% endif %}
 {% endcomment %}
+{%endcomment%}
 {% include custom/navigation.html %}
 </nav>
 
-{%endcomment%}

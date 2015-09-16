@@ -15,15 +15,15 @@ feature_layers:
   - id: tunnels
     title: Tunnels
     file: map-data/tunnels.geojson
-    layer-color: '#5c2b00'
+    layer-color: '#B1835A'
   - id: coal
     title: Coal
     file: map-data/coal.geojson
-    layer-color: '#000000'
+    layer-color: '#7D7D7D'
   - id: miscellaneous
     title: Miscellaneous
     file: map-data/miscellaneous.geojson
-    layer-color: '#a8a8a8'
+    layer-color: '#FF8E02'
   - id: shelters
     title: Shelters
     file: map-data/shelters.geojson
@@ -33,18 +33,18 @@ feature_layers:
 // Provide your access token
 L.mapbox.accessToken = 'pk.eyJ1IjoibWFya2Nyb3NzZmllbGQiLCJhIjoiYjJjNzliNGEwNjNiYTU1YjA4YTlkNjhkNmNmMjJlYzgifQ.2jm00t_mEEW5wEk6Ytzp2g';
 // Create a map in the div #map
-var map = L.mapbox.map('undergroundManchesterMap', 'markcrossfield.nae9omlm', { zoomControl: false }).setView([53.4780584,-2.2414749],14);
+var map = L.mapbox.map('underground-manchester-map', 'markcrossfield.nae9omlm', { zoomControl: false }).setView([53.4780584,-2.2414749],14);
 
 new L.Control.Zoom({ position: 'topright' }).addTo(map);
 map.scrollWheelZoom.disable();
 
-if (Modernizr.touch) {
-    map.dragging.disable();
-    if (map.tap) map.tap.disable();
-}
+//if (Modernizr.touch) {
+//    map.dragging.disable();
+//    if (map.tap) map.tap.disable();
+//}
 
 
-var layers = document.getElementById('menu-ui');
+var layers = document.getElementById('layer-controls');
 {% for feature in site.features %}
     var {{feature.layer}} = {{ feature.content }}
     addLayer(L.mapbox.featureLayer({{feature.layer}}), "{{feature.layer-title}}", 2, "{{feature.layer-color}}");
@@ -88,7 +88,7 @@ function addLayer(layer, name, zIndex, color) {
     link.href = '#';
     link.id = name
     link.className = 'active';
-    link.innerHTML = name;
+    link.innerHTML = '<span>'+name+'</span>';
     link.style.cssText = 'background-color: ' + color + ';';
 
     link.onclick = function(e) {
@@ -105,4 +105,17 @@ function addLayer(layer, name, zIndex, color) {
     };
 
     layers.appendChild(link);
+}
+
+function showMenu() {
+    document.getElementById('map-menu').style.display = 'block';
+    document.getElementById('underground-manchester-map').style.display = 'none';
+    document.getElementById('map-menu-control-show').style.display = 'none';
+    document.getElementById('map-menu-control-close').style.display = 'inline';
+}
+function hideMenu() {
+    document.getElementById('map-menu').style.display = 'none';
+    document.getElementById('underground-manchester-map').style.display = 'block';
+    document.getElementById('map-menu-control-show').style.display = 'inline';
+    document.getElementById('map-menu-control-close').style.display = 'none';
 }
