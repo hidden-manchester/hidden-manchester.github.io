@@ -1,0 +1,3 @@
+#!/bin/bash
+
+cat $1 | jq ".features[] | {name: .properties.name, description: .properties.description, geometry: .geometry, geometries: .geometries, type: .type, id: .id, \"stroke-width\": .properties.\"stroke-width\"}"

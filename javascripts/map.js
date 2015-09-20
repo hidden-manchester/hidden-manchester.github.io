@@ -1,33 +1,4 @@
 ---
-feature_layers:
-  - id: transport
-    title: Transport
-    file: map-data/transport.geojson
-    layer-color: '#ff0000'
-  - id: waterways
-    title: Waterways
-    file: map-data/waterways.geojson
-    layer-color: '#3887be'
-  - id: victoriaStationArea
-    title: Victoria & Cathedral
-    file: map-data/victoria-station-area.geojson
-    layer-color: '#ff9999'
-  - id: tunnels
-    title: Tunnels
-    file: map-data/tunnels.geojson
-    layer-color: '#B1835A'
-  - id: coal
-    title: Coal
-    file: map-data/coal.geojson
-    layer-color: '#7D7D7D'
-  - id: miscellaneous
-    title: Miscellaneous
-    file: map-data/miscellaneous.geojson
-    layer-color: '#FF8E02'
-  - id: shelters
-    title: Shelters
-    file: map-data/shelters.geojson
-    layer-color: '#00ff00'
 ---
 // Provide your access token
 L.mapbox.accessToken = 'pk.eyJ1IjoibWFya2Nyb3NzZmllbGQiLCJhIjoiYjJjNzliNGEwNjNiYTU1YjA4YTlkNjhkNmNmMjJlYzgifQ.2jm00t_mEEW5wEk6Ytzp2g';
@@ -63,10 +34,6 @@ var layers = document.getElementById('layer-controls');
     {% endfor %}
         ]};
     addLayer(L.mapbox.featureLayer({{ collection[0] }}), "{{collection[1].title}}", 2, "{{collection[1].color}}");
-{% endfor %}
-{% for feature_layer in page.feature_layers %}
-    var {{feature_layer.id}} = {% include {{feature_layer.file}} %}
-    addLayer(L.mapbox.featureLayer({{feature_layer.id}}), "{{feature_layer.title}}", 2, "{{feature_layer.layer-color}}");
 {% endfor %}
 
 function featureIdInUrl() {

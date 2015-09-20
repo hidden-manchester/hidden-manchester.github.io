@@ -20,6 +20,41 @@ collections:
     title: Guardian Bunker
     color: '#a200ff'
     marker_symbol: "telephone"
+  coal:
+    output: true
+    title: Coal
+    color: '#7D7D7D'
+    marker_symbol: "oil-well"
+  miscellaneous:
+    output: true
+    title: Miscellaneous
+    color: '#FF8E02'
+    marker_symbol: "m"
+  shelters:
+    output: true
+    title: Shelters
+    color: '#00ff00'
+    marker_symbol: "hospital"
+  transport:
+    output: true
+    title: Transport
+    color: '#ff0000'
+    marker_symbol: "rail"
+  tunnels:
+    output: true
+    title: Tunnels
+    color: '#B1835A'
+    marker_symbol: "entrance"
+  victoria_and_cathedral:
+    output: true
+    title: Victoria & Cathedral
+    color: '#ff9999'
+    marker_symbol: "v"
+  waterways:
+    output: true
+    title: Waterways
+    color: '#3887be'
+    marker_symbol: "water"
 
 google_analytics_tracking_id: 'UA-352611-13'
 gems:

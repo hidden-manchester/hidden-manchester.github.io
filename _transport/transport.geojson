@@ -1,0 +1,634 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Picc-Vic: Whitworth Station",
+        "title": "Picc-Vic: Whitworth Station",
+        "description": "",
+        "marker-color": "#ff0000",
+        "marker-size": "",
+        "marker-symbol": "rail",
+        "stroke": "#ff0000",
+        "stroke-width": 4,
+        "stroke-opacity": 1,
+        "fill": "#ff0000",
+        "fill-opacity": 0.20000000298023224
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -2.238966,
+              53.475893,
+              0
+            ],
+            [
+              -2.238824,
+              53.475526,
+              0
+            ],
+            [
+              -2.236555,
+              53.475848,
+              0
+            ],
+            [
+              -2.236716,
+              53.476231,
+              0
+            ],
+            [
+              -2.238966,
+              53.475893,
+              0
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "id": "10f266b72315fe494f1ce8d3934aa314"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Railway Mens Club",
+        "description": "Just off store street, with the entrance still visible in the wall (see a <a href=http://images.manchester.gov.uk/Display.php?irn=60630 target=_blank>Manchester Libraries image</a>), this space underneath the station was a club with live music up until the mid 1990s.<br><br>You can see more modern photographs in this article in<a href=http://pubs-of-manchester.blogspot.co.uk/2010/02/railway-mens-club-store-street.html target=_blank> Railway Mens Club, Store Street</a> on the Pubs of Manchester blog.",
+        "gx_media_links": "http://www.images.manchester.gov.uk/web/objects/common/webmedia.php?irn=61185",
+        "title": "Railway Mens Club",
+        "marker-color": "#ff0000",
+        "marker-size": "",
+        "marker-symbol": "rail"
+      },
+      "geometry": {
+        "coordinates": [
+          -2.23185,
+          53.477715,
+          0
+        ],
+        "type": "Point"
+      },
+      "id": "5dad242e0d9d7c6f8048beb27632f8ea"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Railway Cutting",
+        "title": "Railway Cutting",
+        "description": "",
+        "marker-color": "#ff0000",
+        "marker-size": "",
+        "marker-symbol": "rail"
+      },
+      "geometry": {
+        "coordinates": [
+          -2.166935,
+          53.411604,
+          0
+        ],
+        "type": "Point"
+      },
+      "id": "626e6bb8951f457de070d868d9e1fed5"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Picc-Vic: Victoria Station",
+        "title": "Picc-Vic: Victoria Station",
+        "description": "",
+        "marker-color": "#ff0000",
+        "marker-size": "",
+        "marker-symbol": "rail",
+        "stroke": "#ff0000",
+        "stroke-width": 4,
+        "stroke-opacity": 1,
+        "fill": "#ff0000",
+        "fill-opacity": 0.20000000298023224
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -2.241505,
+              53.48734,
+              0
+            ],
+            [
+              -2.2416,
+              53.486009,
+              0
+            ],
+            [
+              -2.24083,
+              53.48599,
+              0
+            ],
+            [
+              -2.24068,
+              53.48733,
+              0
+            ],
+            [
+              -2.241505,
+              53.48734,
+              0
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "id": "6feffe651e654aae4e4eda8ab83073ba"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Picc-Vic: Royal Exchange Station",
+        "title": "Picc-Vic: Royal Exchange Station",
+        "description": "",
+        "marker-color": "#ff0000",
+        "marker-size": "",
+        "marker-symbol": "rail",
+        "stroke": "#ff0000",
+        "stroke-width": 4,
+        "stroke-opacity": 1,
+        "fill": "#ff0000",
+        "fill-opacity": 0.20000000298023224
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -2.24342,
+              53.483207,
+              0
+            ],
+            [
+              -2.244435,
+              53.482006,
+              0
+            ],
+            [
+              -2.243823,
+              53.481856,
+              0
+            ],
+            [
+              -2.24282,
+              53.483034,
+              0
+            ],
+            [
+              -2.24342,
+              53.483207,
+              0
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "id": "831eaef0c10f0b3ba06923abe7e281e8"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Cheshire Lines Railway cutting",
+        "description": "<a href=http://www.panoramio.com/photo/82370647 target=_blank><img src=http://static.panoramio.com/photos/large/82370647.jpg height=auto width=200 /></a>",
+        "gx_media_links": "http://static.panoramio.com/photos/large/82370647.jpg",
+        "title": "Cheshire Lines Railway cutting",
+        "marker-color": "#ff0000",
+        "marker-size": "",
+        "marker-symbol": "rail"
+      },
+      "geometry": {
+        "coordinates": [
+          -2.164103,
+          53.411904,
+          0
+        ],
+        "type": "Point"
+      },
+      "id": "87cea19059a539704a5fc35cd227ec75"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Picc-Vic: Proposed Route",
+        "description": "See the proposed route in this article about Martin Dodge’s work on Infra_MANC ‘<a href=https://citiesmcr.wordpress.com/2012/02/20/contemporary-cities-and-infrastructural-imaginaries/ target=_blank>Contemporary Cities and Infrastructural Imaginaries</a>’, in the <a href=http://personalpages.manchester.ac.uk/staff/m.dodge/Infra_MANC_catalogue.pdf target=_blank>Infra_MANC catalogue</a>, and other proposed routes in <a href=http://www.manchesterconfidential.co.uk/news/manchesters-failed-underground-100-years-of-transport-woe target=_blank>Manchester's Failed Underground - 100 Years Of Transport Dreams</a> on Manchester Confidential.",
+        "title": "Picc-Vic: Proposed Route",
+        "marker-color": "#ff0000",
+        "marker-size": "",
+        "marker-symbol": "rail",
+        "stroke": "#ff0000",
+        "stroke-width": 4,
+        "stroke-opacity": 1
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -2.241104,
+            53.487528,
+            0
+          ],
+          [
+            -2.241157,
+            53.486711,
+            0
+          ],
+          [
+            -2.241243,
+            53.48606,
+            0
+          ],
+          [
+            -2.241415,
+            53.485537,
+            0
+          ],
+          [
+            -2.241608,
+            53.485198,
+            0
+          ],
+          [
+            -2.241908,
+            53.484713,
+            0
+          ],
+          [
+            -2.242295,
+            53.484113,
+            0
+          ],
+          [
+            -2.242906,
+            53.483385,
+            0
+          ],
+          [
+            -2.243325,
+            53.482894,
+            0
+          ],
+          [
+            -2.243743,
+            53.482383,
+            0
+          ],
+          [
+            -2.244344,
+            53.481668,
+            0
+          ],
+          [
+            -2.244612,
+            53.481368,
+            0
+          ],
+          [
+            -2.24502,
+            53.480998,
+            0
+          ],
+          [
+            -2.245417,
+            53.480563,
+            0
+          ],
+          [
+            -2.245696,
+            53.480167,
+            0
+          ],
+          [
+            -2.245792,
+            53.479823,
+            0
+          ],
+          [
+            -2.245728,
+            53.479465,
+            0
+          ],
+          [
+            -2.24561,
+            53.479037,
+            0
+          ],
+          [
+            -2.245438,
+            53.478629,
+            0
+          ],
+          [
+            -2.245181,
+            53.478233,
+            0
+          ],
+          [
+            -2.244902,
+            53.477869,
+            0
+          ],
+          [
+            -2.244365,
+            53.477288,
+            0
+          ],
+          [
+            -2.244022,
+            53.47702,
+            0
+          ],
+          [
+            -2.243636,
+            53.476656,
+            0
+          ],
+          [
+            -2.243153,
+            53.476292,
+            0
+          ],
+          [
+            -2.242863,
+            53.476119,
+            0
+          ],
+          [
+            -2.242573,
+            53.475973,
+            0
+          ],
+          [
+            -2.242134,
+            53.475819,
+            0
+          ],
+          [
+            -2.24149,
+            53.47566,
+            0
+          ],
+          [
+            -2.240857,
+            53.475596,
+            0
+          ],
+          [
+            -2.240278,
+            53.475609,
+            0
+          ],
+          [
+            -2.239494,
+            53.47566,
+            0
+          ],
+          [
+            -2.238604,
+            53.475787,
+            0
+          ],
+          [
+            -2.236694,
+            53.476062,
+            0
+          ],
+          [
+            -2.235814,
+            53.476215,
+            0
+          ],
+          [
+            -2.234999,
+            53.476343,
+            0
+          ],
+          [
+            -2.234216,
+            53.476432,
+            0
+          ],
+          [
+            -2.232971,
+            53.47649,
+            0
+          ],
+          [
+            -2.232413,
+            53.476458,
+            0
+          ],
+          [
+            -2.231888,
+            53.476419,
+            0
+          ],
+          [
+            -2.231276,
+            53.476305,
+            0
+          ],
+          [
+            -2.230901,
+            53.476183,
+            0
+          ],
+          [
+            -2.2306,
+            53.476043,
+            0
+          ],
+          [
+            -2.230031,
+            53.475743,
+            0
+          ],
+          [
+            -2.22927,
+            53.475289,
+            0
+          ],
+          [
+            -2.228572,
+            53.474944,
+            0
+          ],
+          [
+            -2.228004,
+            53.474593,
+            0
+          ],
+          [
+            -2.228025,
+            53.474593,
+            0
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "90dc0eb38cc7f151d19e077859d63f72"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "BRSA Club",
+        "description": "This British Railways Staff Association pub closed in 1992, and site just outside the entrance. It consists of space underground, which is a favorite haunt of Victoria Station urban explorers.<br/><a href=http://www.28dayslater.co.uk/forums/showthread.php/67775-B-R-S-A-Club-Manchester-2012>Report - B.R.S.A Club, Manchester - 2012</a><br>location approximate",
+        "title": "BRSA Club",
+        "marker-color": "#ff0000",
+        "marker-size": "",
+        "marker-symbol": "rail"
+      },
+      "geometry": {
+        "coordinates": [
+          -2.242361,
+          53.486626,
+          0
+        ],
+        "type": "Point"
+      },
+      "id": "94d304162e42127503b01bdf8f554193"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Picc-Vic: Royal Exchange Station entrance?",
+        "description": "Possible entrance to an underground space, intended to be used as part of the Picc-Vic rail link.<br><br><blockquote>&ldquo;About 1972 a friend on mine Brian Conner worked on the Arndale site in Manchester as a foreman, He came to me one day with his friend Steve Price when I was in the YMCA and told me to go with him to see something,<br>The entrance was (and still is there) a plain door not far from the corner of Market Street and Cross Street, where Boots the Chemist is now As we went through the entrance there were wooden stairs leading down, 2 flights of stairs down he shown me a big metal door, The door must have been about 5 to 6 inches thick and inside there was what looked like a storage area, Id say about 40 feet by 30 feet, He speculated on it being a storage area during the cold war days…&rdquo;<footer>—<a href=http://webcache.googleusercontent.com/search?q=cache:nm13eTq6cPkJ:www.aidan.co.uk/forums/showthread.php%3Ft%3D29%26page%3D10+&amp;cd=1&amp;hl=en&amp;ct=clnk&amp;gl=uk#post1516>From Aiden O’Rourke’s now closed forum</a></footer></blockquote>",
+        "title": "Picc-Vic: Royal Exchange Station entrance?",
+        "marker-color": "#ff0000",
+        "marker-size": "",
+        "marker-symbol": "rail"
+      },
+      "geometry": {
+        "coordinates": [
+          -2.243852,
+          53.482429,
+          0
+        ],
+        "type": "Point"
+      },
+      "id": "bb83afdbb53a16808b2a85f37e3cae8d"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Picc-Vic: Arndale Void",
+        "description": "This is the spot of an apparent void in the depths of the Arndale, purportedly reserved for the entrance to or the main area of the Royal Exchange Picc-Vic station.<br><br><q>Next time you pass <a href=http://www.manchesterarndale.com/store_profile.aspx?id=134 target=_blank>Topshop</a>, pause to contemplate the fact that 30ft below it is an enormous hole which was almost certainly dug to be part of a swanky Manchester tube system.</q><br>—<a href=http://www.guardian.co.uk/uk/the-northerner/2012/mar/14/manchester-localgovernment-underground-trains-picc-vic-secret-telephone-exchange?newsfeed=true>Guardian</a><br><br>There are some more pictures and Arndale plans showing a void in this article titled ‘<a href=http://www.architectsjournal.co.uk/news/astragal/manchester-unearths-forgotten-1970s-tube-line/8627773.article>Manchester unearths forgotten 1970s tube line</a>’.",
+        "gx_media_links": "http://static.guim.co.uk/sys-images/Guardian/Pix/online/2012/3/14/1331734031756/Void-built-for-in-readine-004.jpg",
+        "title": "Picc-Vic: Arndale Void",
+        "marker-color": "#ff0000",
+        "marker-size": "",
+        "marker-symbol": "rail"
+      },
+      "geometry": {
+        "coordinates": [
+          -2.243405,
+          53.483044,
+          0
+        ],
+        "type": "Point"
+      },
+      "id": "bec9df0724ef128d71dcce102174e994"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Picc-Vic: Piccadilly Station",
+        "title": "Picc-Vic: Piccadilly Station",
+        "description": "",
+        "marker-color": "#ff0000",
+        "marker-size": "",
+        "marker-symbol": "rail",
+        "stroke": "#ff0000",
+        "stroke-width": 4,
+        "stroke-opacity": 1,
+        "fill": "#ff0000",
+        "fill-opacity": 0.20000000298023224
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -2.23053,
+              53.476298,
+              0
+            ],
+            [
+              -2.231051,
+              53.47603,
+              0
+            ],
+            [
+              -2.229318,
+              53.475136,
+              0
+            ],
+            [
+              -2.228841,
+              53.47542,
+              0
+            ],
+            [
+              -2.23053,
+              53.476298,
+              0
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "id": "c1496141fae5b25e37a8f52353149c86"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Picc-Vic: Central Station",
+        "title": "Picc-Vic: Central Station",
+        "description": "",
+        "marker-color": "#ff0000",
+        "marker-size": "",
+        "marker-symbol": "rail",
+        "stroke": "#ff0000",
+        "stroke-width": 4,
+        "stroke-opacity": 1,
+        "fill": "#ff0000",
+        "fill-opacity": 0.5
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -2.244591,
+              53.477205,
+              0
+            ],
+            [
+              -2.243925,
+              53.477416,
+              0
+            ],
+            [
+              -2.244977,
+              53.478495,
+              0
+            ],
+            [
+              -2.245545,
+              53.478329,
+              0
+            ],
+            [
+              -2.244591,
+              53.477205,
+              0
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "id": "f68b1ee9cd293ce7c8e544175674cd3e"
+    }
+  ],
+  "id": "markcrossfield.naejm72e"
+}
