@@ -279,14 +279,16 @@
         ],
         "type": "Point"
       },
-      "id": "786f5101ab3a99c5285f7b509f7a0849"
+      "id": "old-deanery"
     },
+    { "type": "FeatureCollection",
+      "features": [
     {
       "type": "Feature",
       "properties": {
-        "name": "Grocer’s / Bridgewater Tunnel",
+        "name": "Grocer’s Warehouse / Bridgewater Tunnel",
         "description": "Built in 1765 many imagine this tunnel to be part of the Rochdale Canal to which it is currently linked. It was in fact part of the lower Bridgewater canal, built to take canal boats underneath the Duke of Bridgewater's warehouse on Bridgewater street. The lower level of the bridgewater explains why there does not appear to be enough room to enter in a boat.<br><br>Excavations in 2007 discovered a shaft from this tunnel between Liverpool Road and Bridgewater Street, probably used to haul coal into a warehouse. See Manchester Underground (Warrender, 2007:60). See photos at <a href=http://www.canalscape.net/Castlefield%20Canal%20Heritage%20Walk/Castlefield%20Canal%20Heritage%20Walk.htm target=_blank>Castlefield Canal Heritage Walk</a><br><br><blockquote>“Beyond the loading docks inside the warehouse was the entrance to a tunnel known as the Bridgewater Tunnel. This tunnel ran for 620 yards (600 mtrs) from the warehouse entrance through the solid sandstone escarpment as far as Bank Top with shaft connections to coal yards along its length. The tunnel was truncated and sealed-up when the Rochdale Canal was constructed in 1800. In 2007 parts of it came to light when land between Bridgewater Street and Liverpool Road was being redeveloped.”<footer>—<a href=http://www.canalscape.net/Castlefield%20Canal%20Heritage%20Walk/Castlefield%20Canal%20Heritage%20Walk.htm target=_blank>Castlefield Canal Heritage Walk</a></footer></blockquote>(note I have not been able to confirm that this tunnel indeed headed towards Bank Top; accounts seem confused with the Duke’s tunnel)",
-        "title": "Grocer’s / Bridgewater Tunnel",
+        "title": "Grocer’s Warehouse / Bridgewater Tunnel",
         "marker-color": "B1835A",
         "marker-size": "",
         "marker-symbol": "entrance",
@@ -309,7 +311,7 @@
         ],
         "type": "LineString"
       },
-      "id": "81da1e06ddceb393e8ff5d82f69b1fe1"
+      "id": "grocers-warehouse-bridgewater-tunnel"
     },
     {
       "type": "Feature",
@@ -331,7 +333,7 @@
         "type": "Point"
       },
       "id": "6a7380e769d525a5cfa4335ab2008022"
-    },
+    }]},
     {
       "type": "Feature",
       "properties": {

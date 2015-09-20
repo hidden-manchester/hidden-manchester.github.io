@@ -29,30 +29,46 @@ feature_layers:
     file: map-data/shelters.geojson
     layer-color: '#00ff00'
 ---
-
 // Provide your access token
 L.mapbox.accessToken = 'pk.eyJ1IjoibWFya2Nyb3NzZmllbGQiLCJhIjoiYjJjNzliNGEwNjNiYTU1YjA4YTlkNjhkNmNmMjJlYzgifQ.2jm00t_mEEW5wEk6Ytzp2g';
-// Create a map in the div #map
 var map = L.mapbox.map('underground-manchester-map', 'markcrossfield.nae9omlm', { zoomControl: false }).setView([53.4780584,-2.2414749],14);
 
 new L.Control.Zoom({ position: 'topright' }).addTo(map);
 map.scrollWheelZoom.disable();
 
-//if (Modernizr.touch) {
-//    map.dragging.disable();
-//    if (map.tap) map.tap.disable();
-//}
-
-
 var layers = document.getElementById('layer-controls');
-{% for feature in site.features %}
-    var {{feature.layer}} = {{ feature.content }}
-    addLayer(L.mapbox.featureLayer({{feature.layer}}), "{{feature.layer-title}}", 2, "{{feature.layer-color}}");
+{% for collection in site.collections %}
+    var {{ collection[0] }} = {
+        "type": "FeatureCollection",
+        "features": [
+    {% for feature in collection[1].docs %}
+            {
+                "type": "{{ feature.type }}",
+                "properties": {
+                    "name": "{{ feature.title }}",
+                    "title": "{{ feature.title }}",
+                    "description": "{{ feature.description }}",
+                    "marker-color": "{{ collection[1].color }}",
+                    "marker-size": "",
+                    "marker-symbol": "{{ collection[1].marker_symbol }}",
+                    "stroke": "{{ collection[1].color }}",
+                    "stroke-width": {{ feature.stroke_width }},
+                    "stroke-opacity": 1,
+                    "fill": "{{ collection[1].color }}",
+                    "fill-opacity": 0.5
+                },
+                {{ feature.geometry }},
+                "id": "{{ feature.id }}"
+            },
+    {% endfor %}
+        ]};
+    addLayer(L.mapbox.featureLayer({{ collection[0] }}), "{{collection[1].title}}", 2, "{{collection[1].color}}");
 {% endfor %}
 {% for feature_layer in page.feature_layers %}
     var {{feature_layer.id}} = {% include {{feature_layer.file}} %}
     addLayer(L.mapbox.featureLayer({{feature_layer.id}}), "{{feature_layer.title}}", 2, "{{feature_layer.layer-color}}");
 {% endfor %}
+
 function featureIdInUrl() {
     return window.location.hash.substr(1);
 }

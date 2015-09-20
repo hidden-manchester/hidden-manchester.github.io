@@ -15,7 +15,11 @@ markdown: kramdown
 paginate: 5
 
 collections:
-- features
+  gute:
+    output: true
+    title: Guardian Bunker
+    color: '#a200ff'
+    marker_symbol: "telephone"
 
 google_analytics_tracking_id: 'UA-352611-13'
 gems:
