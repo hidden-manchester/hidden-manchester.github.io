@@ -18,7 +18,7 @@ var layers = document.getElementById('layer-controls');
                 "properties": {
                     "name": "{{ feature.title }}",
                     "title": "{{ feature.title }}",
-                    "description": "{{ feature.description }}",
+                    "description": "{{ feature.description }}{% if feature.read_more %}<p class=read-more><a href=http:///{{ collection[0] }}/{{ feature.id }}.html>Read more…</a>{% endif %}</p>",
                     "marker-color": "{{ collection[1].color }}",
                     "marker-size": "",
                     "marker-symbol": "{{ collection[1].marker_symbol }}",

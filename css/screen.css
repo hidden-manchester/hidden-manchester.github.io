@@ -2171,6 +2171,10 @@ div#map-menu-controls {
     left: 0px;
     z-index: 0;
 }
+#feature-map {
+    width: 100%;
+    height: 250px;
+}
 
 /* Map */
 
@@ -2213,4 +2217,8 @@ div#map-menu-controls {
 .layer-controls a.active:hover {
     background:#3074a4;
     color:#404040;
+}
+
+.read-more {
+    text-align: right;
 }

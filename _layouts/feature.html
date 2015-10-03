@@ -1,0 +1,75 @@
+{% capture root_url %}{{ site.root | strip_slash }}{% endcapture %}
+{% include head.html %}
+<body>
+  <header role="banner">{% include header.html %}</header>
+  <div id="feature-map"></div>
+  <div id="content"><div>
+  <h1>{{ page.title }}</h1>
+    {{ content }}
+  </div></div>
+    <script>
+      // Provide your access token
+      L.mapbox.accessToken = 'pk.eyJ1IjoibWFya2Nyb3NzZmllbGQiLCJhIjoiYjJjNzliNGEwNjNiYTU1YjA4YTlkNjhkNmNmMjJlYzgifQ.2jm00t_mEEW5wEk6Ytzp2g';
+      var map = L.mapbox.map('feature-map', 'markcrossfield.nae9omlm', { zoomControl: false }).setView([{{page.latitude}},{{page.longitude}}],{% if page.zoom != null %}{{ page.zoom }}{% else %}17{% endif %});
+
+      new L.Control.Zoom({ position: 'topright' }).addTo(map);
+      map.scrollWheelZoom.disable();
+
+      var layers = document.getElementById('layer-controls');
+
+      function addLayer(layer, name, zIndex, color) {
+        layer
+                .setZIndex(zIndex)
+                .addTo(map);
+
+        // Create a simple layer switcher that
+        // toggles layers on and off.
+        var link = document.createElement('a');
+        link.href = '#';
+        link.id = name
+        link.className = 'active';
+        link.innerHTML = '<span>'+name+'</span>';
+        link.style.cssText = 'background-color: ' + color + ';';
+
+        link.onclick = function(e) {
+          e.preventDefault();
+          e.stopPropagation();
+
+          if (map.hasLayer(layer)) {
+            map.removeLayer(layer);
+            this.className = '';
+          } else {
+            map.addLayer(layer);
+            this.className = 'active';
+          }
+        };
+
+      }
+      var single_feature_layer = {
+        "type": "FeatureCollection",
+        "features": [
+      {
+        "type": "{{ page.type }}",
+        "properties": {
+          "name": "{{ page.title }}",
+          "title": "{{ page.title }}",
+          "description": "{{ page.description }}",
+          "marker-color": "{{ site.collections[page.collection].color }}",
+          "marker-size": "",
+          "marker-symbol": "{{ {{ site.collections[page.collection].marker_symbol }}",
+          "stroke": "{{ site.collections[page.collection].color }}",
+          "stroke-width": {{ page.stroke_width }},
+          "stroke-opacity": 1,
+          "fill": "{{ site.collections[page.collection].color }}",
+          "fill-opacity": 0.5
+        },
+        {{ page.geometry }},
+        "id": "{{ page.id }}"
+      }
+      ]};
+      addLayer(L.mapbox.featureLayer(single_feature_layer), "ASD", 2, "{{ site.collections[page.collection].color }}");
+    </script>
+
+  {% include after_footer.html %}
+</body>
+</html>
