@@ -1,0 +1,9 @@
+{% for feature in site.collections[include.collection_id].docs %}
+<h4><a name={{feature.id}}></a>{{ feature.title }}</h4>
+<p>
+    {{ feature.description }}
+    {% if feature.read_more %}
+    <br><a href={{feature.id}}.html>Read more…</a>
+    {% endif %}
+</p>
+{% endfor %}

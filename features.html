@@ -1,0 +1,18 @@
+---
+layout: page
+title: Features of Hidden Manchester
+---
+Here each feature in the map is listed by the layer it belongs to. 
+{% for collection in site.collections %}
+    
+    <h3><a href=/{{collection[0]}}/>{{ collection[0] }}</a></h3>
+    {% for feature in collection[1].docs %}
+      <h4>{{ feature.title }}</h4>
+      <p>
+          {{ feature.description }}
+            {% if feature.read_more %}
+                <br><a href={{feature.id}}.html>Read more…</a>
+            {% endif %}
+      </p>
+    {% endfor %}
+{% endfor %}
