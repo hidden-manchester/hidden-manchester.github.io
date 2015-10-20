@@ -4,7 +4,7 @@
   <header role="banner">{% include header.html %}</header>
   <div id="feature-map"></div>
   <div id="content"><div>
-  <h1>{{ page.title }}</h1>
+  <h1>{{ site.collections[page.collection].title }} > {{ page.title }} <a class=feature-pin href=/#{{page.id}}>📍</a></h1>
     {{ content }}
     <br><br><a href="/#{{page.id}}">Back to the map</a>
   </div></div>
@@ -59,7 +59,7 @@
           "marker-size": "",
           "marker-symbol": "{{ {{ site.collections[page.collection].marker_symbol }}",
           "stroke": "{{ site.collections[page.collection].color }}",
-          "stroke-width": {{ page.stroke_width }},
+          "stroke-width": {{ page.stroke_width }}, //here
           "stroke-opacity": 1,
           "fill": "{{ site.collections[page.collection].color }}",
           "fill-opacity": 0.5

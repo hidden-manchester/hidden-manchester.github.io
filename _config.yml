@@ -18,36 +18,43 @@ collections:
   gute:
     output: true
     title: Guardian Bunker
+    description: Manchester’s superstar feature… it’s cold war hardened telephone exchange covers a significant area and has a fascinating history.
     color: '#a200ff'
     marker_symbol: "telephone"
   coal:
     output: true
     title: Coal
+    description: Manchester Coalfield used to have significant workings, extensively at Bradford Colliery (now the site of the City of Manchester Stadium). The slanted geology of the area means that there is plenty of coal at quite shallow depths. 
     color: '#7D7D7D'
     marker_symbol: "oil-well"
   miscellaneous:
     output: true
     title: Miscellaneous
+    description: Many of these features relate to long gone buildings in Manchester city centre, where basements, tunnels and storage chambers were often joined.
     color: '#FF8E02'
     marker_symbol: "m"
   shelters:
     output: true
     title: Shelters
+    description: These are just a few of the more interesting shelters in Manchester. There were hundreds if not thousands of shelters at one time or another, many of which were just reinforced basements.
     color: '#00ff00'
     marker_symbol: "hospital"
   transport:
     output: true
     title: Transport
+    description: Manchester’s rich transport history of canals, trains, trams and planned underground schemes mean there are plenty of transport related features often built over and forgotten by the modern world.  
     color: '#ff0000'
     marker_symbol: "rail"
   tunnels:
     output: true
     title: Tunnels
+    description: The sandstone rock under much of Manchester lends itself to self supporting tunnels, and many generations have relied on this fact to build vast networks of tunnels. Many of these are forgotten about, many are rumoured and some are discovered as building work exposes earth.
     color: '#B1835A'
     marker_symbol: "entrance"
-  victoria_and_cathedral:
+  victoria-and-cathedral:
     output: true
     title: Victoria & Cathedral
+    description: The area around Victoria Station and Manchester Cathedral (the Collegiate Church of the past) is rich and deep in history… from culverted rivers, historic bridges, lost rivers, original road levels, air raid shelters and 
     color: '#ff9999'
     marker_symbol: "v"
   waterways:

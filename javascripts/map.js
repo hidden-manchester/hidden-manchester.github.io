@@ -9,7 +9,7 @@ map.scrollWheelZoom.disable();
 
 var layers = document.getElementById('layer-controls');
 {% for collection in site.collections %}
-    var {{ collection[0] }} = {
+    var {{ collection[0] | replace: '-','_'}} = {
         "type": "FeatureCollection",
         "features": [
     {% for feature in collection[1].docs %}
@@ -23,7 +23,7 @@ var layers = document.getElementById('layer-controls');
                     "marker-size": "",
                     "marker-symbol": "{{ collection[1].marker_symbol }}",
                     "stroke": "{{ collection[1].color }}",
-                    "stroke-width": {{ feature.stroke_width }},
+                    "stroke-width": {% if feature.stroke_width != null %}{{ feature.stroke_width }}{% else %}3{% endif %}, // {{feature.stroke_width}}
                     "stroke-opacity": 1,
                     "fill": "{{ collection[1].color }}",
                     "fill-opacity": 0.5
@@ -33,7 +33,7 @@ var layers = document.getElementById('layer-controls');
             },
     {% endfor %}
         ]};
-    addLayer(L.mapbox.featureLayer({{ collection[0] }}), "{{collection[1].title}}", 2, "{{collection[1].color}}");
+    addLayer(L.mapbox.featureLayer({{ collection[0] | replace: '-','_'}}), "{{collection[1].title}}", 2, "{{collection[1].color}}");
 {% endfor %}
 
 function featureIdInUrl() {

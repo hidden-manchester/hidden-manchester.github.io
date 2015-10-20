@@ -1,5 +1,8 @@
-{% for feature in site.collections[include.collection_id].docs %}
-<h4><a name={{feature.id}}></a>{{ feature.title }}</h4>
+{% for feature in site.collections[page.collection_id].docs | sort:'title' %}
+<h4><a name={{feature.id}}></a>
+    {% if feature.read_more %}<a href={{page.collection_id}}/{{feature.id}}.html>{% endif %}{{ feature.title }}{% if feature.read_more %}</a>{% endif %}
+    <a class=feature-pin href=/#{{page.id}}>📍</a>
+</h4>
 <p>
     {{ feature.description }}
     {% if feature.read_more %}
