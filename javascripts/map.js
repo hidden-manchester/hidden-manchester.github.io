@@ -5,7 +5,7 @@ L.mapbox.accessToken = 'pk.eyJ1IjoibWFya2Nyb3NzZmllbGQiLCJhIjoiYjJjNzliNGEwNjNiY
 var map = L.mapbox.map('underground-manchester-map', 'markcrossfield.nae9omlm', { zoomControl: false }).setView([53.4780584,-2.2414749],14);
 L.control.locate().addTo(map);
 new L.Control.Zoom({ position: 'topright' }).addTo(map);
-map.scrollWheelZoom.disable();
+//map.scrollWheelZoom.disable();
 
 var layers = document.getElementById('layer-controls');
 {% for collection in site.collections %}
