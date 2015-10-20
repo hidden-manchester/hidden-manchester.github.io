@@ -4,7 +4,7 @@
   <header role="banner">{% include header.html %}</header>
   <div id="feature-map"></div>
   <div id="content"><div>
-  <h1>{{ site.collections[page.collection].title }} > {{ page.title }} <a class=feature-pin href=/#{{page.id}}>📍</a></h1>
+  <h1><a href=/{{page.collection}}.html>{{ site.collections[page.collection].title }}</a> > {{ page.title }} <a class=feature-pin href=/#{{page.id}}>📍</a></h1>
     {{ content }}
     <br><br><a href="/#{{page.id}}">Back to the map</a>
   </div></div>
