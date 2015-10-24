@@ -8,6 +8,7 @@ new L.Control.Zoom({ position: 'topright' }).addTo(map);
 //map.scrollWheelZoom.disable();
 
 var layers = document.getElementById('layer-controls');
+var rootUrl = window.location.protocol + '//' + window.location.host + '/';
 {% for collection in site.collections %}
     var {{ collection[0] | replace: '-','_'}} = {
         "type": "FeatureCollection",
@@ -18,7 +19,7 @@ var layers = document.getElementById('layer-controls');
                 "properties": {
                     "name": "{{ feature.title }}",
                     "title": "{{ feature.title }}",
-                    "description": "{{ feature.description }}{% if feature.read_more %}<p class=read-more><a href=http:///{{ collection[0] }}/{{ feature.id }}.html>Read more…</a>{% endif %}</p>",
+                    "description": "{{ feature.description }}{% if feature.read_more %}<p class=read-more><a href="+rootUrl+"{{ collection[0] }}/{{ feature.id }}.html>Read more…</a>{% endif %}</p>",
                     "marker-color": "{{ collection[1].color }}",
                     "marker-size": "",
                     "marker-symbol": "{{ collection[1].marker_symbol }}",
