@@ -37,6 +37,10 @@ Duncan Campbell’s 1982 publication revealed (in many cases for the first time)
 This site allows you to view a number of historical maps overlayed with a modern map view, allowing you to see how an area used to be laid out. This has been priceless when trying to understand where long gone or obscured features are located.\\
 <http://manchester.publicprofiler.org/beta/>
 
+####[John Rylands University Library Image Collections](http://enriqueta.man.ac.uk/luna/servlet/view/all)
+This has a great wealth of maps and diagrams concerning Manchester, including the [1794 William Green map](http://enriqueta.man.ac.uk/luna/servlet/detail/maps2~1~1~340688~123190:Manchester-and-Salford?sort=Reference_Number%2CReference_Number%2CReference_Number%2CPage&qvq=q:william%2Bgreen%2Bmap;sort:Reference_Number%2CReference_Number%2CReference_Number%2CPage;lc:maps2~1~1,Manchester~91~1,ManchesterDev~95~2,Man4MedievalVC~4~4,nonconform~91~1,ManchesterDev~93~3,lib1~1~1&mi=0&trs=1#) which is not shown on the ‘20 Historical Maps of Manchester’ site.\\
+<http://enriqueta.man.ac.uk/luna/servlet/view/all>
+
 ####[A deeper understanding of climate induced risk to urban infrastructure: case studies of past events in Greater Manchester](http://www.mangeogsoc.org.uk/pdfs/lawson_lindley.pdf)
 An interesting read, and contains a copy of probably the best online reproduction of Ashworth’s map of Manchester’s underground rivers.\\
 <http://www.mangeogsoc.org.uk/pdfs/lawson_lindley.pdf>
