@@ -22,12 +22,16 @@ var rootUrl = window.location.protocol + '//' + window.location.host + '/';
         "type": "FeatureCollection",
         "features": [
     {% for feature in collection[1].docs %}
+    {% capture content_words %}{{ feature.content | number_of_words }}{% endcapture %}
+    {% capture description_words %}{{ feature.description | number_of_words }}{% endcapture %}
+    {% assign excerpted = 'asd' %}
+    {% if content_words != '0' and description_words != content_words %}{% assign excerpted = 'true' %}{% endif %}
             {
                 "type": "{{ feature.type }}",
                 "properties": {
                     "name": "{{ feature.title }}",
                     "title": "{{ feature.title }}",
-                    "description": "{{ feature.description }}{% if feature.read_more %}<p class=read-more><a href="+rootUrl+"{{ collection[0] }}/{{ feature.id }}.html>Read more…</a>{% endif %}</p>",
+                    "description": "{{ feature.description }}{% if excerpted == 'true' %}<p class=read-more><a href="+rootUrl+"{{ collection[0] }}/{{ feature.id }}.html>Read more…</a>{% endif %}</p>",
                     "marker-color": "{{ collection[1].color }}",
                     "marker-size": "",
                     "marker-symbol": "{{ collection[1].marker_symbol }}",
