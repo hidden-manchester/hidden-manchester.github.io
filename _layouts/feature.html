@@ -3,11 +3,15 @@
 <body>
   <header role="banner">{% include header.html %}</header>
   <div id="feature-map"></div>
-  <div id="content"><div>
-  <h1><a href=/{{page.collection}}.html>{{ site.collections[page.collection].title }}</a> > {{ page.title }} <a class=feature-pin href=/#{{page.id}}>📍</a></h1>
-    {{ content }}
-    <br><br><a href="/#{{page.id}}">Back to the map</a>
-  </div></div>
+  <div id="content">
+    <div>
+      <article role="article">
+        <h1><a href=/{{page.collection}}.html>{{ site.collections[page.collection].title }}</a> > {{ page.title }} <a class=feature-pin href=/#{{page.id}}>📍</a></h1>
+        {{ content }}
+        <br><br><a href="/#{{page.id}}">Back to the map</a>
+      </article>
+    </div>
+  </div>
     <script>
       // Provide your access token
       L.mapbox.accessToken = 'pk.eyJ1IjoibWFya2Nyb3NzZmllbGQiLCJhIjoiYjJjNzliNGEwNjNiYTU1YjA4YTlkNjhkNmNmMjJlYzgifQ.2jm00t_mEEW5wEk6Ytzp2g';
