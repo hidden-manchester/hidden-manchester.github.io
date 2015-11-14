@@ -2225,3 +2225,4 @@ div#map-menu-controls {
     text-decoration: none;
     font-weight: normal;
 }
+.leaflet-container p {font-size: 1em !important;}
