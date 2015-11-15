@@ -1,3 +1,12 @@
 {% comment %}
   Add content to be output at the bottom of each page. (You might use this for analytics scripts, for example)
 {% endcomment %}
+<script src=https://cdnjs.cloudflare.com/ajax/libs/anchor-js/2.0.0/anchor.min.js></script>
+<script>
+  var anchors  = new AnchorJS();
+  anchors.options = {
+    placement: 'left'
+  };
+  anchors.add('div#content h1, div#content h2, div#content h3, div#content h4, div#content h5');
+
+</script>
