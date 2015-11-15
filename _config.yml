@@ -18,7 +18,7 @@ collections:
   gute:
     output: true
     title: Guardian Bunker
-    description: Manchester’s superstar feature… it’s cold war hardened telephone exchange covers a significant area and has a fascinating history.
+    description: Manchester’s superstar feature… its cold war hardened telephone exchange covers a significant area and has a fascinating history.
     color: '#a200ff'
     marker_symbol: "telephone"
   coal:
