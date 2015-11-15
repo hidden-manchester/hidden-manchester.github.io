@@ -16,7 +16,7 @@
     <script>
       // Provide your access token
       L.mapbox.accessToken = 'pk.eyJ1IjoibWFya2Nyb3NzZmllbGQiLCJhIjoiYjJjNzliNGEwNjNiYTU1YjA4YTlkNjhkNmNmMjJlYzgifQ.2jm00t_mEEW5wEk6Ytzp2g';
-      var map = L.mapbox.map('feature-map', 'markcrossfield.nae9omlm', { zoomControl: false }).setView([{{page.latitude}},{{page.longitude}}],{% if page.zoom != null %}{{ page.zoom }}{% else %}17{% endif %});
+      var map = L.mapbox.map('feature-map', 'markcrossfield.nae9omlm', { zoomControl: false });
 
       new L.Control.Zoom({ position: 'topright' }).addTo(map);
       map.scrollWheelZoom.disable();
@@ -73,7 +73,10 @@
         "id": "{{ page.id }}"
       }
       ]};
-      addLayer(L.mapbox.featureLayer(single_feature_layer), "ASD", 2, "{{ site.collections[page.collection].color }}");
+      var singleFeatureLayer = L.mapbox.featureLayer(single_feature_layer);
+      addLayer(singleFeatureLayer, "ASD", 2, "{{ site.collections[page.collection].color }}");
+      map.fitBounds(singleFeatureLayer.getBounds())
+
     </script>
 
   {% include after_footer.html %}
