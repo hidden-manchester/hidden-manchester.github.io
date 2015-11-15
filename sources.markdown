@@ -46,7 +46,7 @@ An interesting read, and contains a copy of probably the best online reproductio
 <http://www.mangeogsoc.org.uk/pdfs/lawson_lindley.pdf>
 
 #### Infra_MANC
-A collaboration between Martin Dodge and Richard Brooks, the Infra_MANC exhibition provided a picture of the post war infrastructure of Manchester, and it’s plans and fantasies for the future. It’s catalogue is available online.\\
+A collaboration between Martin Dodge and Richard Brooks, the Infra_MANC exhibition provided a picture of the post war infrastructure of Manchester, and its plans and fantasies for the future. Its catalogue is available online.\\
 <http://personalpages.manchester.ac.uk/staff/m.dodge/Infra_MANC_catalogue.pdf>
 
 #### Maps, Memories and Manchester: The Cartographic Imagination of the Hidden Networks of the Hydraulic City

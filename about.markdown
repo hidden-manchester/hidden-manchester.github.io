@@ -16,7 +16,7 @@ Each feature is shown on the map under a different shortcut. As you click on the
 
 To hide or show whole layers of features you can click the menu button ![menu icon](/images/menu.png) then the layers shown to toggle their visibility.
 
-If a feature has an extended description then you will be able to click ‘Read more…’ to go to the feature’s own page (for example [Guardian Underground Telephone Exchange](/gute/guardian-underground-telephone-exchange.html) where the feature is shown on it’s own in a map in at the top of the page. Alternatively you can click the name of the collection to view all the related features (for example [Guardian Bunker](/gute.html).
+If a feature has an extended description then you will be able to click ‘Read more…’ to go to the feature’s own page (for example [Guardian Underground Telephone Exchange](/gute/guardian-underground-telephone-exchange.html) where the feature is shown on its own in a map in at the top of the page. Alternatively you can click the name of the collection to view all the related features (for example [Guardian Bunker](/gute.html).
 
 To quickly browse all the features choose [All Features](features.html) from the navigation above. You can jump to showing the feature on the map with other features by clicking the pin icon 📍 next to the feature’s name wherever it appears.  
 
