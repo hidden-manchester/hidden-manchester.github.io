@@ -2240,3 +2240,15 @@ div#map-menu-controls {
 .locate-icon {
     font-family: FontAwesome;
 }
+
+.feature-label {
+    background: none;
+    width: 20em !important;
+    height: auto !important;
+    font-weight: bold;
+    text-shadow:
+        0.1em 0.1em 0 white,
+        0.1em -0.1em 0 white,
+        -0.1em 0.1em 0 white,
+        -0.1em -0.1em 0 white;
+}

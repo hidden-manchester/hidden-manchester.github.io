@@ -40,6 +40,17 @@ var rootUrl = window.location.protocol + '//' + window.location.host + '/';
                     "stroke-opacity": 1,
                     "fill": "{{ collection[1].color }}",
                     "fill-opacity": 0.5
+                    {% if feature.labels %},
+                    "labels": [
+                        {% for label in feature.labels %}
+                        {
+                            'text': '{{label.text}}',
+                            'latitude': '{{label.latitude}}',
+                            'longitude': '{{label.longitude}}'
+                        },
+                        {% endfor %}
+                    ]
+                    {% endif %}
                 },
                 {{ feature.geometry }},
                 "id": "{{ feature.id }}"
@@ -54,6 +65,17 @@ function featureIdInUrl() {
 }
 map.eachLayer(function (layer) {
     if (layer.feature) {
+        if (layer.feature.properties.labels) {
+            layer.feature.properties.labels.forEach(function addLabel(label) {
+                L.marker([label.latitude, label.longitude], {
+                    icon: L.divIcon({
+                        className: 'feature-label',
+                        html: label.text,
+                        //iconSize: [100, 40]
+                    })
+                }).addTo(map);
+            });
+        }
         if (layer.feature.id === featureIdInUrl()) {
             layer.openPopup();
         }
