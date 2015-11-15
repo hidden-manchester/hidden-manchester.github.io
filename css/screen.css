@@ -1049,7 +1049,7 @@ article .feature {
     line-height: 1.3em
 }
 
-article img, article video, article .flash-video {
+article video, article .flash-video {
     -webkit-border-radius: 0.3em;
     -moz-border-radius: 0.3em;
     -ms-border-radius: 0.3em;
@@ -2236,3 +2236,7 @@ div#map-menu-controls {
     font-weight: normal;
 }
 .leaflet-container p {font-size: 1em !important;}
+
+.locate-icon {
+    font-family: FontAwesome;
+}
