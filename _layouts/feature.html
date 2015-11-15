@@ -68,6 +68,17 @@
           "stroke-opacity": 1,
           "fill": "{{ site.collections[page.collection].color }}",
           "fill-opacity": 0.5
+        {% if page.labels %},
+          "labels": [
+        {% for label in page.labels %}
+        {
+          'text': '{{label.text}}',
+                'latitude': '{{label.latitude}}',
+                'longitude': '{{label.longitude}}'
+        },
+        {% endfor %}
+        ]
+        {% endif %}
         },
         {{ page.geometry }},
         "id": "{{ page.id }}"
@@ -75,6 +86,20 @@
       ]};
       var singleFeatureLayer = L.mapbox.featureLayer(single_feature_layer);
       addLayer(singleFeatureLayer, "ASD", 2, "{{ site.collections[page.collection].color }}");
+      var layer = singleFeatureLayer.getLayers()[0];
+      if (layer.feature.properties.labels) {
+        layer.feature.properties.labels.forEach(function addLabel(label) {
+          L.marker([label.latitude, label.longitude], {
+            icon: L.divIcon({
+              className: 'feature-label',
+              html: '•&nbsp;&nbsp;' + label.text,
+              //iconSize: [100, 40]
+            })
+          }).addTo(map);
+        });
+      }
+      labelFunction(singleFeatureLayer.getLayers()[0]);
+      map.eachLayer(labelFunction);
       map.fitBounds(singleFeatureLayer.getBounds())
 
     </script>

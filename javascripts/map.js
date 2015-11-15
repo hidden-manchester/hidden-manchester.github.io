@@ -70,7 +70,7 @@ map.eachLayer(function (layer) {
                 L.marker([label.latitude, label.longitude], {
                     icon: L.divIcon({
                         className: 'feature-label',
-                        html: label.text,
+                        html: '•&nbsp;&nbsp;'+label.text,
                         //iconSize: [100, 40]
                     })
                 }).addTo(map);
