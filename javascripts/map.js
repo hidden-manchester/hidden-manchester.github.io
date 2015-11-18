@@ -85,6 +85,15 @@ map.eachLayer(function (layer) {
     }
 });
 
+map.on('click', function(e) {
+
+    var latitude = e.latlng.lat;
+    var longitude = e.latlng.lng;
+
+    console.log('Coordinates\nlatitude: \'' + latitude + "\'\nlongitude: \'" + longitude+'\'')
+
+});
+
 window.onpopstate = function() {
     map.eachLayer(function (layer) {
         if (layer.feature) {
