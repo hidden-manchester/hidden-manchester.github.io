@@ -80,6 +80,12 @@ map.eachLayer(function (layer) {
             layer.openPopup();
         }
         layer.on('click', function (e) {
+            ga('send', {
+                hitType: 'event',
+                eventCategory: 'features',
+                eventAction: 'open',
+                eventLabel: e.target.feature.id
+            });
             history.pushState({}, "", "#" + e.target.feature.id);
         })
     }
