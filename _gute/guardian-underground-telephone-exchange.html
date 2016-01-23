@@ -50,15 +50,15 @@ Other surface features are listed in <a href="cable-tunnels.html">the page for t
   <img src='http://dl.dropboxusercontent.com/u/2287415/Underground/GUTE/guardian-street-level-signs-george-street.jpg' height=200 alt='Street level sign on George Street indicating location of Guardian cables.'>
   <img src='http://dl.dropboxusercontent.com/u/2287415/Underground/GUTE/guardian-street-level-sign-george-street.jpg' height=200 alt='Street level sign on George Street indicating location of Guardian cables.'>
 </p>
-<p>Ben Jenkinson kindly submitted a photo from September 2013, when more text was visible. I’ve <a href="http://dl.dropboxusercontent.com/u/2287415/Underground/GUTE/guardian-street-level-sign-george-street-sept-2013.jpg">straightened</a> the image and <a href="http://dl.dropboxusercontent.com/u/2287415/Underground/GUTE/guardian-street-level-sign-george-street-sept-2013-with-text-fade.jpg">overlayed</a> what I think the text read originally, as animated below.</p>
+<p id="street-sign-september-2013">Ben Jenkinson kindly submitted a photo from September 2013, when more text was visible. I’ve <a href="http://dl.dropboxusercontent.com/u/2287415/Underground/GUTE/guardian-street-level-sign-george-street-sept-2013.jpg">straightened</a> the image and <a href="http://dl.dropboxusercontent.com/u/2287415/Underground/GUTE/guardian-street-level-sign-george-street-sept-2013-with-text-fade.jpg">overlayed</a> what I think the text read originally, as animated below.</p>
 <style>
-  #crossfade {
+  #street-sign-crossfade {
     position:relative;
     height:168px;
     /*width:300px;*/
     /*margin:0 auto;*/
   }
-  #crossfade img {
+  #street-sign-crossfade img {
     position:absolute;
     left:0;
     -webkit-transition: opacity 1s ease-in-out;
@@ -67,7 +67,7 @@ Other surface features are listed in <a href="cable-tunnels.html">the page for t
     transition: opacity 1s ease-in-out;
   }
 
-  #crossfade img.transparent {
+  #street-sign-crossfade img.transparent {
     opacity:0;
   }
 
@@ -86,7 +86,7 @@ Other surface features are listed in <a href="cable-tunnels.html">the page for t
     }
   }
 
-  #crossfade img.top {
+  #street-sign-crossfade img.top {
     animation-name: crossfadeFadeInOut;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
@@ -94,7 +94,7 @@ Other surface features are listed in <a href="cable-tunnels.html">the page for t
     animation-direction: alternate;
   }
 </style>
-<div id="crossfade">
+<div id="street-sign-crossfade">
 <img class=bottom src='http://dl.dropboxusercontent.com/u/2287415/Underground/GUTE/guardian-street-level-sign-george-street-sept-2013.jpg' width=300 alt='September 2013 Street level sign on George Street'>
 <img class=top src='http://dl.dropboxusercontent.com/u/2287415/Underground/GUTE/guardian-street-level-sign-george-street-sept-2013-with-text.jpg' width=300 alt='September 2013 Street level sign on George Street with overlayed text reading EMERGENCY PHONE GUARDIAN'>
 </div>
