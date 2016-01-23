@@ -439,10 +439,10 @@ aside.sidebar {
     border-top: 1px solid #e0e0e0
 }
 
-.flex-content, article img, article video, article .flash-video, aside.sidebar img {
-    max-width: 100%;
-    height: auto
-}
+/*.flex-content, article img, article video, article .flash-video, aside.sidebar img {*/
+    /*max-width: 100%;*/
+    /*height: auto*/
+/*}*/
 
 .basic-alignment.left, article img.left, article video.left, article .left.flash-video, aside.sidebar img.left {
     float: left;
