@@ -2255,3 +2255,14 @@ div#map-menu-controls {
         -0.1em 0.1em 0 white,
         -0.1em -0.1em 0 white;
 }
+
+.figure-left {
+    clear: left;
+    float: left;
+    margin: 0 .5em .5em 0;
+}
+.figure-right {
+    clear: right;
+    float: right;
+    margin: 0 0 .5em .5em;
+}
