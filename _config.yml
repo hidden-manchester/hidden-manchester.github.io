@@ -66,3 +66,4 @@ google_analytics_tracking_id: 'UA-352611-13'
 gems:
   - jekyll-sitemap
   - jekyll-feed
+  - jekyll-redirect-from
