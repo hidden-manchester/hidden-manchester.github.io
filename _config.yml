@@ -12,7 +12,6 @@ github_username:  hidden-manchester
 
 # Build settings
 markdown: kramdown
-paginate: 5
 
 collections:
   gute:
@@ -42,7 +41,7 @@ collections:
   transport:
     output: true
     title: Transport
-    description: Manchester’s rich transport history of canals, trains, trams and planned underground schemes mean there are plenty of transport related features often built over and forgotten by the modern world.  
+    description: Manchester’s rich transport history of canals, trains, trams and planned undergmund schemes mean there are plenty of transport related features often built over and forgotten by the modern world.
     color: '#ff0000'
     marker_symbol: "rail"
   tunnels:

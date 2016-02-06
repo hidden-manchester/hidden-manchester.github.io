@@ -18,12 +18,13 @@ new L.Control.Zoom({ position: 'topright' }).addTo(map);
 var layers = document.getElementById('layer-controls');
 var rootUrl = window.location.protocol + '//' + window.location.host + '/';
 {% for collection in site.collections %}
-    var {{ collection[0] | replace: '-','_'}} = {
+    {% if collection.docs | size > 0 %}
+    var {{ collection.label | replace: '-','_'}} = {
         "type": "FeatureCollection",
         "features": [
-    {% for feature in collection[1].docs %}
-    {% capture content_words %}{{ feature.content | number_of_words }}{% endcapture %}
-    {% capture description_words %}{{ feature.description | number_of_words }}{% endcapture %}
+    {% for feature in collection.docs %}
+    {% capture content_words %}{{ feature.content | default: "" | number_of_words }}{% endcapture %}
+    {% capture description_words %}{{ feature.description | default: "" | number_of_words }}{% endcapture %}
     {% assign excerpted = 'asd' %}
     {% if content_words != '0' and description_words != content_words %}{% assign excerpted = 'true' %}{% endif %}
             {
@@ -31,14 +32,14 @@ var rootUrl = window.location.protocol + '//' + window.location.host + '/';
                 "properties": {
                     "name": "{{ feature.title }}",
                     "title": "{{ feature.title }}",
-                    "description": "{{ feature.description }}{% if excerpted == 'true' %}<p class=read-more><a href="+rootUrl+"{{ collection[0] }}/{{ feature.id }}.html>Read more…</a>{% endif %}</p>",
-                    "marker-color": "{{ collection[1].color }}",
+                    "description": "{{ feature.description }}{% if excerpted == 'true' %}<p class=read-more><a href="+rootUrl+"{{ collection.label }}/{{ feature.id }}.html>Read more…</a>{% endif %}</p>",
+                    "marker-color": "{{ collection.color }}",
                     "marker-size": "",
-                    "marker-symbol": "{{ collection[1].marker_symbol }}",
-                    "stroke": "{{ collection[1].color }}",
+                    "marker-symbol": "{{ collection.marker_symbol }}",
+                    "stroke": "{{ collection.color }}",
                     "stroke-width": {% if feature.stroke_width != null %}{{ feature.stroke_width }}{% else %}3{% endif %}, // {{feature.stroke_width}}
                     "stroke-opacity": 1,
-                    "fill": "{{ collection[1].color }}",
+                    "fill": "{{ collection.color }}",
                     "fill-opacity": 0.5
                     {% if feature.labels %},
                     "labels": [
@@ -56,8 +57,9 @@ var rootUrl = window.location.protocol + '//' + window.location.host + '/';
                 "id": "{{ feature.id }}"
             },
     {% endfor %}
+    {% endif %}
         ]};
-    addLayer(L.mapbox.featureLayer({{ collection[0] | replace: '-','_'}}), "{{collection[1].title}}", 2, "{{collection[1].color}}");
+    addLayer(L.mapbox.featureLayer({{ collection.label | replace: '-','_'}}), "{{collection.title}}", 2, "{{collection.color}}");
 {% endfor %}
 
 function featureIdInUrl() {

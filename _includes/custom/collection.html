@@ -1,4 +1,5 @@
-{% for feature in site.collections[page.collection_id].docs | sort:'title' %}
+{% assign collection = site.collections | where: "label", page.collection_id | first %}
+{% for feature in collection.docs | sort:'title' %}
 {% capture content_words %}{{ feature.content | number_of_words }}{% endcapture %}
 {% capture description_words %}{{ feature.description | number_of_words }}{% endcapture %}
 {% assign excerpted = '' %}
