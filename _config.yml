@@ -1,11 +1,11 @@
 # Site settings
-title: Hidden Manchester
+title: Hidden Manchester Map
 logo: /images/hidden-manchester.png
-subtitle: Tunnels, rivers, mines & subterranean spaces of Mancunia
+subtitle: Tunnels, rivers, mines & subterranean spaces of Hidden Manchester
 
 email: enquiries@hidden-manchester.org.uk
 description: > # this means to ignore newlines until "baseurl:"
-  Tunnels, rivers, mines & subterranean spaces of Mancunia
+  A map of the tunnels, rivers, mines & subterranean spaces that make up Hidden Manchester.
 url: "http://hidden-manchester.org.uk"
 twitter_username: HiddenManc
 github_username:  hidden-manchester
