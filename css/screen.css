@@ -2260,9 +2260,27 @@ div#map-menu-controls {
     clear: left;
     float: left;
     margin: 0 .5em .5em 0;
+    vertical-align: top;
 }
 .figure-right {
     clear: right;
     float: right;
     margin: 0 0 .5em .5em;
+    vertical-align: top;
+}
+
+.figure-inline-left {
+    float: left;
+    margin: 0 .5em .5em 0;
+    vertical-align: top;
+}
+.figure-inline-right {
+    float: right;
+    margin: 0 0 .5em .5em;
+    vertical-align: top;
+}
+
+figcaption {
+    font-size: 80%;
+    text-align: right;
 }
