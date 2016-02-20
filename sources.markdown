@@ -73,3 +73,6 @@ Atomica is an archive of UK civil defence material, and hosts a mirror of the no
 This site has some photographs of the Manchester and Salford Junction Canal.
 <http://www.penninewaterways.co.uk/manchester/m50.htm>
 
+#### Aidan O’Rourke’s now closed forum
+This thread was one of the things that drew me into reading more and more about Manchester’s unknown features. Since it is closed, it must now be read on the Wayback Machine Web Archive.
+<https://web.archive.org/web/20100127002007/http://www.aidan.co.uk/forums/manchester-local-history/29-underground-manchester.html>
