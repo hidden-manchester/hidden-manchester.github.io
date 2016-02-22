@@ -51,6 +51,7 @@
         };
 
       }
+      {% assign collection = site.collections | where: "label", page.collection | first %}
       var single_feature_layer = {
         "type": "FeatureCollection",
         "features": [
@@ -60,13 +61,13 @@
           "name": "{{ page.title }}",
           "title": "{{ page.title }}",
           "description": "{{ page.description }}",
-          "marker-color": "{{ site.collections[page.collection].color }}",
+          "marker-color": "{{ collection.color }}",
           "marker-size": "",
-          "marker-symbol": "{{ {{ site.collections[page.collection].marker_symbol }}",
-          "stroke": "{{ site.collections[page.collection].color }}",
+          "marker-symbol": "{{ {{ collection.marker_symbol }}",
+          "stroke": "{{ collection.color }}",
           "stroke-width": {{ page.stroke_width }}, //here
           "stroke-opacity": 1,
-          "fill": "{{ site.collections[page.collection].color }}",
+          "fill": "{{ collection.color }}",
           "fill-opacity": 0.5
         {% if page.labels %},
           "labels": [
@@ -85,7 +86,7 @@
       }
       ]};
       var singleFeatureLayer = L.mapbox.featureLayer(single_feature_layer);
-      addLayer(singleFeatureLayer, "ASD", 2, "{{ site.collections[page.collection].color }}");
+      addLayer(singleFeatureLayer, "ASD", 2, "{{ collection.color }}");
       var layer = singleFeatureLayer.getLayers()[0];
       if (layer.feature.properties.labels) {
         layer.feature.properties.labels.forEach(function addLabel(label) {
