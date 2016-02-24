@@ -2280,7 +2280,18 @@ div#map-menu-controls {
     vertical-align: top;
 }
 
+figure {
+    position: relative;
+}
 figcaption {
     font-size: 80%;
     text-align: right;
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    color: white;
+    text-shadow: 0 0 2px #000000;
+}
+figcaption a, figcaption a:visited, figcaption a:hover {
+    color: white;
 }
