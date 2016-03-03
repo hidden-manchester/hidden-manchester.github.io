@@ -133,9 +133,21 @@ function addLayer(layer, name, zIndex, color) {
         if (map.hasLayer(layer)) {
             map.removeLayer(layer);
             this.className = '';
+            ga('send', {
+                hitType: 'event',
+                eventCategory: 'User Actions',
+                eventAction: 'Hide Layer',
+                eventLabel: 'Hide ' + name + ' Layer'
+            });
         } else {
             map.addLayer(layer);
             this.className = 'active';
+            ga('send', {
+                hitType: 'event',
+                eventCategory: 'User Actions',
+                eventAction: 'Show Layer',
+                eventLabel: 'Show ' + name + ' Layer'
+            });
         }
     };
 
@@ -147,10 +159,20 @@ function showMenu() {
     document.getElementById('underground-manchester-map').style.display = 'none';
     document.getElementById('map-menu-control-show').style.display = 'none';
     document.getElementById('map-menu-control-close').style.display = 'inline';
+    ga('send', {
+        hitType: 'event',
+        eventCategory: 'User Actions',
+        eventAction: 'Open Map Menu'
+    });
 }
 function hideMenu() {
     document.getElementById('map-menu').style.display = 'none';
     document.getElementById('underground-manchester-map').style.display = 'block';
     document.getElementById('map-menu-control-show').style.display = 'inline';
     document.getElementById('map-menu-control-close').style.display = 'none';
+    ga('send', {
+        hitType: 'event',
+        eventCategory: 'User Actions',
+        eventAction: 'Close Map Menu'
+    });
 }
