@@ -421,14 +421,14 @@ body div.pagination {
 body > header {
     font-size: 1em;
     z-index: 1;
-    margin-left: -60px;
-    position: relative;
+    left: 0;
+    position: fixed;
     width: 105%
 }
 body > header > hgroup {
     margin-left: 60px;
 }
-body > header, #map-menu, #map-menu-control-show, #map-menu-control-hide, #map-menu-controls {
+#map-menu, #map-menu-control-show, #map-menu-control-hide, #map-menu-controls {
     z-index: 2;
     position: relative;
 }
@@ -705,8 +705,14 @@ nav.site-nav {
     background: none, #fff;
     border-top: 1px solid #fff;
     border-bottom: 1px solid #bfbfbf;
-    padding-top: .35em;
-    padding-bottom: .35em
+    /*padding-top: .35em;*/
+    padding-bottom: .35em;
+    /*top: 40px;*/
+    /*position: relative;*/
+    /*z-index: 2;*/
+}
+nav.padding-top {
+    padding-top: 50px;
 }
 
 nav.site-nav form {
