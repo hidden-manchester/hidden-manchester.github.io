@@ -2,18 +2,20 @@
 ---
 // Provide your access token
 L.mapbox.accessToken = 'pk.eyJ1IjoibWFya2Nyb3NzZmllbGQiLCJhIjoiYjJjNzliNGEwNjNiYTU1YjA4YTlkNjhkNmNmMjJlYzgifQ.2jm00t_mEEW5wEk6Ytzp2g';
-var baseMap = 'mapbox.satellite'; //'markcrossfield.nae9omlm';
+var economy = false;
+var baseMap = economy? 'mapbox.satellite' : 'markcrossfield.nae9omlm';
 var map = L.mapbox.map('underground-manchester-map', baseMap, { zoomControl: false }).setView([53.4780584,-2.2414749],14);
 var layers = {
-    //Map: L.mapbox.tileLayer(baseMap),
-    //Hybrid: L.mapbox.tileLayer('mapbox.streets-satellite'),
+    Map: L.mapbox.tileLayer(baseMap),
+    Hybrid: L.mapbox.tileLayer('mapbox.streets-satellite'),
     Satellite: L.mapbox.tileLayer('mapbox.satellite')
 };
 
-L.control.layers(layers).addTo(map);
-L.control.locate().addTo(map);
-new L.Control.Zoom({ position: 'topright' }).addTo(map);
-//map.scrollWheelZoom.disable();
+if (!economy) {
+    L.control.layers(layers).setPosition('bottomleft').addTo(map);
+}
+L.control.locate().setPosition('bottomleft').addTo(map);
+new L.Control.Zoom().setPosition('bottomleft').addTo(map);
 
 var layers = document.getElementById('layer-controls');
 var rootUrl = window.location.protocol + '//' + window.location.host + '/';
