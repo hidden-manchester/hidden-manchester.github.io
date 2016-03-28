@@ -1,5 +1,6 @@
 # Site settings
 title: Hidden Manchester Map
+name: Hidden Manchester
 logo: /images/hidden-manchester.png
 subtitle: Tunnels, rivers, mines & subterranean spaces of Hidden Manchester
 
@@ -9,6 +10,9 @@ description: > # this means to ignore newlines until "baseurl:"
 url: "http://hidden-manchester.org.uk"
 twitter_username: HiddenManc
 github_username:  hidden-manchester
+twitter:
+  username: HiddenManc
+author: HiddenManc
 
 # Build settings
 markdown: kramdown
@@ -67,3 +71,4 @@ gems:
   - jekyll-sitemap
   - jekyll-feed
   - jekyll-redirect-from
+  - jekyll-seo-tag
