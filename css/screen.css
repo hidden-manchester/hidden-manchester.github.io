@@ -2137,7 +2137,7 @@ body .toggle-sidebar {
     color: #268bd2
 }
 
-#map-menu {
+#map-menu, #news-flash {
     margin-top: 60px;
     position: fixed;
     top: 0px;
@@ -2149,7 +2149,7 @@ body .toggle-sidebar {
     cursor: auto;
     border-radius: 8px;
 }
-#map-menu-control-close {display: none;}
+.menu-control-close {display: none;}
 #map-menu-control-show {
     -webkit-animation: pulsate 1s infinite alternate;
     -moz-animation: pulsate 1s infinite alternate;
@@ -2178,7 +2178,17 @@ div#map-menu-controls {
     /*z-index: 0;*/
     font-size: 1.8em;
 }
-#map-menu-control-show, #map-menu-control-close, #map-menu-control-help{
+.pop-up-control-close {
+    float: right;
+    font-family: "Courier New";
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 1.8em;
+    z-index: 3;
+    margin-right: .5em;
+    position: relative;
+}
+#map-menu-control-show, #map-menu-control-help {
     font-family: "Courier New";
     font-weight: bold;
     text-decoration: none;
@@ -2307,6 +2317,10 @@ figcaption a, figcaption a:visited, figcaption a:hover {
     color: white;
 }
 
-.ecomony-message {
+.news-flash-message {
     font-size: 14pt;
+    margin-right: 1em;
+}
+.map-overlay {
+    padding-left: 55px;
 }

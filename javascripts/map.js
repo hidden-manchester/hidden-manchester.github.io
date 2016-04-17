@@ -159,7 +159,7 @@ function addLayer(layer, name, zIndex, color) {
 function showMenu() {
     document.getElementById('map-menu').style.display = 'block';
     document.getElementById('underground-manchester-map').style.display = 'none';
-    document.getElementById('map-menu-control-show').style.display = 'none';
+    document.getElementById('news-flash').style.display = 'none';
     document.getElementById('map-menu-control-close').style.display = 'inline';
     ga('send', {
         hitType: 'event',
@@ -170,11 +170,32 @@ function showMenu() {
 function hideMenu() {
     document.getElementById('map-menu').style.display = 'none';
     document.getElementById('underground-manchester-map').style.display = 'block';
-    document.getElementById('map-menu-control-show').style.display = 'inline';
     document.getElementById('map-menu-control-close').style.display = 'none';
     ga('send', {
         hitType: 'event',
         eventCategory: 'User Actions',
         eventAction: 'Close Map Menu'
+    });
+}
+
+function showNewsFlash() {
+    document.getElementById('news-flash').style.display = 'block';
+    document.getElementById('underground-manchester-map').style.display = 'none';
+    document.getElementById('map-menu').style.display = 'none';
+    document.getElementById('news-flash-control-close').style.display = 'inline';
+    ga('send', {
+        hitType: 'event',
+        eventCategory: 'User Actions',
+        eventAction: 'Open News Flash'
+    });
+}
+function hideNewsFlash() {
+    document.getElementById('news-flash').style.display = 'none';
+    document.getElementById('underground-manchester-map').style.display = 'block';
+    document.getElementById('news-flash-control-close').style.display = 'none';
+    ga('send', {
+        hitType: 'event',
+        eventCategory: 'User Actions',
+        eventAction: 'Close News Flash'
     });
 }

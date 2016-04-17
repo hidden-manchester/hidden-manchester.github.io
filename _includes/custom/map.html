@@ -1,9 +1,20 @@
 <div id="map-menu-controls">
-    {% if site.economy %}
-        <a href={{ site.economy_link }} target=_blank class=ecomony-message>⚠ Economy mode</span>
+    {% if site.news_flash %}
+        <a id="news-flash-control-show" href=# onclick="showNewsFlash()" class=news-flash-message>⚠ {{ site.news_flash_title }}</a>
     {% endif %}
-    <a id="map-menu-control-help" href="#" onclick="alert('Click the shapes in the map for information then copy the URL to share specific features. Click the menu icon to hide and show layers or navigate to other pages.')">?</a> <a id="map-menu-control-show" href=# onclick="showMenu()">&#8801;</a><a id="map-menu-control-close" href=# onclick="hideMenu()">&#10005;</a></div>
+    <a id="map-menu-control-help" href="#" onclick="alert('Click the shapes in the map for information then copy the URL to share specific features. Click the menu icon to hide and show layers or navigate to other pages.')">?</a>
+    <a id="map-menu-control-show" href=# onclick="showMenu()">&#8801;</a>
+    <!--<a class="menu-control-close" id="map-menu-control-close" href=# onclick="hideMenu()">&#10005;</a>-->
+</div>
+<div id="news-flash" class="map-overlay">
+    <a id="news-flash-control-close" class="pop-up-control-close"  href=# onclick="hideNewsFlash()">&#10005;</a>
+    <h4>{{ site.news_flash_title }}</h4>
+    <p>{{ site.news_flash_content }}</p>
+    <p><a href={{ site.news_flash_link}} target=_blank>{{ site.news_flash_link }}</a></p>
+    <p><a href="#" onclick="hideNewsFlash()">Dismiss this message</a></p>
+</div>
 <div id="map-menu">
+    <a id="map-menu-control-close" class="pop-up-control-close" href=# onclick="hideMenu()">&#10005;</a>
     {% include navigation.html %}
     <nav id='layer-controls' class='layer-controls'></nav>
 </div>
