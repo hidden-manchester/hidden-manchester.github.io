@@ -1,4 +1,8 @@
-<div id="map-menu-controls"><a id="map-menu-control-help" href="#" onclick="alert('Click the shapes in the map for information then copy the URL to share specific features. Click the menu icon to hide and show layers or navigate to other pages.')">?</a> <a id="map-menu-control-show" href=# onclick="showMenu()">&#8801;</a><a id="map-menu-control-close" href=# onclick="hideMenu()">&#10005;</a></div>
+<div id="map-menu-controls">
+    {% if site.economy %}
+        <a href={{ site.economy_link }} target=_blank class=ecomony-message>⚠ Economy mode</span>
+    {% endif %}
+    <a id="map-menu-control-help" href="#" onclick="alert('Click the shapes in the map for information then copy the URL to share specific features. Click the menu icon to hide and show layers or navigate to other pages.')">?</a> <a id="map-menu-control-show" href=# onclick="showMenu()">&#8801;</a><a id="map-menu-control-close" href=# onclick="hideMenu()">&#10005;</a></div>
 <div id="map-menu">
     {% include navigation.html %}
     <nav id='layer-controls' class='layer-controls'></nav>
