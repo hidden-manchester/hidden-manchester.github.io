@@ -13,6 +13,7 @@ github_username:  hidden-manchester
 twitter:
   username: HiddenManc
 author: HiddenManc
+suspended: false
 economy: true
 news_flash: true
 news_flash_link: "https://twitter.com/HiddenManc/status/721695956387958785"

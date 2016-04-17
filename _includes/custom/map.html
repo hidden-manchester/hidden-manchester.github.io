@@ -2,7 +2,7 @@
     {% if site.news_flash %}
         <a id="news-flash-control-show" href=# onclick="showNewsFlash()" class=news-flash-message>⚠ {{ site.news_flash_title }}</a>
     {% endif %}
-    <a id="map-menu-control-help" href="#" onclick="alert('Click the shapes in the map for information then copy the URL to share specific features. Click the menu icon to hide and show layers or navigate to other pages.')">?</a>
+    <a id="map-menu-control-help" href="#" onclick="showInstructions()">?</a>
     <a id="map-menu-control-show" href=# onclick="showMenu()">&#8801;</a>
     <!--<a class="menu-control-close" id="map-menu-control-close" href=# onclick="hideMenu()">&#10005;</a>-->
 </div>
@@ -13,16 +13,31 @@
     <p><a href={{ site.news_flash_link}} target=_blank>{{ site.news_flash_link }}</a></p>
     <p><a href="#" onclick="hideNewsFlash()">Dismiss this message</a></p>
 </div>
+<div id="instructions-screen" class="map-overlay">
+    <a class="pop-up-control-close"  href=# onclick="hideInstructions()">&#10005;</a>
+    <h4>Instructions</h4>
+    <p>Click the shapes in the map for information then copy the URL to share specific features. Click the menu icon to hide and show layers or navigate to other pages.</p>
+    <p><a href="#" onclick="hideInstructions()">Dismiss this message</a></p>
+</div>
 <div id="map-menu">
     <a id="map-menu-control-close" class="pop-up-control-close" href=# onclick="hideMenu()">&#10005;</a>
     {% include navigation.html %}
     <nav id='layer-controls' class='layer-controls'></nav>
 </div>
-<div id="underground-manchester-map"></div>
-<script src='https://api.mapbox.com/mapbox.js/plugins/leaflet-locatecontrol/v0.43.0/L.Control.Locate.min.js'></script>
-<link href='https://api.mapbox.com/mapbox.js/plugins/leaflet-locatecontrol/v0.43.0/L.Control.Locate.mapbox.css' rel='stylesheet' />
-<!--[if lt IE 9]>
-<link href='https://api.mapbox.com/mapbox.js/plugins/leaflet-locatecontrol/v0.43.0/L.Control.Locate.ie.css' rel='stylesheet' />
-<![endif]-->
-<link href='https://api.mapbox.com/mapbox.js/plugins/leaflet-locatecontrol/v0.43.0/css/font-awesome.min.css' rel='stylesheet' />
-<script src="javascripts/map.js"></script>
+{% if site.suspended %}
+    <div class="suspended-message">
+        {% include navigation.html classes="suspended-nav" %}
+        <h3>Please come back next month…</h3>
+        <p>The map is suspended as heavier than usual traffic has consumed all of the free credit with the mapping service the site uses. Please check back at the beginning of the next calendar month, when the allowance will reset.</p>
+        <p>In the meantime you can continue to read about the <a href=features.html>features usually shown on the map</a>.</p>
+    {% else %}
+        <div id="underground-manchester-map"></div>
+        <script src='https://api.mapbox.com/mapbox.js/plugins/leaflet-locatecontrol/v0.43.0/L.Control.Locate.min.js'></script>
+        <link href='https://api.mapbox.com/mapbox.js/plugins/leaflet-locatecontrol/v0.43.0/L.Control.Locate.mapbox.css' rel='stylesheet' />
+        <!--[if lt IE 9]>
+        <link href='https://api.mapbox.com/mapbox.js/plugins/leaflet-locatecontrol/v0.43.0/L.Control.Locate.ie.css' rel='stylesheet' />
+        <![endif]-->
+        <link href='https://api.mapbox.com/mapbox.js/plugins/leaflet-locatecontrol/v0.43.0/css/font-awesome.min.css' rel='stylesheet' />
+        <script src="javascripts/map.js"></script>
+    </div>
+{% endif %}

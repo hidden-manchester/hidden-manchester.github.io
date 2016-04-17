@@ -2137,7 +2137,7 @@ body .toggle-sidebar {
     color: #268bd2
 }
 
-#map-menu, #news-flash {
+#map-menu, #news-flash, #instructions-screen {
     margin-top: 60px;
     position: fixed;
     top: 0px;
@@ -2322,5 +2322,17 @@ figcaption a, figcaption a:visited, figcaption a:hover {
     margin-right: 1em;
 }
 .map-overlay {
-    padding-left: 55px;
+    padding: 53px 55px 0 55px;
+}
+.map-overlay h3 {
+    padding-top: 1em;
+}
+.suspended-message {
+    padding: 53px 55px 0 55px;
+}
+.suspended-message h3 {
+    padding-top: 1em;
+}
+div.suspended-message nav.suspended-nav {
+    padding: 0; !important;
 }

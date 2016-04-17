@@ -5,7 +5,9 @@
 <body>
   <header role="banner">{% include header.html %}</header>
   {% include navigation.html classes="padding-top" %}
-  <div id="feature-map"></div>
+  {% unless site.suspended %}
+    <div id="feature-map"></div>
+  {% endunless %}
   <div id="content">
     <div>
       <article role="article">
@@ -15,98 +17,100 @@
       </article>
     </div>
   </div>
-    <script>
-      // Provide your access token
-      L.mapbox.accessToken = 'pk.eyJ1IjoibWFya2Nyb3NzZmllbGQiLCJhIjoiYjJjNzliNGEwNjNiYTU1YjA4YTlkNjhkNmNmMjJlYzgifQ.2jm00t_mEEW5wEk6Ytzp2g';
-      var economy = {{site.economy}};
-      var baseMap = economy? 'mapbox.satellite' : 'markcrossfield.nae9omlm';
+  {% unless site.suspended %}
+  <script>
+    // Provide your access token
+    L.mapbox.accessToken = 'pk.eyJ1IjoibWFya2Nyb3NzZmllbGQiLCJhIjoiYjJjNzliNGEwNjNiYTU1YjA4YTlkNjhkNmNmMjJlYzgifQ.2jm00t_mEEW5wEk6Ytzp2g';
+    var economy = {{site.economy}};
+    var baseMap = economy? 'mapbox.satellite' : 'markcrossfield.nae9omlm';
 
-      var map = L.mapbox.map('feature-map', baseMap, { zoomControl: false });
+    var map = L.mapbox.map('feature-map', baseMap, { zoomControl: false });
 
-      new L.Control.Zoom({ position: 'topright' }).addTo(map);
-      map.scrollWheelZoom.disable();
+    new L.Control.Zoom({ position: 'topright' }).addTo(map);
+    map.scrollWheelZoom.disable();
 
-      var layers = document.getElementById('layer-controls');
+    var layers = document.getElementById('layer-controls');
 
-      function addLayer(layer, name, zIndex, color) {
-        layer
-                .setZIndex(zIndex)
-                .addTo(map);
+    function addLayer(layer, name, zIndex, color) {
+      layer
+              .setZIndex(zIndex)
+              .addTo(map);
 
-        // Create a simple layer switcher that
-        // toggles layers on and off.
-        var link = document.createElement('a');
-        link.href = '#';
-        link.id = name
-        link.className = 'active';
-        link.innerHTML = '<span>'+name+'</span>';
-        link.style.cssText = 'background-color: ' + color + ';';
+      // Create a simple layer switcher that
+      // toggles layers on and off.
+      var link = document.createElement('a');
+      link.href = '#';
+      link.id = name
+      link.className = 'active';
+      link.innerHTML = '<span>'+name+'</span>';
+      link.style.cssText = 'background-color: ' + color + ';';
 
-        link.onclick = function(e) {
-          e.preventDefault();
-          e.stopPropagation();
+      link.onclick = function(e) {
+        e.preventDefault();
+        e.stopPropagation();
 
-          if (map.hasLayer(layer)) {
-            map.removeLayer(layer);
-            this.className = '';
-          } else {
-            map.addLayer(layer);
-            this.className = 'active';
-          }
-        };
+        if (map.hasLayer(layer)) {
+          map.removeLayer(layer);
+          this.className = '';
+        } else {
+          map.addLayer(layer);
+          this.className = 'active';
+        }
+      };
 
-      }
-      {% assign collection = site.collections | where: "label", page.collection | first %}
-      var single_feature_layer = {
-        "type": "FeatureCollection",
-        "features": [
+    }
+    {% assign collection = site.collections | where: "label", page.collection | first %}
+    var single_feature_layer = {
+      "type": "FeatureCollection",
+      "features": [
+    {
+      "type": "{{ page.type }}",
+      "properties": {
+        "name": "{{ page.title }}",
+        "title": "{{ page.title }}",
+        "description": "{{ page.description }}",
+        "marker-color": "{{ collection.color }}",
+        "marker-size": "",
+        "marker-symbol": "{{ {{ collection.marker_symbol }}",
+        "stroke": "{{ collection.color }}",
+        "stroke-width": {{ page.stroke_width }}, //here
+        "stroke-opacity": 1,
+        "fill": "{{ collection.color }}",
+        "fill-opacity": 0.5
+      {% if page.labels %},
+        "labels": [
+      {% for label in page.labels %}
       {
-        "type": "{{ page.type }}",
-        "properties": {
-          "name": "{{ page.title }}",
-          "title": "{{ page.title }}",
-          "description": "{{ page.description }}",
-          "marker-color": "{{ collection.color }}",
-          "marker-size": "",
-          "marker-symbol": "{{ {{ collection.marker_symbol }}",
-          "stroke": "{{ collection.color }}",
-          "stroke-width": {{ page.stroke_width }}, //here
-          "stroke-opacity": 1,
-          "fill": "{{ collection.color }}",
-          "fill-opacity": 0.5
-        {% if page.labels %},
-          "labels": [
-        {% for label in page.labels %}
-        {
-          'text': '{{label.text}}',
-                'latitude': '{{label.latitude}}',
-                'longitude': '{{label.longitude}}'
-        },
-        {% endfor %}
-        ]
-        {% endif %}
-        },
-        {{ page.geometry }},
-        "id": "{{ page.id }}"
-      }
-      ]};
-      var singleFeatureLayer = L.mapbox.featureLayer(single_feature_layer);
-      addLayer(singleFeatureLayer, "ASD", 2, "{{ collection.color }}");
-      var layer = singleFeatureLayer.getLayers()[0];
-      if (layer.feature.properties.labels) {
-        layer.feature.properties.labels.forEach(function addLabel(label) {
-          L.marker([label.latitude, label.longitude], {
-            icon: L.divIcon({
-              className: 'feature-label',
-              html: '•&nbsp;&nbsp;' + label.text,
-              //iconSize: [100, 40]
-            })
-          }).addTo(map);
-        });
-      }
-      map.fitBounds(singleFeatureLayer.getBounds())
+        'text': '{{label.text}}',
+              'latitude': '{{label.latitude}}',
+              'longitude': '{{label.longitude}}'
+      },
+      {% endfor %}
+      ]
+      {% endif %}
+      },
+      {{ page.geometry }},
+      "id": "{{ page.id }}"
+    }
+    ]};
+    var singleFeatureLayer = L.mapbox.featureLayer(single_feature_layer);
+    addLayer(singleFeatureLayer, "ASD", 2, "{{ collection.color }}");
+    var layer = singleFeatureLayer.getLayers()[0];
+    if (layer.feature.properties.labels) {
+      layer.feature.properties.labels.forEach(function addLabel(label) {
+        L.marker([label.latitude, label.longitude], {
+          icon: L.divIcon({
+            className: 'feature-label',
+            html: '•&nbsp;&nbsp;' + label.text,
+            //iconSize: [100, 40]
+          })
+        }).addTo(map);
+      });
+    }
+    map.fitBounds(singleFeatureLayer.getBounds())
 
-    </script>
+  </script>
+  {% endunless %}
 
   {% include after_footer.html %}
 </body>

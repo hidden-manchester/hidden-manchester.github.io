@@ -1,5 +1,6 @@
 ---
 ---
+{% unless site.suspended %}
 // Provide your access token
 L.mapbox.accessToken = 'pk.eyJ1IjoibWFya2Nyb3NzZmllbGQiLCJhIjoiYjJjNzliNGEwNjNiYTU1YjA4YTlkNjhkNmNmMjJlYzgifQ.2jm00t_mEEW5wEk6Ytzp2g';
 var economy = {{site.economy}};
@@ -160,7 +161,7 @@ function showMenu() {
     document.getElementById('map-menu').style.display = 'block';
     document.getElementById('underground-manchester-map').style.display = 'none';
     document.getElementById('news-flash').style.display = 'none';
-    document.getElementById('map-menu-control-close').style.display = 'inline';
+    document.getElementById('instructions').style.display = 'none';
     ga('send', {
         hitType: 'event',
         eventCategory: 'User Actions',
@@ -170,7 +171,6 @@ function showMenu() {
 function hideMenu() {
     document.getElementById('map-menu').style.display = 'none';
     document.getElementById('underground-manchester-map').style.display = 'block';
-    document.getElementById('map-menu-control-close').style.display = 'none';
     ga('send', {
         hitType: 'event',
         eventCategory: 'User Actions',
@@ -182,7 +182,7 @@ function showNewsFlash() {
     document.getElementById('news-flash').style.display = 'block';
     document.getElementById('underground-manchester-map').style.display = 'none';
     document.getElementById('map-menu').style.display = 'none';
-    document.getElementById('news-flash-control-close').style.display = 'inline';
+    document.getElementById('instructions').style.display = 'none';
     ga('send', {
         hitType: 'event',
         eventCategory: 'User Actions',
@@ -192,10 +192,30 @@ function showNewsFlash() {
 function hideNewsFlash() {
     document.getElementById('news-flash').style.display = 'none';
     document.getElementById('underground-manchester-map').style.display = 'block';
-    document.getElementById('news-flash-control-close').style.display = 'none';
     ga('send', {
         hitType: 'event',
         eventCategory: 'User Actions',
         eventAction: 'Close News Flash'
     });
 }
+function showInstructions() {
+    document.getElementById('instructions-screen').style.display = 'block';
+    document.getElementById('underground-manchester-map').style.display = 'none';
+    document.getElementById('map-menu').style.display = 'none';
+    document.getElementById('news-flash').style.display = 'none';
+    ga('send', {
+        hitType: 'event',
+        eventCategory: 'User Actions',
+        eventAction: 'Open Instructions'
+    });
+}
+function hideInstructions() {
+    document.getElementById('instructions-screen').style.display = 'none';
+    document.getElementById('underground-manchester-map').style.display = 'block';
+    ga('send', {
+        hitType: 'event',
+        eventCategory: 'User Actions',
+        eventAction: 'Close Instructions'
+    });
+}
+{% endunless %}
