@@ -161,7 +161,7 @@ function showMenu() {
     document.getElementById('map-menu').style.display = 'block';
     document.getElementById('underground-manchester-map').style.display = 'none';
     document.getElementById('news-flash').style.display = 'none';
-    document.getElementById('instructions').style.display = 'none';
+    document.getElementById('instructions-screen').style.display = 'none';
     ga('send', {
         hitType: 'event',
         eventCategory: 'User Actions',
@@ -182,7 +182,7 @@ function showNewsFlash() {
     document.getElementById('news-flash').style.display = 'block';
     document.getElementById('underground-manchester-map').style.display = 'none';
     document.getElementById('map-menu').style.display = 'none';
-    document.getElementById('instructions').style.display = 'none';
+    document.getElementById('instructions-screen').style.display = 'none';
     ga('send', {
         hitType: 'event',
         eventCategory: 'User Actions',
