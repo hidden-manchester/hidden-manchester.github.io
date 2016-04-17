@@ -1,3 +1,5 @@
+---
+---
 {% capture root_url %}{{ site.root | strip_slash }}{% endcapture %}
 {% include head.html %}
 <body>
@@ -16,7 +18,7 @@
     <script>
       // Provide your access token
       L.mapbox.accessToken = 'pk.eyJ1IjoibWFya2Nyb3NzZmllbGQiLCJhIjoiYjJjNzliNGEwNjNiYTU1YjA4YTlkNjhkNmNmMjJlYzgifQ.2jm00t_mEEW5wEk6Ytzp2g';
-      var economy = false;
+      var economy = {{site.economy}};
       var baseMap = economy? 'mapbox.satellite' : 'markcrossfield.nae9omlm';
 
       var map = L.mapbox.map('feature-map', baseMap, { zoomControl: false });

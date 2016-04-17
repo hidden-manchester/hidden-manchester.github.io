@@ -13,6 +13,7 @@ github_username:  hidden-manchester
 twitter:
   username: HiddenManc
 author: HiddenManc
+economy: true
 
 # Build settings
 markdown: kramdown
