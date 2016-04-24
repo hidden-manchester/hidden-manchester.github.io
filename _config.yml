@@ -16,9 +16,9 @@ author: HiddenManc
 suspended: false
 economy: true
 news_flash: true
-news_flash_link: "https://twitter.com/HiddenManc/status/721695956387958785"
-news_flash_title: "Economy mode"
-news_flash_content: "The map is showing aerial photography rather than a graphical background to preserve map credits, as the site is under heavier than usual traffic. Normal service will resume when things have cooled down."
+news_flash_link: "https://twitter.com/HiddenManc/status/724190101144764417"
+news_flash_title: "Sorry!"
+news_flash_content: "I’ve had to disable the maps on the site as higher than usual traffic has taken me over my free allowance with the mapping service. Normal service will resume when things have cooled down."
 # Build settings
 markdown: kramdown
 
