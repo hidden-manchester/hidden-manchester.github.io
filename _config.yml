@@ -14,7 +14,7 @@ twitter:
   username: HiddenManc
 author: HiddenManc
 suspended: false
-economy: true
+economy: false
 news_flash: true
 news_flash_link: "https://twitter.com/HiddenManc/status/724190101144764417"
 news_flash_title: "Sorry!"
