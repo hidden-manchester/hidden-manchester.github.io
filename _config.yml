@@ -15,7 +15,7 @@ twitter:
 author: HiddenManc
 suspended: false
 economy: false
-news_flash: true
+news_flash: false
 news_flash_link: "https://twitter.com/HiddenManc/status/724190101144764417"
 news_flash_title: "Sorry!"
 news_flash_content: "I’ve had to disable the maps on the site as higher than usual traffic has taken me over my free allowance with the mapping service. Normal service will resume when things have cooled down. In the meantime you can continue to read about the <a href=features.html>features usually shown on the map</a>."
