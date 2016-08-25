@@ -19,9 +19,10 @@ L.control.locate().setPosition('bottomleft').addTo(map);
 new L.Control.Zoom().setPosition('bottomleft').addTo(map);
 
 var layers = document.getElementById('layer-controls');
-var rootUrl = window.location.protocol + '//' + window.location.host + '/';
+var rootUrl = window.location.protocol + '//' + window.location.host;
 {% for collection in site.collections %}
-    {% if collection.docs | size > 0 %}
+    {% if collection.docs and collection.label != 'posts' %}
+    console.log("Adding layer for {{ collection.label }}")
     var {{ collection.label | replace: '-','_'}} = {
         "type": "FeatureCollection",
         "features": [
@@ -35,7 +36,7 @@ var rootUrl = window.location.protocol + '//' + window.location.host + '/';
                 "properties": {
                     "name": "{{ feature.title }}",
                     "title": "{{ feature.title }}",
-                    "description": "{{ feature.description }}{% if excerpted == 'true' %}<p class=read-more><a href="+rootUrl+"{{ collection.label }}/{{ feature.id }}.html>Read more…</a>{% endif %}</p>",
+                    "description": "{{ feature.description }}{% if excerpted == 'true' %}<p class=read-more><a href="+rootUrl+"{{ feature.id }}.html>Read more…</a>{% endif %}</p>",
                     "marker-color": "{{ collection.color }}",
                     "marker-size": "",
                     "marker-symbol": "{{ collection.marker_symbol }}",
@@ -60,9 +61,9 @@ var rootUrl = window.location.protocol + '//' + window.location.host + '/';
                 "id": "{{ feature.id }}"
             },
     {% endfor %}
-    {% endif %}
         ]};
     addLayer(L.mapbox.featureLayer({{ collection.label | replace: '-','_'}}), "{{collection.title}}", 2, "{{collection.color}}");
+    {% endif %}
 {% endfor %}
 
 function featureIdInUrl() {

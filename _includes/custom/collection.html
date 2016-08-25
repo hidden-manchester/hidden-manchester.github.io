@@ -5,13 +5,13 @@
 {% assign excerpted = '' %}
 {% if content_words != '0' and description_words != content_words %}{% assign excerpted = 'true' %}{% endif %}
 <h4><a name=feature-{{feature.id}}></a>
-    {% if excerpted == 'true' %}<a href={{page.collection_id}}/{{feature.id}}.html>{% endif %}{{ feature.title }}{% if excerpted == 'true' %}</a>{% endif %}
+    {% if excerpted == 'true' %}<a href={{feature.id}}.html>{% endif %}{{ feature.title }}{% if excerpted == 'true' %}</a>{% endif %}
     <a class=feature-pin href=/#{{feature.id}}>📍</a>
 </h4>
 <p>
     {{ feature.description }}
     {% if excerpted == 'true' %}
-    <br><a href={{page.collection_id}}/{{feature.id}}.html>Read more…</a>
+    <br><a href={{feature.id}}.html>Read more…</a>
     {% endif %}
 </p>
 {% endfor %}

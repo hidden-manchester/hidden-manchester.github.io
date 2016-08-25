@@ -17,12 +17,12 @@ Keith Warrender has written two books about Manchester’s underground features,
 Glynis Cooper’s book [Hidden Manchester](http://www.amazon.co.uk/Hidden-Manchester-Glynis-Cooper/dp/1859834019/) features some interesting history of Manchester and while it does not focus on the underground, it is still an interesting read and has useful context.\\
 <http://www.amazon.co.uk/Hidden-Manchester-Glynis-Cooper/dp/1859834019/>
 
-#### The Lost Rivers of Manchester
+#### The Lost Rivers of Manchester
 This 1987 publication is the canonical text around rivers which have been hidden, culverted, diverted or simply forgotten: the Dean, the Tib, Shooters Brook, Corn Brook etc. You won’t find a digital copy and real copies start at £40, but there is one available for on site reading in Central Libraries local history section.\\
 <http://www.amazon.co.uk/Lost-Rivers-Manchester-Geoffrey-Ashworth/dp/0946361126/>
 
 #### Subterranea Britannica
-Subterranea Britannica’s website features man-made and man-used underground structures and space. It is a great well researched site with photography covering a massive number of sites, which tend to be cold war or nuclear in nature.\\  
+Subterranea Britannica’s website features man-made and man-used underground structures and space. It is a great well researched site with photography covering a massive number of sites, which tend to be cold war or nuclear in nature.\\
 <http://www.subbrit.org.uk/>
 
 #### substormflow

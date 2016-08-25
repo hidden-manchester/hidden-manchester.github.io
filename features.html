@@ -12,11 +12,11 @@ Here each feature in the map is listed by the layer it belongs to.
         {% capture description_words %}{{ feature.description | default: "" | number_of_words }}{% endcapture %}
         {% assign excerpted = '' %}
         {% if content_words != '0' and description_words != content_words %}{% assign excerpted = 'true' %}{% endif %}
-      <h4>{% if excerpted == 'true' %}<a href={{collection.label}}/{{feature.id}}.html>{% endif %}{{ feature.title }}{% if excerpted == 'true' %}</a>{% endif %}<a class=feature-pin href=/#{{feature.id}}>📍</a></h4>
+      <h4>{% if excerpted == 'true' %}<a href={{feature.id}}.html>{% endif %}{{ feature.title }}{% if excerpted == 'true' %}</a>{% endif %}<a class=feature-pin href=/#{{feature.id}}>📍</a></h4>
       <p>
         {{ feature.description }}
         {% if excerpted == 'true' %}
-        <br><a href={{collection.label}}/{{feature.id}}.html>Read more…</a>
+        <br><a href={{feature.id}}.html>Read more…</a>
         {% endif %}
       </p>
     {% endfor %}
