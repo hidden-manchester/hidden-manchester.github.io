@@ -36,7 +36,7 @@ var rootUrl = window.location.protocol + '//' + window.location.host;
                 "properties": {
                     "name": "{{ feature.title }}",
                     "title": "{{ feature.title }}",
-                    "description": "{{ feature.description }}{% if excerpted == 'true' %}<p class=read-more><a href="+rootUrl+"{{ feature.id }}.html>Read more…</a>{% endif %}</p>",
+                    "description": "{{ feature.excerpt | strip_newlines}}{% if excerpted == 'true' %}<p class=read-more><a href="+rootUrl+"{{ feature.id }}.html>Read more…</a>{% endif %}</p>",
                     "marker-color": "{{ collection.color }}",
                     "marker-size": "",
                     "marker-symbol": "{{ collection.marker_symbol }}",
