@@ -2,7 +2,6 @@
 {% include head.html %}
 <body {% if page.body_id %} id="{{ page.body_id }}" {% endif %}>
   <header role="banner">{% include header.html %}</header>
-  {% include navigation.html classes="padding-top" %}
     <div id="content">
       {{ content | expand_urls: root_url }}
     </div>

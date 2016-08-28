@@ -1,6 +1,9 @@
 <hgroup>
+    <div style="display: inline-block; padding-right: .5em; line-height: 80%;">
     <h1><a href="{{ root_url }}/"><img id=logo src="{{site.logo}}" alt="Hidden Manchester logo"> {{ site.title }}</a></h1>
     {% if site.subtitle %}
-    <h2>{{ site.subtitle }}</h2>
+    <br><h2>{{ site.subtitle }}</h2>
     {% endif %}
+    </div>
+    {% include navigation.html %}
 </hgroup>

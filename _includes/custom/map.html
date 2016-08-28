@@ -21,12 +21,10 @@
 </div>
 <div id="map-menu">
     <a id="map-menu-control-close" class="pop-up-control-close" href=# onclick="hideMenu()">&#10005;</a>
-    {% include navigation.html %}
     <nav id='layer-controls' class='layer-controls'></nav>
 </div>
 {% if site.suspended %}
     <div class="suspended-message">
-        {% include navigation.html classes="suspended-nav" %}
         <h3>Please come back next month…</h3>
         <p>The map is suspended as heavier than usual traffic has consumed all of the free credit with the mapping service the site uses. Please check back at the beginning of the next calendar month, when the allowance will reset.</p>
         <p>In the meantime you can continue to read about the <a href=features.html>features usually shown on the map</a>.</p>

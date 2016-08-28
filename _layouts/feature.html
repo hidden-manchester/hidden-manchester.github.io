@@ -3,10 +3,11 @@
 {% capture root_url %}{{ site.root | strip_slash }}{% endcapture %}
 {% include head.html %}
 <body>
-  <header role="banner">{% include header.html %}</header>
-  {% include navigation.html classes="padding-top" %}
+  <header role="banner">
+    {% include header.html %}
+  </header>
   {% unless site.suspended %}
-    <div id="feature-map"></div>
+    <div style="position: relative;"><div id="feature-map"></div></div>
   {% endunless %}
   <div id="content">
     <div>

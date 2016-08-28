@@ -1,12 +1,15 @@
 ---
 ---
-html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
     margin: 0;
     padding: 0;
     border: 0;
     font: inherit;
     font-size: 100%;
     vertical-align: baseline
+}
+body > header {
+    padding-left: 18px;
 }
 
 html {
@@ -52,7 +55,7 @@ a img {
     border: none
 }
 
-article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+article, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
     display: block
 }
 
@@ -76,21 +79,6 @@ a:active {
     color: #0682d8
 }
 
-aside.sidebar a {
-    color: #222
-}
-
-aside.sidebar a:focus {
-    color: #32a7f9
-}
-
-aside.sidebar a:hover {
-    color: #32a7f9
-}
-
-aside.sidebar a:active {
-    color: #0682d8
-}
 
 a {
     -webkit-transition: color 0.3s;
@@ -112,7 +100,7 @@ body > div {
     font-family: "Open Sans", sans-serif
 }
 
-.sans, body > header h2, article header p.meta, article > footer, #content .blog-index footer, html .gist .gist-file .gist-meta, #blog-archives a.category, #blog-archives time, aside.sidebar section, body > footer {
+.sans, body > header h2, article header p.meta, article > footer, #content .blog-index footer, html .gist .gist-file .gist-meta, #blog-archives a.category, #blog-archives time, body > footer {
     font-family: "Open Sans", sans-serif
 }
 
@@ -343,7 +331,7 @@ article blockquote cite:before {
     margin: .5em 1.5em 1em 0
 }
 
-.force-wrap, article a, aside.sidebar a {
+.force-wrap, article a {
     white-space: -moz-pre-wrap;
     white-space: -pre-wrap;
     white-space: -o-pre-wrap;
@@ -351,7 +339,7 @@ article blockquote cite:before {
     word-wrap: break-word
 }
 
-.group, body > header, nav.layer-controls, nav.site-nav, body > footer, body #content > article, body #content > div > article, body #content > div > section, body div.pagination, aside.sidebar, #main, #content, .sidebar {
+.group, body > header, nav.layer-controls, nav.site-nav, body > footer, body #content > article, body #content > div > article, body #content > div > section, body div.pagination, #main, #content, .sidebar {
     *zoom: 1
 }
 
@@ -363,32 +351,32 @@ article blockquote cite:before {
 
 body {
     -webkit-text-size-adjust: none;
-    max-width: 1200px;
+    /*max-width: 1200px;*/
     position: relative;
     margin: 0 auto
 }
 
-nav.layer-controls, nav.site-nav, body > footer, body #content > article, body #content > div > article, body #content > div > section {
+nav.layer-controls, body > footer, body #content > article, body #content > div > article, body #content > div > section {
     padding-left: 18px;
     padding-right: 18px
 }
 
 @media only screen and (min-width: 480px) {
-    body > header, nav.layer-controls, nav.site-nav, body > footer, body #content > article, body #content > div > article, body #content > div > section {
+    body > header, nav.layer-controls, body > footer, body #content > article, body #content > div > article, body #content > div > section {
         padding-left: 25px;
         padding-right: 25px
     }
 }
 
 @media only screen and (min-width: 768px) {
-    body > header, nav.layer-controls, nav.site-nav, body > footer, body #content > article, body #content > div > article, body #content > div > section {
+    body > header, nav.layer-controls, body > footer, body #content > article, body #content > div > article, body #content > div > section {
         padding-left: 35px;
         padding-right: 35px
     }
 }
 
 @media only screen and (min-width: 992px) {
-    body > header, nav.layer-controls, nav.site-nav, body > footer, body #content > article, body #content > div > article, body #content > div > section {
+    body > header, nav.layer-controls, body > footer, body #content > article, body #content > div > article, body #content > div > section {
         padding-left: 55px;
         padding-right: 55px
     }
@@ -424,11 +412,14 @@ body > header {
     font-size: 1em;
     z-index: 1;
     left: 0;
-    position: fixed;
-    width: 105%
+    /*position: fixed;*/
+    width: 105%;
+}
+body > header.home-header {
+    position: absolute;
 }
 body > header > hgroup {
-    margin-left: 60px;
+    /*margin-left: 60px;*/
 }
 #map-menu, #map-menu-control-show, #map-menu-control-hide, #map-menu-controls {
     z-index: 2;
@@ -443,77 +434,23 @@ body > header > hgroup {
     width: 100%
 }
 
-aside.sidebar {
-    float: none;
-    padding: 0 18px 1px;
-    background-color: #f7f7f7;
-    border-top: 1px solid #e0e0e0
-}
-
-.basic-alignment.left, article img.left, article video.left, article .left.flash-video, aside.sidebar img.left {
+.basic-alignment.left, article img.left, article video.left, article .left.flash-video {
     float: left;
     margin-right: 1.5em
 }
 
-.basic-alignment.right, article img.right, article video.right, article .right.flash-video, aside.sidebar img.right {
+.basic-alignment.right, article img.right, article video.right, article .right.flash-video {
     float: right;
     margin-left: 1.5em
 }
 
-.basic-alignment.center, article img.center, article video.center, article .center.flash-video, aside.sidebar img.center {
+.basic-alignment.center, article img.center, article video.center, article .center.flash-video {
     display: block;
     margin: 0 auto 1.5em
 }
 
-.basic-alignment.left, article img.left, article video.left, article .left.flash-video, aside.sidebar img.left, .basic-alignment.right, article img.right, article video.right, article .right.flash-video, aside.sidebar img.right {
+.basic-alignment.left, article img.left, article video.left, article .left.flash-video, .basic-alignment.right, article img.right, article video.right, article .right.flash-video {
     margin-bottom: .8em
-}
-
-.toggle-sidebar, .no-sidebar .toggle-sidebar {
-    display: none
-}
-
-@media only screen and (min-width: 750px) {
-    body.sidebar-footer aside.sidebar {
-        float: none;
-        width: auto;
-        clear: left;
-        margin: 0;
-        padding: 0 35px 1px;
-        background-color: #f7f7f7;
-        border-top: 1px solid #eaeaea
-    }
-
-    body.sidebar-footer aside.sidebar section.odd, body.sidebar-footer aside.sidebar section.even {
-        float: left;
-        width: 48%
-    }
-
-    body.sidebar-footer aside.sidebar section.odd {
-        margin-left: 0
-    }
-
-    body.sidebar-footer aside.sidebar section.even {
-        margin-left: 4%
-    }
-
-    body.sidebar-footer aside.sidebar.thirds section {
-        width: 30%;
-        margin-left: 5%
-    }
-
-    body.sidebar-footer aside.sidebar.thirds section.first {
-        margin-left: 0;
-        clear: both
-    }
-}
-
-body.sidebar-footer #content {
-    margin-right: 0px
-}
-
-body.sidebar-footer .toggle-sidebar {
-    display: none
 }
 
 @media only screen and (min-width: 550px) {
@@ -521,42 +458,6 @@ body.sidebar-footer .toggle-sidebar {
         font-size: 1em
     }
 }
-
-@media only screen and (min-width: 750px) {
-    aside.sidebar {
-        float: none;
-        width: auto;
-        clear: left;
-        margin: 0;
-        padding: 0 35px 1px;
-        background-color: #f7f7f7;
-        border-top: 1px solid #eaeaea
-    }
-
-    aside.sidebar section.odd, aside.sidebar section.even {
-        float: left;
-        width: 48%
-    }
-
-    aside.sidebar section.odd {
-        margin-left: 0
-    }
-
-    aside.sidebar section.even {
-        margin-left: 4%
-    }
-
-    aside.sidebar.thirds section {
-        width: 30%;
-        margin-left: 5%
-    }
-
-    aside.sidebar.thirds section.first {
-        margin-left: 0;
-        clear: both
-    }
-}
-
 @media only screen and (min-width: 768px) {
     body {
         -webkit-text-size-adjust: auto
@@ -586,63 +487,10 @@ body.sidebar-footer .toggle-sidebar {
     }
 
     #content > div, #content > article {
-        padding-top: 17.5px;
         padding-bottom: 17.5px;
         float: left
     }
 
-    aside.sidebar {
-        width: 210px;
-        padding: 0 15px 15px;
-        background: none;
-        clear: none;
-        float: left;
-        margin: 0 -100% 0 0
-    }
-
-    aside.sidebar section {
-        width: auto;
-        margin-left: 0
-    }
-
-    aside.sidebar section.odd, aside.sidebar section.even {
-        float: none;
-        width: auto;
-        margin-left: 0
-    }
-
-    .collapse-sidebar aside.sidebar {
-        float: none;
-        width: auto;
-        clear: left;
-        margin: 0;
-        padding: 0 35px 1px;
-        background-color: #f7f7f7;
-        border-top: 1px solid #eaeaea
-    }
-
-    .collapse-sidebar aside.sidebar section.odd, .collapse-sidebar aside.sidebar section.even {
-        float: left;
-        width: 48%
-    }
-
-    .collapse-sidebar aside.sidebar section.odd {
-        margin-left: 0
-    }
-
-    .collapse-sidebar aside.sidebar section.even {
-        margin-left: 4%
-    }
-
-    .collapse-sidebar aside.sidebar.thirds section {
-        width: 30%;
-        margin-left: 5%
-    }
-
-    .collapse-sidebar aside.sidebar.thirds section.first {
-        margin-left: 0;
-        clear: both
-    }
 }
 
 @media only screen and (min-width: 992px) {
@@ -651,19 +499,9 @@ body.sidebar-footer .toggle-sidebar {
     }
 
     #content > div, #content > article {
-        padding-top: 27.5px;
         padding-bottom: 27.5px
     }
 
-    aside.sidebar {
-        width: 260px;
-        padding: 1.2em 20px 20px
-    }
-
-    .collapse-sidebar aside.sidebar {
-        padding-left: 55px;
-        padding-right: 55px
-    }
 }
 
 @media only screen and (min-width: 768px) {
@@ -682,6 +520,21 @@ body > header h1 {
     display: inline-block;
     margin: 0;
     font-size: 1em;
+}
+
+body > header h2 {
+    display: inline-block;
+    margin: 0;
+    font-size: 1em;
+    position: relative;
+    top: -.5em;
+}
+
+body > header nav.site-nav {
+    display: inline-block;
+    font-size: .65em;
+    position: relative;
+    top: -.1em;
 }
 
 body > header img#logo {
@@ -705,13 +558,12 @@ nav.site-nav {
     position: relative;
     background-color: #fff;
     background: none, #fff;
-    border-top: 1px solid #fff;
-    border-bottom: 1px solid #bfbfbf;
     /*padding-top: .35em;*/
     padding-bottom: .35em;
     /*top: 40px;*/
     /*position: relative;*/
     /*z-index: 2;*/
+    text-align: right;
 }
 nav.padding-top {
     padding-top: 50px;
@@ -778,7 +630,7 @@ nav.site-nav ul {
 }
 
 nav.site-nav {
-    font-size: .9em
+    font-size: .65em;
 }
 
 nav.site-nav ul {
@@ -801,31 +653,6 @@ nav.site-nav ul li {
     float: left;
     padding-left: 0;
     padding-right: 0
-}
-
-nav.site-nav ul li:first-child, nav.site-nav ul li.first {
-    padding-left: 0
-}
-
-nav.site-nav ul li:last-child {
-    padding-right: 0
-}
-
-nav.site-nav ul li.last {
-    padding-right: 0
-}
-
-nav.site-nav ul.subscription {
-    margin-left: .8em;
-    float: right
-}
-
-nav.site-nav ul.subscription li:last-child a {
-    padding-right: 0
-}
-
-nav.site-nav ul li {
-    margin: 0
 }
 
 nav.site-nav a {
@@ -996,7 +823,7 @@ nav.site-nav fieldset[role=search] {
 }
 
 article {
-    padding-top: 1em
+    padding-top: .5em
 }
 
 article header {
@@ -2021,11 +1848,7 @@ html {
 body {
     line-height: 1.8em;
     font-size: 1.1em;
-    max-width: 1320px
-}
-
-nav.site-nav {
-    border-bottom: 2px solid #f2f2f2
+    /*max-width: 1320px*/
 }
 
 nav.site-nav li + li {
@@ -2061,51 +1884,13 @@ body #blog-archives h1 a:hover {
     text-decoration: none
 }
 
-body aside.sidebar {
-    background: #fff;
-    border-left: 2px solid #f2f2f2;
-    height: 100%
-}
-
-body aside.sidebar form .search {
-    padding: .3em .5em 0;
-    font-size: .85em;
-    font-family: "Noto Serif", serif;
-    line-height: 1.1em;
-    width: 95%;
-    background-color: #fff;
-    border: 2px solid #f2f2f2;
-    color: #000
-}
-
-body aside.sidebar input[type=text]:focus, body aside.sidebar textarea:focus {
-    box-shadow: 0 0 0 #fff
-}
-
 body .toggle-sidebar {
     display: none
-}
-
-@media only screen and (max-width: 749px) {
-    aside.sidebar {
-        padding-top: 15px;
-        padding-bottom: 15px
-    }
-}
-
-@media only screen and (min-width: 750px) {
-    aside.sidebar {
-        border-top: 0px solid black
-    }
 }
 
 @media only screen and (min-width: 992px) {
     body {
         font-size: 1.3em
-    }
-
-    .collapse-sidebar aside.sidebar {
-        background: #fff
     }
 }
 
