@@ -28,9 +28,9 @@ var rootUrl = window.location.protocol + '//' + window.location.host;
         "features": [
     {% for feature in collection.docs %}
     {% capture content_words %}{{ feature.content | default: "" | number_of_words }}{% endcapture %}
-    {% capture description_words %}{{ feature.description | default: "" | number_of_words }}{% endcapture %}
+    {% capture excerpt_words %}{{ feature.excerpt | default: "" | number_of_words }}{% endcapture %}
     {% assign excerpted = 'asd' %}
-    {% if content_words != '0' and description_words != content_words %}{% assign excerpted = 'true' %}{% endif %}
+    {% if content_words != '0' and excerpt_words != content_words %}{% assign excerpted = 'true' %}{% endif %}
             {
                 "type": "{{ feature.type }}",
                 "properties": {
