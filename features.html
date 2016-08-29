@@ -9,7 +9,7 @@ Here each feature in the map is listed by the layer it belongs to.
     <p>{{collection.description}}</p>
     {% for feature in collection.docs %}
         {% capture content_words %}{{ feature.content | default: "" | number_of_words }}{% endcapture %}
-        {% capture description_words %}{{ feature.description | default: "" | number_of_words }}{% endcapture %}
+        {% capture description_words %}{{ feature.excerpt | default: "" | number_of_words }}{% endcapture %}
         {% assign excerpted = '' %}
         {% if content_words != '0' and description_words != content_words %}{% assign excerpted = 'true' %}{% endif %}
       <h4>{% if excerpted == 'true' %}<a href={{feature.id}}.html>{% endif %}{{ feature.title }}{% if excerpted == 'true' %}</a>{% endif %}<a class=feature-pin href=/#{{feature.id}}>📍</a></h4>

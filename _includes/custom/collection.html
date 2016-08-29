@@ -1,7 +1,7 @@
 {% assign collection = site.collections | where: "label", page.collection_id | first %}
 {% for feature in collection.docs | sort:'title' %}
 {% capture content_words %}{{ feature.content | number_of_words }}{% endcapture %}
-{% capture description_words %}{{ feature.description | number_of_words }}{% endcapture %}
+{% capture description_words %}{{ feature.excerpt | number_of_words }}{% endcapture %}
 {% assign excerpted = '' %}
 {% if content_words != '0' and description_words != content_words %}{% assign excerpted = 'true' %}{% endif %}
 <h4><a name=feature-{{feature.id}}></a>
@@ -9,7 +9,7 @@
     <a class=feature-pin href=/#{{feature.id}}>📍</a>
 </h4>
 <p>
-    {{ feature.description }}
+    {{ feature.excerpt }}
     {% if excerpted == 'true' %}
     <br><a href={{feature.id}}.html>Read more…</a>
     {% endif %}
