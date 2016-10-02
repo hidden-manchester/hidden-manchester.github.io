@@ -102,7 +102,7 @@ map.on('click', function(e) {
     var latitude = e.latlng.lat;
     var longitude = e.latlng.lng;
 
-    console.log('Coordinates\nlatitude: \'' + latitude + "\'\nlongitude: \'" + longitude+'\'')
+    console.log('"coordinates": ['+longitude+','+latitude+',0]')
 
 });
 
