@@ -1,1 +1,3 @@
-<a href=http://images.manchester.gov.uk/Display.php?irn={{include.page}} target=_blank rel='noopener noreferrer'><img src=http://images.manchester.gov.uk/web/objects/common/webmedia.php?irn={{include.image}}&size=175x175 width="{{include.width}}" height="{{include.height}}"></a>
+{% capture image_link %}http://images.manchester.gov.uk/Display.php?irn={{include.page}}{% endcapture %}
+{% capture image_url %}http://images.manchester.gov.uk/web/objects/common/webmedia.php?irn={{include.image}}&size=175x175{% endcapture %}
+{% include figure.html image=image_url caption=include.caption width=include.width height=include.height class=include.class alt=include.alt link=image_link %}
