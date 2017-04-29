@@ -1,0 +1,5 @@
+{% capture link %}http://www.digitalarchives.bt.com/CalmView/Record.aspx?id=BTA%2f5+PH%2f1%2f1%2fE+{{include.image-id}}{% endcapture %}
+{% capture file %}/images/gute/btarchives/{{include.file}}{% endcapture %}
+{% capture caption %}{{ include.caption }} ©&nbsp;BT&nbsp;Heritage{% endcapture %}
+{% capture alt %}{{ include.title | default:include.caption }}{% endcapture %}
+{% include figure.html image=file link=link caption=caption width="auto" height="200" class="figure-inline-left" alt=alt %}
