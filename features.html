@@ -3,7 +3,7 @@ layout: page
 title: Features of Hidden Manchester
 ---
 
-<p>Here are the 10 most recently added features to the map, although other features may have been <em>updated</em> more recently.</p>
+<h2>Recently Added</h2>
 
 {% assign features_most_recent_first = site.documents | where: "layout", "feature" | sort: "date" | reverse %}
 <ul style="list-style-type:none">
@@ -14,13 +14,21 @@ title: Features of Hidden Manchester
     {% endif %}{% endif %}
     {% if feature_month != current_month %}{% assign current_month = feature_month %}
     <li>
-        Added {{ feature.date | date: "%B %Y" }}:
+        {{ feature.date | date: "%B %Y" }}:
         <ul style="list-style-type:none">
     {% endif %}
             <li><a href="#{{feature.title | slugify}}">{{ feature.title }}</a></li>
 {% endfor %}
         </ul>
     </li>
+</ul>
+
+<h2>Highlights</h2>
+{% assign highlights = site.documents | where: "highlight", "true" %}
+<ul style="list-style-type:none">
+{% for feature in highlights %}
+    <li><a href="#{{feature.title | slugify}}">{{ feature.title }}</a></li>
+{% endfor %}
 </ul>
 
 <h2>All Features</h2>
