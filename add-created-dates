@@ -1,0 +1,2 @@
+#!/bin/bash
+./all-features | gxargs -0 -I {} bash -c 'gawk -i inplace "!/^date: [-0-9]{10} [:0-9]{8}( [-+0-9]{5}){0,1}/ {if (NR>1) gsub(/^---$/,\"date: $(git log --diff-filter=A --follow --format=%ai -1 -- {})\n---\"); print}" {}'
