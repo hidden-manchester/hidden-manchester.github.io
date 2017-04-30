@@ -1,0 +1,2 @@
+#!/bin/bash
+find _* -type f -not -path "_site/*" -maxdepth 1 -name "*.html" -print0
