@@ -61,53 +61,57 @@
 
     }
     {% assign collection = site.collections | where: "label", page.collection | first %}
-    var single_feature_layer = {
+    var featureGeoJSON = {
       "type": "FeatureCollection",
-      "features": [
-    {
-      "type": "{{ page.type }}",
-      "properties": {
-        "name": "{{ page.title }}",
-        "title": "{{ page.title }}",
-        "description": "{{ page.description }}",
-        "marker-color": "{{ collection.color }}",
-        "marker-size": "",
-        "marker-symbol": "{{ collection.marker_symbol }}",
-        "stroke": "{{ collection.color }}",
-        "stroke-width": {{ page.stroke_width }}, //here
-        "stroke-opacity": 1,
-        "fill": "{{ collection.color }}",
-        "fill-opacity": 0.5
-      {% if page.labels %},
-        "labels": [
-      {% for label in page.labels %}
-      {
-        'text': '{{label.text}}',
-              'latitude': '{{label.latitude}}',
-              'longitude': '{{label.longitude}}'
-      },
-      {% endfor %}
-      ]
-      {% endif %}
-      },
-      {{ page.geometry }},
-      "id": "{{ page.id }}"
-    }
-    ]};
-    var singleFeatureLayer = L.mapbox.featureLayer(single_feature_layer);
+      "features": {{ page.features }}
+        .map(
+          function(geoFeature) {
+            var featureProperties = {
+              "weight": 4,
+              "color": "{{ collection.color }}",
+              "opacity": 1,
+              "fillOpacity": 0.5
+            };
+            Object.assign(featureProperties, geoFeature.properties);
+            geoFeature.properties = featureProperties;
+            geoFeature.collectionId = "{{ page.id }}";
+            return geoFeature;
+          }
+        ),
+      "id": "{{ feature.id }}"
+    };
+    var singleFeatureLayer = L.geoJson(featureGeoJSON,
+        {
+            pointToLayer: function (geoFeature) {
+                return L.marker(
+                    [geoFeature.geometry.coordinates[1],geoFeature.geometry.coordinates[0]],
+                    {
+                        icon:L.mapbox.marker.icon(
+                            {
+                                'marker-size': "",
+                                'marker-symbol': "{{ collection.marker_symbol }}",
+                                'marker-color': "{{ collection.color }}"
+                            }
+                        ),
+                        title: "{{ feature.title }}",
+                    }
+                );
+            },
+            style: function (geoFeature) {
+                return geoFeature.properties;
+            }
+        });
     addLayer(singleFeatureLayer, "ASD", 2, "{{ collection.color }}");
-    var layer = singleFeatureLayer.getLayers()[0];
-    if (layer.feature.properties.labels) {
-      layer.feature.properties.labels.forEach(function addLabel(label) {
-        L.marker([label.latitude, label.longitude], {
-          icon: L.divIcon({
+
+    {% for label in page.labels %}
+    L.marker([{{label.latitude}}, {{label.longitude}}], {
+        icon: L.divIcon({
             className: 'feature-label',
-            html: '•&nbsp;&nbsp;' + label.text,
-            //iconSize: [100, 40]
-          })
-        }).addTo(map);
-      });
-    }
+            html: '•&nbsp;&nbsp;{{label.text}}',
+        })
+    }).addTo(map);
+    {% endfor %}
+
     map.fitBounds(singleFeatureLayer.getBounds())
 
   </script>

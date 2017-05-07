@@ -23,46 +23,81 @@ var rootUrl = window.location.protocol + '//' + window.location.host;
 {% for collection in site.collections %}
     {% if collection.docs and collection.label != 'posts' %}
     console.log("Adding layer for {{ collection.label }}")
-    var {{ collection.label | replace: '-','_'}} = {
-        "type": "FeatureCollection",
-        "features": [
+    var collectionLayerGroup = new L.LayerGroup();
     {% for feature in collection.docs %}
-    {% capture content_words %}{{ feature.content | default: "" | number_of_words }}{% endcapture %}
-    {% capture excerpt_words %}{{ feature.excerpt | default: "" | number_of_words }}{% endcapture %}
-    {% assign excerpted = 'asd' %}
-    {% if content_words != '0' and excerpt_words != content_words %}{% assign excerpted = 'true' %}{% endif %}
+        {% capture content_words %}{{ feature.content | default: "" | number_of_words }}{% endcapture %}
+        {% capture excerpt_words %}{{ feature.excerpt | default: "" | number_of_words }}{% endcapture %}
+        {% assign excerpted = 'asd' %}
+        {% if content_words != '0' and excerpt_words != content_words %}{% assign excerpted = 'true' %}{% endif %}
+            var featureGeoJSON =
             {
-                "type": "{{ feature.type }}",
-                "properties": {
-                    "name": "{{ feature.title }}",
-                    "title": "{{ feature.title }}",
-                    "description": "{{ feature.excerpt | strip_newlines}}{% if excerpted == 'true' %}<p class=read-more><a href="+rootUrl+"{{ feature.id }}.html>Read more…</a>{% endif %}</p>",
-                    "marker-color": "{{ collection.color }}",
-                    "marker-size": "",
-                    "marker-symbol": "{{ collection.marker_symbol }}",
-                    "stroke": "{{ collection.color }}",
-                    "stroke-width": {% if feature.stroke_width != null %}{{ feature.stroke_width }}{% else %}3{% endif %}, // {{feature.stroke_width}}
-                    "stroke-opacity": 1,
-                    "fill": "{{ collection.color }}",
-                    "fill-opacity": 0.5
-                    {% if feature.labels %},
-                    "labels": [
-                        {% for label in feature.labels %}
-                        {
-                            'text': '{{label.text}}',
-                            'latitude': '{{label.latitude}}',
-                            'longitude': '{{label.longitude}}'
-                        },
-                        {% endfor %}
-                    ]
-                    {% endif %}
-                },
-                {{ feature.geometry }},
+                "type": "FeatureCollection",
+                "features": {{ feature.features }}
+                    .map(
+                        function(geoFeature) {
+                            var featureProperties = {
+                                "weight": 4,
+                                "color": "{{ collection.color }}",
+                                "opacity": 1,
+                                "fillOpacity": 0.5
+                            };
+                            Object.assign(featureProperties, geoFeature.properties);
+                            geoFeature.properties = featureProperties;
+                            geoFeature.collectionId = "{{ feature.id }}";
+                            return geoFeature;
+                        }
+                    ),
                 "id": "{{ feature.id }}"
-            },
+            }
+            var geoLayer = L.geoJson(
+                    featureGeoJSON,
+                    {
+                        pointToLayer: function (geoFeature) {
+                            return L.marker(
+                                [geoFeature.geometry.coordinates[1],geoFeature.geometry.coordinates[0]],
+                                {
+                                    icon:L.mapbox.marker.icon(
+                                        {
+                                            'marker-size': "",
+                                            'marker-symbol': "{{ collection.marker_symbol }}",
+                                            'marker-color': "{{ collection.color }}"
+                                        }
+                                    ),
+                                    title: "{{ feature.title }}",
+                                }
+                            );
+                        },
+                        style: function (geoFeature) {
+                            return geoFeature.properties;
+                        }
+                    }
+                )
+                .bindPopup(
+                    L.popup().setContent(
+                        "<p class='marker-title'>{{ feature.title }}</p><p>{{ feature.excerpt | strip_newlines}}{% if excerpted == 'true' %}<p class=read-more><a href="+rootUrl+"{{ feature.id }}.html>Read more…</a>{% endif %}</p></p>"
+                    )
+                )
+                .on('click', function (e) {
+                        ga('send', {
+                            hitType: 'event',
+                            eventCategory: 'features',
+                            eventAction: 'open',
+                            eventLabel: '{{ feature.id }}'
+                        });
+                        history.pushState({}, "", "#{{ feature.id }}");
+                    }
+                );
+            collectionLayerGroup.addLayer(geoLayer);
+            {% for label in feature.labels %}
+            L.marker([{{label.latitude}}, {{label.longitude}}], {
+                    icon: L.divIcon({
+                            className: 'feature-label',
+                            html: '•&nbsp;&nbsp;{{label.text}}',
+                    })
+            }).addTo(map);
+            {% endfor %}
     {% endfor %}
-        ]};
-    addLayer(L.mapbox.featureLayer({{ collection.label | replace: '-','_'}}), "{{collection.title}}", 2, "{{collection.color}}");
+    addLayer(collectionLayerGroup, "{{collection.title}}", 2, "{{collection.color}}");
     {% endif %}
 {% endfor %}
 
@@ -71,29 +106,9 @@ function featureIdInUrl() {
 }
 map.eachLayer(function (layer) {
     if (layer.feature) {
-        if (layer.feature.properties.labels) {
-            layer.feature.properties.labels.forEach(function addLabel(label) {
-                L.marker([label.latitude, label.longitude], {
-                    icon: L.divIcon({
-                        className: 'feature-label',
-                        html: '•&nbsp;&nbsp;'+label.text,
-                        //iconSize: [100, 40]
-                    })
-                }).addTo(map);
-            });
-        }
-        if (layer.feature.id === featureIdInUrl()) {
+        if (layer.feature.collectionId === featureIdInUrl()) {
             layer.openPopup();
         }
-        layer.on('click', function (e) {
-            ga('send', {
-                hitType: 'event',
-                eventCategory: 'features',
-                eventAction: 'open',
-                eventLabel: e.target.feature.id
-            });
-            history.pushState({}, "", "#" + e.target.feature.id);
-        })
     }
 });
 
@@ -108,11 +123,12 @@ map.on('click', function(e) {
 
 window.onpopstate = function() {
     map.eachLayer(function (layer) {
-        if (layer.feature) {
-            if (layer.feature.id === featureIdInUrl()) {
+        if (layer.getLayers())
+        layer.getLayers().forEach(function(layer) {
+            if (layer.feature && layer.feature.collectionId === featureIdInUrl()) {
                 layer.openPopup();
             }
-        }
+        });
     });
 };
 
