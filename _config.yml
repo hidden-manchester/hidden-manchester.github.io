@@ -71,7 +71,7 @@ collections:
     color: '#3887be'
     marker_symbol: "water"
 google_analytics_tracking_id: 'UA-352611-13'
-gems:
+plugins:
   - jekyll-sitemap
   - jekyll-feed
   - jekyll-redirect-from
