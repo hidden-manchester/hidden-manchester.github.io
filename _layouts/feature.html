@@ -23,43 +23,12 @@
     // Provide your access token
     L.mapbox.accessToken = 'pk.eyJ1IjoibWFya2Nyb3NzZmllbGQiLCJhIjoiYjJjNzliNGEwNjNiYTU1YjA4YTlkNjhkNmNmMjJlYzgifQ.2jm00t_mEEW5wEk6Ytzp2g';
     var economy = {{site.economy}};
-    var baseMap = economy? 'mapbox.satellite' : 'markcrossfield.nae9omlm';
-
-    var map = L.mapbox.map('feature-map', baseMap, { zoomControl: false });
-
-    new L.Control.Zoom({ position: 'topright' }).addTo(map);
+    var satellite = L.mapbox.styleLayer('mapbox://styles/mapbox/satellite-v9');
+    var baseLayer = economy ? satellite : L.mapbox.styleLayer('mapbox://styles/markcrossfield/ckhb3zmly05e319o4bym8mz0i');
+    
+    var map = L.mapbox.map('feature-map').addLayer(baseLayer);
     map.scrollWheelZoom.disable();
 
-    var layers = document.getElementById('layer-controls');
-
-    function addLayer(layer, name, zIndex, color) {
-      layer
-              .setZIndex(zIndex)
-              .addTo(map);
-
-      // Create a simple layer switcher that
-      // toggles layers on and off.
-      var link = document.createElement('a');
-      link.href = '#';
-      link.id = name
-      link.className = 'active';
-      link.innerHTML = '<span>'+name+'</span>';
-      link.style.cssText = 'background-color: ' + color + ';';
-
-      link.onclick = function(e) {
-        e.preventDefault();
-        e.stopPropagation();
-
-        if (map.hasLayer(layer)) {
-          map.removeLayer(layer);
-          this.className = '';
-        } else {
-          map.addLayer(layer);
-          this.className = 'active';
-        }
-      };
-
-    }
     {% assign collection = site.collections | where: "label", page.collection | first %}
     var featureGeoJSON = {
       "type": "FeatureCollection",
@@ -100,8 +69,8 @@
             style: function (geoFeature) {
                 return geoFeature.properties;
             }
-        });
-    addLayer(singleFeatureLayer, "ASD", 2, "{{ collection.color }}");
+        })
+        .addTo(map);
 
     {% for label in page.labels %}
     L.marker([{{label.latitude}}, {{label.longitude}}], {

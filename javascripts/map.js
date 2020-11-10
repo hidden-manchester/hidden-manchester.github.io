@@ -4,12 +4,16 @@
 // Provide your access token
 L.mapbox.accessToken = 'pk.eyJ1IjoibWFya2Nyb3NzZmllbGQiLCJhIjoiYjJjNzliNGEwNjNiYTU1YjA4YTlkNjhkNmNmMjJlYzgifQ.2jm00t_mEEW5wEk6Ytzp2g';
 var economy = {{site.economy}};
-var baseMap = economy? 'mapbox.satellite' : 'markcrossfield.nae9omlm';
-var map = L.mapbox.map('underground-manchester-map', baseMap, { zoomControl: false }).setView([53.4780584,-2.2414749],14);
+var satellite = L.mapbox.styleLayer('mapbox://styles/mapbox/satellite-v9');
+var baseLayer = economy ? satellite : L.mapbox.styleLayer('mapbox://styles/markcrossfield/ckhb3zmly05e319o4bym8mz0i');
+
+var map = L.mapbox.map('underground-manchester-map')
+    .setView([53.4780584,-2.2414749],14)
+    .addLayer(baseLayer);
 var layers = {
-    Map: L.mapbox.tileLayer(baseMap),
-    Hybrid: L.mapbox.tileLayer('mapbox.streets-satellite'),
-    Satellite: L.mapbox.tileLayer('mapbox.satellite')
+    Map: baseLayer,
+    Hybrid: L.mapbox.styleLayer('mapbox://styles/mapbox/satellite-streets-v11'),
+    Satellite: satellite
 };
 
 if (!economy) {
