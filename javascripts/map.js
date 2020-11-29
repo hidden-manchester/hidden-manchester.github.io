@@ -7,6 +7,15 @@ var economy = {{site.economy}};
 var satellite = L.mapbox.styleLayer('mapbox://styles/mapbox/satellite-v9');
 var baseLayer = economy ? satellite : L.mapbox.styleLayer('mapbox://styles/markcrossfield/ckhb3zmly05e319o4bym8mz0i');
 
+/* Can also pass Style, TileJSON and Tile ID layers like this: 
+    Style:
+    L.mapbox.map('feature-map', 'https://api.mapbox.com/styles/v1/mapbox/satellite-v9?access_token=' + L.mapbox.accessToken)
+    TileJSON:
+    L.mapbox.map('feature-map', 'https://api.mapbox.com/v4/mapbox.satellite.json?access_token=' + L.mapbox.accessToken)
+    Tile ID:
+    L.mapbox.map('feature-map', 'mapbox.satellite')
+*/
+
 var map = L.mapbox.map('underground-manchester-map')
     .setView([53.4780584,-2.2414749],14)
     .addLayer(baseLayer);
